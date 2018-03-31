@@ -1,0 +1,3 @@
+[submodule "vim/minimalist"]
+	path = vim/minimalist
+	url = https://github.com/dikiaap/minimalist.git
