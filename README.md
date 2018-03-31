@@ -1,2 +1,2 @@
-# setup_files
-sublime settings and various configs
+dotfiles
+dotfiles for commonly used programs
