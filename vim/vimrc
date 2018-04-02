@@ -5,33 +5,15 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 
-call plug#begin()
-
-	" Minimalist colorscheme
-	Plug 'dikiaap/minimalist'
-	
-	" All hail Tim Pope
-	" vim-sensible, generic settings
-	Plug 'tpope/vim-sensible'
-	
-	" Git integration
-	Plug 'tpope/vim-fugitive'
-	
-	"Surround - change things inside () [] {}
-	Plug 'tpope/vim-surround'	
-	
-
-	" file tree browser
-	Plug 'scrooloose/nerdtree'
-
-call plug#end()
-
-
 
 " COLORS
 set t_Co=256
 syntax on
 colorscheme minimalist
+set number
+set cursorline
+
+:set number relativenumber
 
 :augroup numbertoggle
 :  autocmd!
@@ -39,5 +21,11 @@ colorscheme minimalist
 :  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
 :augroup END
 
+
+" autoload changes to vimrc
+augroup myvimrc
+    au!
+    au BufWritePost .vimrc,_vimrc,vimrc,.gvimrc,_gvimrc,gvimrc so $MYVIMRC | if has('gui_running') | so $MYGVIMRC | endif
+augroup END
 
 
