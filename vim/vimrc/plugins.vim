@@ -22,11 +22,21 @@ call plug#begin()
 	"Surround - change things inside () [] {}
 	Plug 'tpope/vim-surround'	
 	
+	" handy bracket mappings
+	Plug 'tpope/vim-unimpaired'
+
 	" file tree browser
 	Plug 'scrooloose/nerdtree'
-	
+
+	" syntax checker
+	Plug 'scrooloose/syntastic'
+
+	"Sublime-like multiple select
+	Plug 'terryma/vim-multiple-cursors'
+
+
 	" ============ Git ============
-"
+
 	" nerdtree integration with git
 	Plug 'Xuyuanp/nerdtree-git-plugin'
 
@@ -34,10 +44,27 @@ call plug#begin()
 	Plug 'tpope/vim-fugitive'
 	
 
+	" =========== Syntax ===========
+	
+	" Autoformating
+	Plug 'Chiel92/vim-autoformat'
+	
+
 	" ========== Visuals ===========
+
 	" Minimalist colorscheme
 	Plug 'dikiaap/minimalist'
-	
+
+	"airline status line
+	Plug 'bling/vim-airline'
+
+	"airline status line themes
+	Plug 'vim-airline/vim-airline-themes'
+
+	" filetype highlighting for nerdtree!
+	Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+
+
 call plug#end()
 
 

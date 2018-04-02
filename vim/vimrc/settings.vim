@@ -5,8 +5,7 @@
 " Settings file
 
 " ============== General Config =================
-"
-"
+
 set number relativenumber		"setting hybrid numbers
 :augroup numbertoggle			"relative in normal/visual, absolute in insert
 :  autocmd!
