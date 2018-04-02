@@ -1,6 +1,9 @@
 " Darren Tan
 " dyztan@gmail.com
 " https://github.com/Tanbourine/dotfiles
+
+
+
 " ========= NERDTree Options ==========
 
 " Start NERDTree when opening vim with no arguments
@@ -60,6 +63,18 @@ set statusline+=%*
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 0
-let g:syntastic_check_on_wq = 0
+let g:syntastic_check_on_wq = 1
 
 
+
+" ========== Airline Options ============
+" let g:airline#extensions#tabline#left_set = ' '
+" let g:airline#extensions#tabline#left_alt_sep = '|'
+
+let g:airline_theme='tomorrow'
+
+let g:airline#extensions#tabline#formatter = 'default'
+
+
+" ==========Autoformat Options ===========
+au BufWrite * :Autoformat

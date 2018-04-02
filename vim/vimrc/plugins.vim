@@ -5,64 +5,68 @@
 
 " Auto-install vim-plug to new systems
 if empty(glob('~/.vim/autoload/plug.vim'))
-  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
-    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+	silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+				\ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+	autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
 
 " Add all plugins
 call plug#begin()
 
-	" ======= Basic Plugins ========
+" ======= Basic Plugins ========
 
-	" vim-sensible, generic settings
-	Plug 'tpope/vim-sensible'
-	
-	"Surround - change things inside () [] {}
-	Plug 'tpope/vim-surround'	
-	
-	" handy bracket mappings
-	Plug 'tpope/vim-unimpaired'
+" vim-sensible, generic settings
+Plug 'tpope/vim-sensible'
 
-	" file tree browser
-	Plug 'scrooloose/nerdtree'
+"Surround - change things inside () [] {}
+Plug 'tpope/vim-surround'
 
-	" syntax checker
-	Plug 'scrooloose/syntastic'
+" handy bracket mappings
+Plug 'tpope/vim-unimpaired'
 
-	"Sublime-like multiple select
-	Plug 'terryma/vim-multiple-cursors'
+" file tree browser
+Plug 'scrooloose/nerdtree'
+
+"Sublime-like multiple select
+Plug 'terryma/vim-multiple-cursors'
 
 
-	" ============ Git ============
+" ============ Git ============
 
-	" nerdtree integration with git
-	Plug 'Xuyuanp/nerdtree-git-plugin'
+" nerdtree integration with git
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
-	" Git integration
-	Plug 'tpope/vim-fugitive'
-	
+" Git integration
+Plug 'tpope/vim-fugitive'
 
-	" =========== Syntax ===========
-	
-	" Autoformating
-	Plug 'Chiel92/vim-autoformat'
-	
 
-	" ========== Visuals ===========
+" =========== Syntax ===========
 
-	" Minimalist colorscheme
-	Plug 'dikiaap/minimalist'
+" syntax checker
+Plug 'scrooloose/syntastic'
 
-	"airline status line
-	Plug 'bling/vim-airline'
 
-	"airline status line themes
-	Plug 'vim-airline/vim-airline-themes'
+" Autoformating
+Plug 'Chiel92/vim-autoformat'
 
-	" filetype highlighting for nerdtree!
-	Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+
+" ========== Visuals ===========
+
+" Minimalist colorscheme
+Plug 'dikiaap/minimalist'
+
+" Jellybean colorscheme
+Plug 'nanotech/jellybeans.vim'
+
+" Happy Hacking coloscheme
+Plug 'YorickPeterse/happy_hacking.vim'
+
+"airline status line
+Plug 'bling/vim-airline'
+
+"airline status line themes
+Plug 'vim-airline/vim-airline-themes'
 
 
 call plug#end()

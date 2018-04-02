@@ -17,18 +17,18 @@ set number relativenumber		"setting hybrid numbers
 set hidden				" Keep files in buffer between windows. Access by :ls and :b[N]
 
 set t_Co=256				" Set color scheme to 256bit (does not work for all terms)
-colorscheme minimalist			" Nice and dark theme, good for the eyes
+"colorscheme happy_hacking
+colorscheme minimalist
 
-set visualbell				" disable annoying bell sound
 syntax on				" turn on syntax highlighting
 
 " ================ Persistent Undo ==================
 " Keep undo history across sessions, by storing in file.
 " Only works all the time.
 if has('persistent_undo')
-  silent !mkdir ~/.vim/backups > /dev/null 2>&1
-  set undodir=~/.vim/backups
-  set undofile
+	silent !mkdir ~/.vim/backups > /dev/null 2>&1
+	set undodir=~/.vim/backups
+	set undofile
 endif
 
 
