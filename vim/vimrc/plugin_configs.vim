@@ -31,7 +31,7 @@ au VimEnter * call NERDTreeHighlightFile('coffee', 'Red', 'none', 'red', '#29292
 au VimEnter * call NERDTreeHighlightFile('js', 'Red', 'none', '#ffa500', '#292929')
 au VimEnter * call NERDTreeHighlightFile('php', 'Magenta', 'none', '#ff00ff', '#292929')
 au VimEnter * call NERDTreeHighlightFile('vim', 'green', 'none', 'green', '#292929')
-au VimEnter * call NERDTreeHighlightFile('py', 'Magenta', 'none', 'Magenta', '#292929')
+au VimEnter * call NERDTreeHighlightFile('py', 'green', 'none', 'Magenta', '#292929')
 
 
 
