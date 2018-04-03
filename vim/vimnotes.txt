@@ -1,0 +1,11 @@
+
+
+When switching between dos and unix (windows and the good shit), you might run into an error where you'll see an error with ^M. To fix this: 
+
+Set filetype back to unix
+
+>> :e ++ff=unix
+
+Substitute all ^M with \r
+
+:%s/<Ctrl-V><Ctrl-M>/\r/g
