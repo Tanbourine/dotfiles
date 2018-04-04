@@ -1,0 +1,5 @@
+# Don't commit vim plugins #
+############################
+/plugged/*
+/backups/*
+.netrwhist
