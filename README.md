@@ -17,10 +17,10 @@ To configure this on your computer from scratch:
 If you're on Linux/MacOS:
 - Install vim
 - Install GNU stow
-'''
-git clone https://github.com/Tanbourine/dotfiles.git ~/
+```
+https://github.com/Tanbourine/dotfiles.git ~/
 cd dotfiles && stow vim
-'''
+```
 
 Now open vim and run :PlugInstall to initialize plugins
 
