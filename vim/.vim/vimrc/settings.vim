@@ -20,6 +20,16 @@ colorscheme happy_hacking
 set ignorecase				" Case insensitive searching
 set smartcase				" search case depending on what you input
 
+" Better split screen navigation key remap
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" More natural splitscrew
+set splitbelow
+set splitright
+
 " ================ Persistent Undo ==================
 " Keep undo history across sessions, by storing in file.
 " Only works all the time.
