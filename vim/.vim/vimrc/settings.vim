@@ -17,6 +17,8 @@ set hidden				" Keep files in buffer between windows. Access by :ls and :b[N]
 set t_Co=256				" Set color scheme to 256bit (does not work for all terms)
 colorscheme happy_hacking
 
+set ignorecase				" Case insensitive searching
+set smartcase				" search case depending on what you input
 
 " ================ Persistent Undo ==================
 " Keep undo history across sessions, by storing in file.

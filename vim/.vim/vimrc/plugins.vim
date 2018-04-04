@@ -7,7 +7,7 @@
 " Auto-install vim-plug to new systems
 if empty(glob('~/.vim/autoload/plug.vim'))
 	silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
-	\ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+				\ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 	autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
@@ -20,7 +20,7 @@ call plug#begin()
 " vim-sensible, generic settings
 Plug 'tpope/vim-sensible'
 
-"Surround - change things inside () [] {}
+" Surround - change things inside () [] {}
 Plug 'tpope/vim-surround'
 
 " handy bracket mappings
@@ -29,10 +29,11 @@ Plug 'tpope/vim-unimpaired'
 " file tree browser
 Plug 'scrooloose/nerdtree'
 
-"Sublime-like multiple select
+" Sublime-like multiple select
 Plug 'terryma/vim-multiple-cursors'
 
-
+" fuzzy file finder
+Plug 'ctrlpvim/ctrlp.vim'
 " ============ Git ============
 
 " nerdtree integration with git
@@ -40,6 +41,9 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " Git integration
 Plug 'tpope/vim-fugitive'
+
+" Git gutter
+Plug 'airblade/vim-gitgutter'
 
 
 " =========== Syntax ===========
@@ -72,3 +76,8 @@ Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
+" Auto source vimrc
+augroup myvimrc
+    au!
+    au BufWritePost .vimrc,_vimrc,vimrc,.gvimrc,_gvimrc,gvimrc so $MYVIMRC | if has('gui_running') | so $MYGVIMRC | endif
+augroup END

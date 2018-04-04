@@ -9,3 +9,8 @@ Set filetype back to unix
 Substitute all ^M with \r
 
 :%s/<Ctrl-V><Ctrl-M>/\r/g
+
+
+How to use GNU Stow
+brew install stow
+http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html
