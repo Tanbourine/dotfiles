@@ -38,7 +38,12 @@ Plug 'ctrlpvim/ctrlp.vim'
 " align everything!
 Plug 'godlygeek/tabular'
 
+" easily edit markdown
 Plug 'plasticboy/vim-markdown'
+
+" autocomplete everything!
+Plug 'valloric/youcompleteme'
+
 " ============ Git ============
 
 " nerdtree integration with git
@@ -81,8 +86,4 @@ Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
-" Auto source vimrc
-augroup myvimrc
-    au!
-    au BufWritePost plugins.vim  so $MYVIMRC | if has('gui_running') | so $MYGVIMRC | endif
-augroup END
+autocmd! BufWritePost .vimrc so $MYVIMRC

@@ -4,6 +4,8 @@
 
 " https://github.com/Tanbourine/dotfiles
 
+" ======= YouCompleteMe Options =======
+let g:ycm_python_binary_path='python'
 
 " ========= NERDTree Options ==========
 
@@ -74,6 +76,8 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 1
+let g:syntastic_auto_jump = 1
+" let g:syntastic_quiet_message = { "type": "style" }
 
 
 

@@ -5,7 +5,7 @@
 export ZSH=/Users/dtan/.oh-my-zsh
 
 # added by Anaconda2 4.3.1 installer
-export PATH=~/anaconda/bin:$PATH
+# export PATH=~/anaconda/bin:$PATH
 
 # added by Anaconda3 5.1.0 installer
 export PATH=~/anaconda3/bin:$PATH
