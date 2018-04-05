@@ -34,6 +34,11 @@ Plug 'terryma/vim-multiple-cursors'
 
 " fuzzy file finder
 Plug 'ctrlpvim/ctrlp.vim'
+
+" align everything!
+Plug 'godlygeek/tabular'
+
+Plug 'plasticboy/vim-markdown'
 " ============ Git ============
 
 " nerdtree integration with git
@@ -79,5 +84,5 @@ call plug#end()
 " Auto source vimrc
 augroup myvimrc
     au!
-    au BufWritePost .vimrc,_vimrc,vimrc,.gvimrc,_gvimrc,gvimrc so $MYVIMRC | if has('gui_running') | so $MYGVIMRC | endif
+    au BufWritePost plugins.vim  so $MYVIMRC | if has('gui_running') | so $MYGVIMRC | endif
 augroup END
