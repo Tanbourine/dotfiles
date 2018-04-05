@@ -11,3 +11,9 @@ elseif has ("win32")
 	source $HOME/_vim/vimrc/plugin_configs.vim
 	source $HOME/_vim/vimrc/settings.vim
 endif
+
+
+" Auto source vimrc
+augroup myvimrc
+    au!
+    au BufWritePost .vimrc,_vimrc,vimrc,.gvimrc,_gvimrc,gvimrc so $MYVIMRC | if has('gui_running') | so $MYGVIMRC | endif
