@@ -5,10 +5,10 @@
 export ZSH=/Users/dtan/.oh-my-zsh
 
 # added by Anaconda2 4.3.1 installer
-export PATH=#/Users/dtan/anaconda/bin:$PATH#
+export PATH=~/anaconda/bin:$PATH
 
 # added by Anaconda3 5.1.0 installer
-export PATH=#/Users/dtan/anaconda3/bin:$PATH#
+export PATH=~/anaconda3/bin:$PATH
 
 # set theme
 ZSH_THEME="agnoster"
