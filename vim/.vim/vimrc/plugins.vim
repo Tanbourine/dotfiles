@@ -43,6 +43,9 @@ Plug 'plasticboy/vim-markdown'
 
 " autocomplete everything!
 Plug 'valloric/youcompleteme'
+ 
+" comment everything!
+Plug 'scrooloose/nerdcommenter'
 
 " ============ Git ============
 

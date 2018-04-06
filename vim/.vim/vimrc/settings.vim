@@ -35,6 +35,20 @@ nnoremap <space> za
 " wrap long lines
 set wrap
 set textwidth=80
+
+" easy way to get back to normal mode
+inoremap jj <ESC>
+inoremap kk <ESC>
+
+" tabs to spaces
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+" make <enter> act normally
+nmap <S-Enter> O<Esc>
+nmap <CR> o<Esc>
+
 " ============== Syntax Specific ===================
 au! BufRead,BufNewFile *.md set filetype=mkd	" set .md files as markdown
 
@@ -113,7 +127,7 @@ endif
 
 " ================= Python Compile in different screen==============
 " clear terminal and run python
-noremap <F5> <Esc><CR>:!clear;python %<CR>	
+noremap <F5> <Esc>:w<CR>:!clear;python %<CR>
 
 
 " Bind F5 to save file if modified and execute python script in a buffer.
