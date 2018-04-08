@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/dtan/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # added by Anaconda2 4.3.1 installer
 # export PATH=~/anaconda/bin:$PATH
