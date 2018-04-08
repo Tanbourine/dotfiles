@@ -8,8 +8,12 @@ export ZSH=~/.oh-my-zsh
 # export PATH=~/anaconda/bin:$PATH
 
 # added by Anaconda3 5.1.0 installer
+# for linux
 export PATH=/home/dtan/anaconda3/bin:$PATH
 
+# added by Anaconda3 5.1.0 installer
+# for macOS 
+# export PATH=~/anaconda3/bin:$PATH
 
 # set theme
 ZSH_THEME="agnoster"
