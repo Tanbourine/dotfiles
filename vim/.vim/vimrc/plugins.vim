@@ -68,6 +68,12 @@ Plug 'scrooloose/syntastic'
 " Autoformating
 Plug 'Chiel92/vim-autoformat'
 
+" Jinja formatting
+Plug 'glench/vim-jinja2-syntax'
+
+" quick HTML and CSS tags
+Plug 'mattn/emmet-vim'
+
 
 " ========== Visuals ===========
 

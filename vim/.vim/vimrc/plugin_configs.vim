@@ -9,6 +9,9 @@ let g:ycm_python_binary_path='python'
 
 " ========= NERDTree Options ==========
 
+" Auto change the directory to the current file I'm working on
+autocmd BufEnter * lcd %:p:h 
+
 " NERDTrees File highlighting
 
 function! NERDTreeHighlightFile(extension, fg, bg, guifg, guibg)
@@ -74,12 +77,15 @@ set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 0
-let g:syntastic_check_on_wq = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 let g:syntastic_auto_jump = 1
 " let g:syntastic_quiet_message = { "type": "style" }
 
 
+" ========== emmet-vim Options ==========
+let g:user_emmet_install_global=0
+autocmd FileType html, css EmmetInstall
 
 " ========== Airline Options ============
 

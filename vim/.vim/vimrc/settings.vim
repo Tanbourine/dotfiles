@@ -46,8 +46,8 @@ set shiftwidth=4
 set expandtab
 
 " make <enter> act normally
-nmap <S-Enter> O<Esc>
-nmap <CR> o<Esc>
+"nmap <S-Enter> O<Esc>
+"nmap <CR> o<Esc>
 
 " ============== Syntax Specific ===================
 au! BufRead,BufNewFile *.md set filetype=mkd	" set .md files as markdown

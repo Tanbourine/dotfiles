@@ -9,7 +9,7 @@ export ZSH=~/.oh-my-zsh
 
 # added by Anaconda3 5.1.0 installer
 # for linux
-export PATH=/home/dtan/anaconda3/bin:$PATH
+export PATH="/home/dtan/anaconda3/bin:$PATH"
 
 # added by Anaconda3 5.1.0 installer
 # for macOS 
@@ -47,7 +47,7 @@ wd
 
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
  COMPLETION_WAITING_DOTS="true"
