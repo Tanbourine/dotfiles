@@ -47,6 +47,9 @@ Plug 'valloric/youcompleteme'
 " comment everything!
 Plug 'scrooloose/nerdcommenter'
 
+" personal wiki
+Plug 'vimwiki/vimwiki'
+
 " ============ Git ============
 
 " nerdtree integration with git
