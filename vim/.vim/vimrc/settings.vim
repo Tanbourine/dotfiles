@@ -45,6 +45,11 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+" code folding
+set foldmethod=indent
+set foldlevel=4
+nnoremap <Space> za
+
 " make <enter> act normally
 "nmap <S-Enter> O<Esc>
 "nmap <CR> o<Esc>
