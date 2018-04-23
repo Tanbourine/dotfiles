@@ -10,15 +10,15 @@ let g:ycm_python_binary_path='python'
 " ========= NERDTree Options ==========
 
 " Auto change the directory to the current file I'm working on
-autocmd BufEnter * lcd %:p:h 
+autocmd BufEnter * lcd %:p:h
 
 " NERDTrees File highlighting
 
 function! NERDTreeHighlightFile(extension, fg, bg, guifg, guibg)
 
-	exec 'autocmd filetype nerdtree highlight ' . a:extension .' ctermbg='. a:bg .' ctermfg='. a:fg .' guibg='. a:guibg .' guifg='. a:guifg
+    exec 'autocmd filetype nerdtree highlight ' . a:extension .' ctermbg='. a:bg .' ctermfg='. a:fg .' guibg='. a:guibg .' guifg='. a:guifg
 
-	exec 'autocmd filetype nerdtree syn match ' . a:extension .' #^\s\+.*'. a:extension .'$#'
+    exec 'autocmd filetype nerdtree syn match ' . a:extension .' #^\s\+.*'. a:extension .'$#'
 
 endfunction
 
@@ -103,5 +103,9 @@ let g:airline#extensions#tabline#formatter = 'default'
 noremap <F3> :Autoformat<CR>
 
 " ========== NERD Commenter =============
-let g:NERDCompactSexyComs = 1		" use compact syntax for prettified multi-line comments
-let g:NERDTrimTrailingWhitespace = 1	" enable trimming of trailing whitespace when uncommenting
+let g:NERDCompactSexyComs = 1       " use compact syntax for prettified multi-line comments
+let g:NERDTrimTrailingWhitespace = 1    " enable trimming of trailing whitespace when uncommenting
+
+
+" ========== Vim Wiki ===================
+let g:vimwiki_list = [{'path': '~/dotfiles/vim/vimwiki/', 'syntax': 'markdown', 'ext':'.md'}]
