@@ -100,7 +100,7 @@ let g:airline#extensions#tabline#formatter = 'default'
 " ==========Autoformat Options ===========
 
 " au BufWrite * :Autoformat
-noremap <F3> :Autoformat<CR>
+noremap <F3> :Autoformat<CR>:w<CR>
 
 " ========== NERD Commenter =============
 let g:NERDCompactSexyComs = 1       " use compact syntax for prettified multi-line comments
