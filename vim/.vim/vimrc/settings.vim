@@ -32,8 +32,10 @@ set splitright
 
 
 " wrap long lines
-set wrap
-set textwidth=80
+" set wrap
+" set textwidth=80
+set textwidth=100
+set colorcolumn=-2
 
 " easy way to get back to normal mode
 inoremap jj <ESC>
@@ -49,9 +51,8 @@ set foldmethod=indent
 set foldlevel=4
 nnoremap <Space> za
 
-" make <enter> act normally
-"nmap <S-Enter> O<Esc>
-"nmap <CR> o<Esc>
+
+noremap <F7> <Esc>:!clear;subl %<CR><CR>
 
 " ============== Syntax Specific ===================
 au! BufRead,BufNewFile *.md set filetype=mkd	" set .md files as markdown
