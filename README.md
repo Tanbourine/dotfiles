@@ -15,6 +15,8 @@ see [this link](http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-man
 i/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
+- Install [iTerm2](https://www.iterm2.com/)
+
 - Install oh-my-zsh [Wiki](https://github.com/robbyrussell/oh-my-zsh/wiki)
 ```
 brew install zsh zsh-completions
@@ -28,10 +30,20 @@ brew install stow
 - Clone dotfiles and symlink it
 ```
 git clone https://github.com/Tanbourine/dotfiles.git ~/
+cd ~/ rm .zshrc
 cd dotfiles && stow vim && stow zsh
 ```
 
+- To get the zsh powerline to display fonts correctly, install a powerline font
+I use Source Code Pro from https://github.com/powerline/fonts 
+Change your iTerm font to Souce Code Pro for Powerline
+
+
 - Open vim and run **:PlugInstall**  to initialize plugins
+
+- Finish installation of YouCompleteMe
+``` python .vim/plugged/youcompleteme/install.py
+```
 
 - Enjoy! 
 
