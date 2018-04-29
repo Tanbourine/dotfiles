@@ -132,12 +132,12 @@ endif
 
 " ================= Python Compile in different screen==============
 " clear terminal and run python
-noremap <F5> <Esc>:Autoformat<CR>:w<CR>:!clear;python %<CR>
+noremap <F5> <Esc>:Autoformat<CR>:w<CR>:!clear;python3 %<CR>
 
 
 " Bind F5 to save file if modified and execute python script in a buffer.
 nnoremap <silent> <F6> :call SaveAndExecutePython()<CR>
-vnoremap <silent> <F5> :<C-u>call SaveAndExecutePython()<CR>
+vnoremap <silent> <F6> :<C-u>call SaveAndExecutePython()<CR>
 
 function! SaveAndExecutePython()
     " SOURCE [reusable window]: https://github.com/fatih/vim-go/blob/master/autoload/go/ui.vim
@@ -179,7 +179,7 @@ function! SaveAndExecutePython()
     %delete _
 
     " add the console output
-    silent execute ".!python " . shellescape(s:current_buffer_file_path, 1)
+    silent execute ".!python3 " . shellescape(s:current_buffer_file_path, 1)
 
     " resize window to content length
     " Note: This is annoying because if you print a lot of lines then your code buffer is forced to a height of one line every time you run this function.
