@@ -50,6 +50,9 @@ Plug 'scrooloose/nerdcommenter'
 " personal wiki
 Plug 'vimwiki/vimwiki'
 
+" browse source code tags
+Plug 'vim-scripts/taglist.vim'
+
 " ============ Git ============
 
 " nerdtree integration with git
@@ -77,6 +80,8 @@ Plug 'glench/vim-jinja2-syntax'
 " quick HTML and CSS tags
 Plug 'mattn/emmet-vim'
 
+" i3 syntax highlighting
+Plug 'PotatoesMaster/i3-vim-syntax'
 
 " ========== Visuals ===========
 

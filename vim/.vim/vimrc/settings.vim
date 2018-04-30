@@ -53,6 +53,7 @@ nnoremap <Space> za
 
 
 noremap <F7> <Esc>:!clear;subl %<CR><CR>
+nnoremap <silent> <F8> :TlistToggle<CR>
 
 " ============== Syntax Specific ===================
 au! BufRead,BufNewFile *.md set filetype=mkd	" set .md files as markdown
