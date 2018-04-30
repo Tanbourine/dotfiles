@@ -28,7 +28,7 @@ set $BROWSER google-chrome
 
 # #---Starting External Scripts---# #
 #Setting the background:
-exec_always --no-startup-id feh --bg-scale ~/.config/wallpaper/wall1.jpg --bg-fill ~/.config/wallpaper/wall2.jpg
+exec_always --no-startup-id feh --bg-scale ~/.config/wallpapers/wall1.jpg --bg-fill ~/.config/wallpapers/wall2.jpg
 #exec --no-startup-id compton -f
 #exec_always --no-startup-id feh --bg-scale ~/.config/wallpaper/wall.png
 #Starts dunst for notifications:
