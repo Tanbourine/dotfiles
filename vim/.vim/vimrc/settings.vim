@@ -133,7 +133,7 @@ endif
 
 " ================= Python Compile in different screen==============
 " clear terminal and run python
-noremap <F5> <Esc>:Autoformat<CR>:w<CR>:!clear;python %<CR>
+noremap <F5> <Esc>:Autoformat<CR>:w<CR>:!clear;python3 %<CR>
 
 
 " Bind F5 to save file if modified and execute python script in a buffer.
