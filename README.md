@@ -13,6 +13,9 @@ see [this link](http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-man
 - Install [homebrew](https://brew.sh/)
 ```
 i/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+brew update
+brew upgrade
 ```
 
 - Install [iTerm2](https://www.iterm2.com/)
@@ -42,7 +45,9 @@ Change your iTerm font to Souce Code Pro for Powerline
 - Open vim and run **:PlugInstall**  to initialize plugins
 
 - Finish installation of YouCompleteMe
-``` python .vim/plugged/youcompleteme/install.py
+```
+brew install --with-toolchain llvm
+python ~/.vim/plugged/youcompleteme/install.py
 ```
 
 - Enjoy! 
