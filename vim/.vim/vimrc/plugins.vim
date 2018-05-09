@@ -42,7 +42,7 @@ Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 
 " autocomplete everything!
-Plug 'valloric/youcompleteme'
+" Plug 'valloric/youcompleteme'
  
 " comment everything!
 Plug 'scrooloose/nerdcommenter'
@@ -51,7 +51,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'vimwiki/vimwiki'
 
 " browse source code tags
-Plug 'vim-scripts/taglist.vim'
+" Plug 'vim-scripts/taglist.vim'
 
 " ============ Git ============
 

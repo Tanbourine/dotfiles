@@ -13,7 +13,7 @@ export ZSH=~/.oh-my-zsh
 
 # added by Anaconda3 5.1.0 installer
 # for macOS 
-export PATH=~/anaconda3/bin:$PATH
+# export PATH=~/anaconda3/bin:$PATH
 
 # set theme
 ZSH_THEME="agnoster"
@@ -43,6 +43,7 @@ sublime
 vi-mode
 web-search
 wd
+ssh-agent
 )
 
 
