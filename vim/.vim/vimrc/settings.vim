@@ -14,9 +14,10 @@ set number relativenumber		"setting hybrid numbers
 
 set hidden				" Keep files in buffer between windows. Access by :ls and :b[N]
 
-set t_Co=256				" Set color scheme to 256bit (does not work for all terms)
+"set t_Co=256				" Set color scheme to 256bit (does not work for all terms)
+set t_Co=8				" Set color scheme to 256bit (does not work for all terms)
 " colorscheme happy_hacking
-colorscheme slate
+colorscheme default
 
 set ignorecase				" Case insensitive searching
 set smartcase				" search case depending on what you input
@@ -36,7 +37,7 @@ set splitright
 " set wrap
 " set textwidth=80
 set textwidth=100
-set colorcolumn=-2
+"set colorcolumn=-2
 
 " easy way to get back to normal mode
 inoremap jj <ESC>
@@ -134,7 +135,8 @@ endif
 
 " ================= Python Compile in different screen==============
 " clear terminal and run python
-noremap <F5> <Esc>:Autoformat<CR>:w<CR>:!clear;python3 %<CR>
+noremap <F5> <Esc>:w<CR>:!clear;python %<CR>
+"noremap <F5> <Esc>:Autoformat<CR>:w<CR>:!clear;python %<CR>
 
 
 " Bind F5 to save file if modified and execute python script in a buffer.

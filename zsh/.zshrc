@@ -15,6 +15,8 @@ export ZSH=~/.oh-my-zsh
 # for macOS 
 # export PATH=~/anaconda3/bin:$PATH
 
+TERM=xterm-256color
+
 # set theme
 ZSH_THEME="agnoster"
 
