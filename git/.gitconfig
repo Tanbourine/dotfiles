@@ -11,3 +11,6 @@
     st = status
     co = checkout
     ci = commit -m
+    br = branch
+[push]
+	default = matching
