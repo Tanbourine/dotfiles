@@ -16,6 +16,8 @@ export ZSH=~/.oh-my-zsh
 # export PATH=~/anaconda3/bin:$PATH
 
 TERM=xterm-256color
+export VISUAL=vim
+export EDITOR="$VISUAL"
 
 # set theme
 ZSH_THEME="agnoster"
