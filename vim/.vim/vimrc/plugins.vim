@@ -68,31 +68,31 @@ Plug 'airblade/vim-gitgutter'
 " =========== Syntax ===========
 
 " syntax checker
-Plug 'scrooloose/syntastic'
+" Plug 'scrooloose/syntastic'
 
 
 " Autoformating
 Plug 'Chiel92/vim-autoformat'
 
 " Jinja formatting
-Plug 'glench/vim-jinja2-syntax'
+" Plug 'glench/vim-jinja2-syntax'
 
 " quick HTML and CSS tags
-Plug 'mattn/emmet-vim'
+" Plug 'mattn/emmet-vim'
 
 " i3 syntax highlighting
-Plug 'PotatoesMaster/i3-vim-syntax'
+" Plug 'PotatoesMaster/i3-vim-syntax'
 
 " ========== Visuals ===========
 
 " Minimalist colorscheme
-Plug 'dikiaap/minimalist'
+" Plug 'dikiaap/minimalist'
 
 " Jellybean colorscheme
-Plug 'nanotech/jellybeans.vim'
+" Plug 'nanotech/jellybeans.vim'
 
 " Happy Hacking coloscheme
-Plug 'YorickPeterse/happy_hacking.vim'
+" Plug 'YorickPeterse/happy_hacking.vim'
 
 "airline status line
 Plug 'bling/vim-airline'
