@@ -42,7 +42,7 @@ Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 
 " autocomplete everything!
-" Plug 'valloric/youcompleteme'
+"Plug 'valloric/youcompleteme'
  
 " comment everything!
 Plug 'scrooloose/nerdcommenter'
@@ -68,7 +68,7 @@ Plug 'airblade/vim-gitgutter'
 " =========== Syntax ===========
 
 " syntax checker
-" Plug 'scrooloose/syntastic'
+Plug 'scrooloose/syntastic'
 
 
 " Autoformating
