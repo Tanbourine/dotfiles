@@ -14,10 +14,10 @@ set number relativenumber		"setting hybrid numbers
 
 set hidden				" Keep files in buffer between windows. Access by :ls and :b[N]
 
-"set t_Co=256				" Set color scheme to 256bit (does not work for all terms)
-set t_Co=8				" Set color scheme to 256bit (does not work for all terms)
-" colorscheme happy_hacking
-colorscheme default
+set t_Co=256				" Set color scheme to 256bit (does not work for all terms)
+"set t_Co=8				" Set color scheme to 256bit (does not work for all terms)
+ colorscheme happy_hacking
+"colorscheme default
 
 set ignorecase				" Case insensitive searching
 set smartcase				" search case depending on what you input
@@ -52,6 +52,9 @@ set expandtab
 set foldmethod=indent
 set foldlevel=4
 nnoremap <Space> za
+
+" set encoding explicitly
+set encoding=utf-8
 
 
 noremap <F7> <Esc>:!clear;subl %<CR><CR>

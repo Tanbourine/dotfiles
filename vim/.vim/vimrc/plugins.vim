@@ -42,7 +42,7 @@ Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 
 " autocomplete everything!
-"Plug 'valloric/youcompleteme'
+Plug 'valloric/youcompleteme'
  
 " comment everything!
 Plug 'scrooloose/nerdcommenter'
@@ -75,10 +75,10 @@ Plug 'scrooloose/syntastic'
 Plug 'Chiel92/vim-autoformat'
 
 " Jinja formatting
-" Plug 'glench/vim-jinja2-syntax'
+ Plug 'glench/vim-jinja2-syntax'
 
 " quick HTML and CSS tags
-" Plug 'mattn/emmet-vim'
+ " Plug 'mattn/emmet-vim'
 
 " i3 syntax highlighting
 " Plug 'PotatoesMaster/i3-vim-syntax'
@@ -92,7 +92,7 @@ Plug 'Chiel92/vim-autoformat'
 " Plug 'nanotech/jellybeans.vim'
 
 " Happy Hacking coloscheme
-" Plug 'YorickPeterse/happy_hacking.vim'
+Plug 'YorickPeterse/happy_hacking.vim'
 
 "airline status line
 Plug 'bling/vim-airline'

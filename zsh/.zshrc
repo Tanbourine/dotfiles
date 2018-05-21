@@ -4,20 +4,14 @@
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
 
-# added by Anaconda2 4.3.1 installer
-# export PATH=~/anaconda/bin:$PATH
-
-# added by Anaconda3 5.1.0 installer
-# for linux
-# export PATH="/home/dtan/anaconda3/bin:$PATH"
-
-# added by Anaconda3 5.1.0 installer
-# for macOS 
-# export PATH=~/anaconda3/bin:$PATH
 
 TERM=xterm-256color
 export VISUAL=vim
 export EDITOR="$VISUAL"
+export LANGUAGE=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
 
 # set theme
 ZSH_THEME="agnoster"
@@ -48,6 +42,7 @@ vi-mode
 web-search
 wd
 ssh-agent
+virtualenv
 )
 
 

@@ -12,6 +12,9 @@ let g:ycm_python_binary_path='python'
 " Auto change the directory to the current file I'm working on
 autocmd BufEnter * lcd %:p:h
 
+" fix directory opening issue for raspi
+let g:NERDTreeDirArrows=0
+
 " NERDTrees File highlighting
 
 function! NERDTreeHighlightFile(extension, fg, bg, guifg, guibg)
@@ -84,8 +87,8 @@ let g:syntastic_auto_jump = 1
 
 
 " ========== emmet-vim Options ==========
-let g:user_emmet_install_global=0
-autocmd FileType html, css EmmetInstall
+"let g:user_emmet_install_global=0
+"autocmd FileType html, css EmmetInstall
 
 " ========== Airline Options ============
 
