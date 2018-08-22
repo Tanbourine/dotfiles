@@ -15,6 +15,7 @@ set number relativenumber		"setting hybrid numbers
 set hidden				" Keep files in buffer between windows. Access by :ls and :b[N]
 
 set t_Co=256				" Set color scheme to 256bit (does not work for all terms)
+set background=dark
 colorscheme happy_hacking
 
 set ignorecase				" Case insensitive searching
@@ -133,12 +134,13 @@ endif
 
 " ================= Python Compile in different screen==============
 " clear terminal and run python
-noremap <F5> <Esc>:Autoformat<CR>:w<CR>:!clear;python3 %<CR>
+noremap <F5> <Esc>:Autoformat<CR>:w<CR>:!clear;python %<CR>
+noremap <F6> <Esc>:Autoformat<CR>:w<CR>:!clear;python3 %<CR>
 
 
 " Bind F5 to save file if modified and execute python script in a buffer.
-nnoremap <silent> <F6> :call SaveAndExecutePython()<CR>
-vnoremap <silent> <F5> :<C-u>call SaveAndExecutePython()<CR>
+"nnoremap <silent> <F6> :call SaveAndExecutePython()<CR>
+"vnoremap <silent> <F5> :<C-u>call SaveAndExecutePython()<CR>
 
 function! SaveAndExecutePython()
     " SOURCE [reusable window]: https://github.com/fatih/vim-go/blob/master/autoload/go/ui.vim

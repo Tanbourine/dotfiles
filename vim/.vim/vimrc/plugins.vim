@@ -50,8 +50,11 @@ Plug 'scrooloose/nerdcommenter'
 " personal wiki
 Plug 'vimwiki/vimwiki'
 
+" indent guides
+Plug 'yggdroot/indentline'
+
 " browse source code tags
-Plug 'vim-scripts/taglist.vim'
+"Plug 'vim-scripts/taglist.vim'
 
 " ============ Git ============
 
@@ -75,10 +78,10 @@ Plug 'scrooloose/syntastic'
 Plug 'Chiel92/vim-autoformat'
 
 " Jinja formatting
-Plug 'glench/vim-jinja2-syntax'
+"Plug 'glench/vim-jinja2-syntax'
 
 " quick HTML and CSS tags
-Plug 'mattn/emmet-vim'
+"Plug 'mattn/emmet-vim'
 
 " i3 syntax highlighting
 Plug 'PotatoesMaster/i3-vim-syntax'
