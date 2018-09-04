@@ -36,7 +36,6 @@ zsh-autosuggestions
 common-aliases
 jsontools
 last-working-dir
-nyan
 pip
 python
 sublime
