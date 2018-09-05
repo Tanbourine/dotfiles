@@ -6,9 +6,13 @@
 
 [core]
     excludesfile = ~/.gitignore_global
+    editor = 'vim'
 
 [alias]
     st = status
     co = checkout
     ci = commit -m
     br = branch
+[push]
+	default = simple
+
