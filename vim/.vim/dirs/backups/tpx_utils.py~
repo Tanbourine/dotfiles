@@ -1,0 +1,28 @@
+""" Hold all utility functions for telepathyx to be reused throughout package """
+
+import logging
+import os
+
+
+
+
+def configure_logging(filename=None, savelogs=False):
+    """ setup logfile configs """
+    try:
+        # pylint: disable=unused-variable
+        if not os.path.isdir('logs/'):
+            os.makedirs('logs/')
+        if savelogs and filename is not None:
+            logfile = "logs/%s" %(filename)
+        else:
+            logfile = None
+
+    except OSError:
+        print "Could not create logfile directory"
+
+
+    # pylint: disable = bad-continuation, line-too-long
+    logging.basicConfig(
+                        filename=logfile,
+                        format='%(asctime)s::%(module)s::%(funcName)s::%(lineno)d::%(levelname)s >>> %(message)s',
+                        level=logging.DEBUG)

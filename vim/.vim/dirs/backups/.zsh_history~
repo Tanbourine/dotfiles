@@ -1,0 +1,4382 @@
+: 1532978559:0;cd
+: 1532978560:0;ls
+: 1532978568:0;la
+: 1532981716:0;ls
+: 1532981718:0;la
+: 1532981720:0;cd .zsh
+: 1532981726:0;vim .zshrc
+: 1532981737:0;la
+: 1532981749:0;rm .zshrc
+: 1532981754:0;mv .zshrc.pre-oh-my-zsh .zshrc
+: 1532981792:0;mkdir .fonts
+: 1532981795:0;cd .fonts
+: 1532981826:0;git clone https://github.com/powerline/fonts.
+: 1532981830:0;git clone https://github.com/powerline/fonts.git
+: 1532981833:0;ls
+: 1532981835:0;cd fonts
+: 1532981835:0;ls
+: 1532981858:0;./install.sh
+: 1532982217:0;cd ~/.vim/plugged/youcompleteme
+: 1532982225:0;py install.py
+: 1532982228:0;python
+: 1532982232:0;python3
+: 1532982241:0;python3 install.py
+: 1532982253:0;sudo apt-get install --with-toolchain llvm
+: 1532982290:0;sudo apt-get install build-essential cmake
+: 1532982344:0;./install.py --clang-completer
+: 1532982518:0;cd
+: 1532982519:0;ls
+: 1532982566:0;mkdir gitRepos
+: 1532982566:0;ls
+: 1532982568:0;cd gitRepos
+: 1532982568:0;ls
+: 1532982575:0;git clone git@github.com:Tanbourine/clock_squared.git
+: 1532982585:0;cd clock_squared
+: 1532982589:0;python3 main.py
+: 1532982601:0;python3
+: 1532982648:0;sudo apt-get install python-tk
+: 1532982664:0;python3 main.py
+: 1532982673:0;vim main.py
+: 1532982700:0;python main.py
+: 1532982720:0;python3
+: 1532982754:0;sudo apt-get update
+: 1532982768:0;sudo apt-get upgrade
+: 1532982772:0;python3
+: 1532982845:0;sudo apt-get install python-tk
+: 1532982852:0;sudo apt-get install python3-tk
+: 1532982858:0;python3
+: 1532982871:0;python3 main.py
+: 1532983443:0;sudo apt-get install ranger
+: 1532983562:0;ranger
+: 1532987221:0;vim main.py
+: 1532987241:0;vim ~/.vim/vimrc/plugins.vim
+: 1532987260:0;vim main.py
+: 1532987294:0;sudo kbdrate
+: 1532987319:0;man kbdrate
+: 1532987349:0;sudo kbdrate
+: 1532987366:0;sudo kbdrate -r 30 cps 100
+: 1532987387:0;sudo kbdrate -d 50
+: 1532987456:0;sudo kbdrate -r 30.0
+: 1532991251:0;cd
+: 1532991252:0;ls
+: 1532991254:0;cd ..
+: 1532991254:0;ls
+: 1532991256:0;cd ..
+: 1532991256:0;ls
+: 1532991258:0;cd media
+: 1532991259:0;ls
+: 1532991261:0;cd dtan
+: 1532991261:0;l
+: 1532991268:0;scd
+: 1532992152:0;ls
+: 1532992154:0;cd ..
+: 1532992155:0;ls
+: 1532992156:0;cd ..
+: 1532992157:0;ls
+: 1532992160:0;cd tmp
+: 1532992160:0;ls
+: 1532992162:0;cd ..
+: 1532992162:0;ls
+: 1532992169:0;cd
+: 1532992169:0;ls
+: 1532992337:0;sudo mount -t vboxsf -o uid$UID, gid=$(id -g) SVN_repos ~/host
+: 1532992364:0;sudo mount -t vboxsf -o uid=$UID, gid=$(id -g) SVN_repos ~/host
+: 1532992441:0;python3 main.py
+: 1532992524:0;ls
+: 1532992536:0;python3 clock_canvas.py
+: 1532992549:0;python3 digit_gui.py
+: 1532992562:0;python3 main.py
+: 1532996480:0;pip install numpy
+: 1532996516:0;pip install matplotlib
+: 1532996542:0;cd ..
+: 1532996543:0;ls
+: 1532996551:0;vim matlab.py
+: 1532996678:0;pip list
+: 1532996689:0;pip3 install numpy
+: 1532996838:0;ls
+: 1532996841:0;vim matlab.py
+: 1532996905:0;ls
+: 1532996907:0;cd clock_squared
+: 1532996913:0;python3 main.py
+: 1532996995:0;python3 digit_gui.py
+: 1532997035:0;vim clock_config.py
+: 1532997045:0;vim digit_gui.py
+: 1532997072:0;python3 digit_gui.py
+: 1532997093:0;python3 main.py
+: 1532997099:0;vim digit_gui.py
+: 1532997233:0;python3 main.py
+: 1532997256:0;git st
+: 1532997264:0;cd dotfiles
+: 1532997265:0;ls
+: 1532997268:0;stow git
+: 1532997282:0;git st
+: 1532997287:0;git diff digit_gui.py
+: 1532997302:0;vim digit_gui.py
+: 1532997339:0;python digit_gui.py
+: 1532997346:0;python3 digit_gui.py
+: 1532997366:0;vim digit_gui.py
+: 1532997389:0;git diff digit_gui.py
+: 1532997406:0;vim digit_gui.py
+: 1532997892:0;cd ~/gitRepos/clock_squared
+: 1532997899:0;python3 digit_gui.py
+: 1532998057:0;python3 main.py
+: 1532998090:0;python3 digit_gui.py
+: 1532998274:0;python3 main.py
+: 1532998458:0;]git diff
+: 1532998463:0;git diff
+: 1532998494:0;vim main.py
+: 1532998611:0;python3 main.py
+: 1532998626:0;vim clock_config.py
+: 1532998723:0;vim main.py
+: 1532998726:0;python3 main.py
+: 1533051588:0;ls
+: 1533051621:0;python3 main.py
+: 1533138305:0;vim clock_config.py
+: 1533138397:0;cd ..
+: 1533138397:0;ls
+: 1533138404:0;git clone ssh://git@stash:7999/~dtan/todo-list.git
+: 1533138418:0;cd ~/.ssh
+: 1533138419:0;ls
+: 1533138423:0;clip
+: 1533138433:0;clip < id_rsa.pub
+: 1533138438:0;clip
+: 1533138522:0;cat id_rsa.pub
+: 1533138561:0;cd ~/gitRepos
+: 1533138574:0;git clone ssh://git@stash:7999/~dtan/todo-list.git
+: 1533138582:0;ls
+: 1533138586:0;rm matlab.py
+: 1533138591:0;cd todo-list
+: 1533138591:0;ls
+: 1533138595:0;vim todo.md
+: 1533171139:0;git st
+: 1533171143:0;git add .
+: 1533171150:0;git ci "work changes"
+: 1533171152:0;git push
+: 1533187224:0;sudo shutdown now
+: 1533228716:0;ls
+: 1533228735:0;cd ..
+: 1533228737:0;cd clock_squared
+: 1533228739:0;git pull
+: 1533228748:0;python3 main.py
+: 1533229169:0;vim todo.md
+: 1533330392:0;git pull
+: 1533331435:0;python3 main.py
+: 1533574857:0;git pull
+: 1533574872:0;cd ..
+: 1533574872:0;l
+: 1533574876:0;cd 
+: 1533574877:0;cd ..
+: 1533574877:0;l
+: 1533574880:0;cd ..
+: 1533574880:0;ls
+: 1533574883:0;cd media
+: 1533574884:0;ls
+: 1533574888:0;cd sf_gitRepos
+: 1533574938:0;cd
+: 1533574939:0;cd gitRepos
+: 1533574939:0;ls
+: 1533574943:0;cd clock_squared
+: 1533574946:0;python3 main.py
+: 1533579955:0;git log
+: 1533579961:0;git log -graph
+: 1533579967:0;git log
+: 1533579981:0;git log -b
+: 1533591935:0;sudo shutdown now
+: 1534877569:0;ls
+: 1534881076:0;cd ..
+: 1534881076:0;ls
+: 1534881089:0;mkdir socket_test
+: 1534881092:0;cd socket_test
+: 1534881101:0;vim tcp_server.py
+: 1534881541:0;ls
+: 1534881546:0;cp tcp_server.py tcp_client.py
+: 1534881549:0;vim tcp_client.py
+: 1534882607:0;python tcp_server.py
+: 1534882618:0;python
+: 1534882629:0;vim tcp_server.py
+: 1534883168:0;python tcp_client.py
+: 1534883175:0;vim tcp_client.py
+: 1534883294:0;python tcp_server.py
+: 1534883309:0;python tcp_client.py
+: 1534885452:0;vim tcp_client.py
+: 1534885464:0;python tcp_client.py
+: 1534885746:0;vim tcp_client.py
+: 1534886498:0;python tcp_client.py
+: 1534886518:0;sdf
+: 1534886518:0;fsda
+: 1534886518:0;agaga
+: 1534886649:0;python tcp_client.py
+: 1534887347:0;c
+: 1534887438:0;vim tcp_server.py
+: 1534887446:0;python tcp_client.py
+: 1534887861:0;python tcp_server.py
+: 1534887909:0;python tcp_client.py
+: 1534888049:0;python tcp_server.py
+: 1534888052:0;python tcp_client.py
+: 1534888142:0;clear
+: 1534888188:0;python tcp_client.py
+: 1534888194:0;python tcp_server.py
+: 1534888197:0;python tcp_client.py
+: 1534888603:0;clear
+: 1534888612:0;python tcp_server.py
+: 1534888618:0;python tcp_client.py
+: 1534888818:0;python tcp_server.py
+: 1534888821:0;python tcp_client.py
+: 1534888942:0;python tcp_server.py
+: 1534888944:0;python tcp_client.py
+: 1534890113:0;python tcp_server.py
+: 1534890173:0;python tcp_client.py
+: 1534890229:0;python tcp_server.py
+: 1534890236:0;python tcp_client.py
+: 1534890262:0;python tcp_server.py
+: 1534890276:0;python tcp_client.py
+: 1534890338:0;python tcp_server.py
+: 1534890345:0;python tcp_client.py
+: 1534890394:0;python tcp_server.py
+: 1534890397:0;python tcp_client.py
+: 1534890444:0;python tcp_server.py
+: 1534890451:0;python tcp_client.py
+: 1534890527:0;python tcp_client.py
+: 1534890609:0;python tcp_server.py
+: 1534890618:0;python tcp_client.py
+: 1534895152:0;vim tcp_server.py
+: 1534895683:0;cd
+: 1534895686:0;cd dotfiles
+: 1534895686:0;ls
+: 1534895693:0;cd vim/.vimrc
+: 1534895694:0;ls
+: 1534895696:0;cd vim
+: 1534895696:0;ls
+: 1534895698:0;la
+: 1534895704:0;cd .vim
+: 1534895704:0;ls
+: 1534895709:0;vim vimrc
+: 1534895845:0;vim tcp_server.py
+: 1534895901:0;vim plugins
+: 1534895908:0;ls
+: 1534895910:0;cd vimrc
+: 1534895910:0;ls
+: 1534895916:0;vim plugins.vim
+: 1534895999:0;vim tcp_server.py
+: 1534896069:0;cd
+: 1534896070:0;ls
+: 1534896074:0;cd dotfiles/vim
+: 1534896075:0;ls
+: 1534896076:0;git diff
+: 1534896090:0;cd ..
+: 1534896090:0;ls
+: 1534896094:0;git status
+: 1534896099:0;git add .
+: 1534896108:0;git commit -m "work update"
+: 1534896109:0;git push
+: 1534896917:0;cd
+: 1534896920:0;cd gitRepos
+: 1534896921:0;ls
+: 1534896923:0;cd socket_test
+: 1534896928:0;python tcp_server.py
+: 1534896935:0;cd ~/gitRepos/socket_test
+: 1534896938:0;python tcp_client.py
+: 1534896967:0;python tcp_server.py
+: 1534897064:0;python tcp_client.py
+: 1534897216:0;python tcp_server.py
+: 1534897220:0;python tcp_client.py
+: 1534897620:0;python tcp_server.py
+: 1534897623:0;python tcp_client.py
+: 1534897855:0;python tcp_server.py
+: 1534897858:0;python tcp_client.py
+: 1534897917:0;python tcp_server.py
+: 1534897920:0;python tcp_client.py
+: 1534897975:0;python tcp_server.py
+: 1534897977:0;python tcp_client.py
+: 1534898024:0;python tcp_server.py
+: 1534898026:0;python tcp_client.py
+: 1534898113:0;python tcp_server.py
+: 1534898116:0;python tcp_client.py
+: 1534898155:0;python tcp_server.py
+: 1534898157:0;python tcp_client.py
+: 1534898339:0;python tcp_server.py
+: 1534898341:0;python tcp_client.py
+: 1534899500:0;python tcp_server.py
+: 1534899502:0;python tcp_client.py
+: 1534899827:0;ls
+: 1534899829:0;rm test.py
+: 1534901449:0;python
+: 1534901688:0;python tcp_server.py
+: 1534901692:0;python tcp_client.py
+: 1534901841:0;python tcp_server.py
+: 1534901843:0;python tcp_client.py
+: 1534902040:0;python tcp_server.py
+: 1534902046:0;python tcp_client.py
+: 1534902126:0;python tcp_server.py
+: 1534902129:0;python tcp_client.py
+: 1534902188:0;python tcp_server.py
+: 1534902190:0;python tcp_client.py
+: 1534902353:0;python tcp_server.py
+: 1534902355:0;python tcp_client.py
+: 1534902667:0;python tcp_server.py
+: 1534902670:0;python tcp_client.py
+: 1534902694:0;python tcp_server.py
+: 1534902695:0;python tcp_client.py
+: 1534902828:0;python tcp_server.py
+: 1534902830:0;python tcp_client.py
+: 1534902900:0;python tcp_server.py
+: 1534902905:0;python tcp_client.py
+: 1534903226:0;python
+: 1534903256:0;python tcp_client.py
+: 1534903527:0;python tcp_server.py
+: 1534903530:0;python tcp_client.py
+: 1534903919:0;python tcp_server.py
+: 1534903921:0;python tcp_client.py
+: 1534903957:0;python tcp_server.py
+: 1534903959:0;python tcp_client.py
+: 1534904596:0;ls
+: 1534904614:0;rm tcp_client.pyc
+: 1534904621:0;rm tcp_server.pyc
+: 1534904623:0;ls
+: 1534912251:0;vim tcp_server.py
+: 1534912268:0;python tcp_server.py
+: 1534912346:0;python tcp_client.py
+: 1534962711:0;python
+: 1534962761:0;
+: 1534966617:0;vim tcp_server.py
+: 1534966895:0;which python
+: 1534966937:0;vim tcp_server.py
+: 1534970533:0;cd ..
+: 1534970534:0;ls
+: 1534970539:0;git clone ssh://git@stash:7999/telepathyx/source.git
+: 1534970550:0;ls
+: 1534970717:0;mv source/ tpx-source
+: 1534970719:0;ls
+: 1534970733:0;cd tpx-source
+: 1534970735:0;ls
+: 1534970743:0;ranger
+: 1534970772:0;la
+: 1534970801:0;vim .gitignore
+: 1534970816:0;ls
+: 1534970948:0;git checkout -b tcp-test && git push -u origin tcp-test
+: 1534970951:0;ls
+: 1534970952:0;git st
+: 1534970956:0;git add .
+: 1534970966:0;git ci "init commit"
+: 1534970967:0;git push
+: 1534971462:0;ls
+: 1534971463:0;cd
+: 1534971464:0;l
+: 1534971468:0;cd gitRepos
+: 1534971468:0;ls
+: 1534971470:0;cd todo-list
+: 1534971471:0;ls
+: 1534971477:0;vim todo.md
+: 1534976531:0;pip list
+: 1534976543:0;pip install pandas
+: 1534976855:0;cd ..
+: 1534976856:0;ls
+: 1534977005:0;cd tpx-source
+: 1534977006:0;ls
+: 1534977028:0;vim parse_configs.py
+: 1534977066:0;ranger
+: 1534977228:0;virtualenv tpx-env
+: 1534977352:0;pip install -i https://cheeseshop.corp.spacex.com/spacex/prod/+simple/ devpi-client\
+devpi use --set-cfg https://cheeseshop.corp.spacex.com/spacex/prod
+: 1534977375:0;pip list
+: 1534977388:0;virtualenv tpx-env
+: 1534977397:0;ls
+: 1534977402:0;cd tpx-env
+: 1534977403:0;ls
+: 1534977411:0;cd bin
+: 1534977411:0;ls
+: 1534977420:0;activate
+: 1534977433:0;source activate
+: 1534977441:0;cd ~/gitRepos/tpx-source
+: 1534977441:0;ls
+: 1534977444:0;pip list
+: 1534977448:0;pip install pandas
+: 1534977457:0;pip install xlrd
+: 1534977510:0;pip install xlwt xlsxwriter openpyxl
+: 1534977515:0;pip list
+: 1534977521:0;ls
+: 1534977550:0;source tpx-env/bin/activate
+: 1534977554:0;vim parse_configs.py
+: 1534978224:0;pip freeze > requirements.txt
+: 1534978226:0;ls
+: 1534978229:0;cat requirements.txt
+: 1534982784:0;ls
+: 1534982836:0;cd
+: 1534982857:0;git clone ssh://git@stash:7999/telepathyx/source.git
+: 1534982862:0;ls
+: 1534982874:0;cd source
+: 1534982874:0;ls
+: 1534982948:0;git branch
+: 1534982961:0;git status
+: 1534985423:0;ls
+: 1534985427:0;cd ..
+: 1534985428:0;ls
+: 1534985435:0;rm -rf source
+: 1534985436:0;ls
+: 1534985520:0;ranger
+: 1534985568:0;ls
+: 1534985579:0;git st
+: 1534985639:0;ls
+: 1534985689:0;git status
+: 1534985763:0;git add tpx-env/ requirements.txt
+: 1534985767:0;git st
+: 1534985811:0;git commit 
+: 1534985852:0;git commit -m "added virutalenv for development"
+: 1534985857:0;git st
+: 1534985884:0;git log -branch
+: 1534985886:0;git log
+: 1534985891:0;git st
+: 1534985898:0;git push
+: 1534985912:0;git st
+: 1534985948:0;ls
+: 1534986038:0;vim requirements.txt
+: 1534986067:0;git checkout requirements.txt
+: 1534986070:0;vim requirements.txt
+: 1534986101:0;git pull
+: 1534986112:0;git st
+: 1534986249:0;git checkout requirements.txt
+: 1534986253:0;git st
+: 1534986262:0;vim requirements.txt
+: 1534986266:0;ls
+: 1534986288:0;ranger
+: 1534986302:0;ls
+: 1534986303:0;cd ..
+: 1534986303:0;ls
+: 1534986307:0;cd tpx-source
+: 1534986307:0;ls
+: 1534986482:0;git log --graph
+: 1534986555:0;cmd
+: 1534986780:0;ls
+: 1534986858:0;git checkout -b configurator && git push -u origin configurator
+: 1534986873:0;ls
+: 1534986905:0;git st
+: 1534986933:0;ls
+: 1534986957:0;git st
+: 1534986976:0;git rm tpx-env/ requirements.txt tcp_client.py tcp_server.py
+: 1534986979:0;ls
+: 1534986980:0;git st
+: 1534987005:0;git rm -r tpx-env/ requirements.txt tcp_client.py tcp_server.py
+: 1534987007:0;ls
+: 1534987009:0;git st
+: 1534987015:0;ls
+: 1534987040:0;git rm -r tpx-env/
+: 1534987044:0;rm -r tpx-env/
+: 1534987052:0;rm -rf tpx-env
+: 1534987053:0;ls
+: 1534987066:0;git st
+: 1534987105:0;git add Telepathyx\ configs.xlsx parse_configs.py
+: 1534987109:0;git st
+: 1534987125:0;git status
+: 1534987177:0;git commit -m "initial commit examples of excel data manipulations"
+: 1534987198:0;git push
+: 1534987245:0;ls
+: 1534987248:0;vim README.md
+: 1534987265:0;git add .
+: 1534987269:0;git ci "readme update"
+: 1534987270:0;git push
+: 1535043475:0;ls
+: 1535043478:0;cd ..
+: 1535043478:0;ls
+: 1535043482:0;cd tpx-source
+: 1535043487:0;git branch
+: 1535043542:0;git branch -a
+: 1535043555:0;git checkout tcp-test
+: 1535043558:0;ls
+: 1535043628:0;git log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+: 1535043643:0;git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+: 1535047121:0;cd
+: 1535047121:0;ls
+: 1535047131:0;cd vimwiki
+: 1535047131:0;ls
+: 1535047135:0;cd ..
+: 1535047135:0;ls
+: 1535047139:0;cd gitRepos
+: 1535047139:0;ls
+: 1535047141:0;cd todo-list
+: 1535047143:0;vim todo.md
+: 1535063638:0;sudo apt-get install sqlite3
+: 1535063661:0;ls
+: 1535063669:0;mkdir sql_test
+: 1535063671:0;cd sql_test
+: 1535063671:0;ls
+: 1535063680:0;vim ex1.sql
+: 1535063746:0;sqlite3 ex1.db < ex1.sql
+: 1535063748:0;ls
+: 1535063767:0;sqlite3 ex1.db
+: 1535063913:0;ls
+: 1535063926:0;sqlite3 ex1.db
+: 1535063940:0;vim ex1.
+: 1535063945:0;vim ex1.sql
+: 1535064305:0;sqlite3 ex1.db < ex1.sql
+: 1535064344:0;sqlite3 ex1.db
+: 1535064394:0;sqlite3 ex1.db < ex2.sql
+: 1535064458:0;sqlite3 ex3.db < ex1.sql
+: 1535064468:0;sqlite3 ex3.db
+: 1535064491:0;mv ex2.sql ex3.sql
+: 1535064494:0;ls
+: 1535064518:0;sqlite3 ex3.db < ex3.sql
+: 1535064547:0;sqlite3 -echo ex3.db
+: 1535064634:0;vim ex4.sql
+: 1535064693:0;sqlite3 -echo ex3.db < ex4.sql
+: 1535064821:0;sqlite3 -echo ex3.db < ex5.sql
+: 1535066571:0;l
+: 1535066607:0;sqlite3 ex6.db < ex2.sql
+: 1535066635:0;mv ex1.sql ex2.sq
+: 1535066647:0;mv ex2.sq ex2.sql
+: 1535066648:0;l
+: 1535066660:0;sqlite3 ex6.db < ex2.sql
+: 1535066667:0;sqlite3 ex6.db < ex3.sql
+: 1535066671:0;sqlite3 ex6.db < ex4.sql
+: 1535066680:0;sqlite3 ex6.db < ex6.sql
+: 1535066699:0;sqlite3 -column -header ex6.db < ex6.sql
+: 1535066776:0;sqlite3 -column ex6.db < ex6.sql
+: 1535066790:0;sqlite3 -header ex6.db < ex6.sql
+: 1535066794:0;sqlite3 -column -header ex6.db < ex6.sql
+: 1535067262:0;sqlite3 ex7.db < ex2.sql
+: 1535067267:0;sqlite3 ex7.db < ex3.sql
+: 1535067270:0;sqlite3 ex7.db < ex4.sql
+: 1535067280:0;sqlite3 -echo ex7.db < ex7.sql
+: 1535067417:0;rm ex7.db
+: 1535067430:0;sqlite3 -echo ex7.db < ex7.sql
+: 1535068431:0;vim ex7.sql
+: 1535068614:0;ls
+: 1535068623:0;vim ex7.sql
+: 1535068651:0;cp ex7.sql code.sql
+: 1535068652:0;ls
+: 1535068662:0;vim ex8.sql
+: 1535068676:0;sqlite3 mydata.db < code.sql
+: 1535068701:0;sqlite3 -header -column -echo mydata.db < ex8.sql
+: 1535133556:0;cd ..
+: 1535133556:0;ls
+: 1535133565:0;vim todo-list/todo.md
+: 1535136158:0;cd tpx-source
+: 1535136158:0;ls
+: 1535136163:0;vim tcp_server.py
+: 1535141118:0;rm .tcp_server.py.sw
+: 1535141120:0;ls
+: 1535141123:0;la
+: 1535141130:0;rm .tcp_server.py.swo
+: 1535141134:0;rm .tcp_server.py.swp
+: 1535141144:0;rm .tcp_client.py.swp
+: 1535141151:0;rm .tcp_client.py.swo
+: 1535141159:0;ls
+: 1535142368:0;cd ..
+: 1535142373:0;cd todo-list
+: 1535142373:0;vim todo.md
+: 1535143250:0;vim tcp_server.py
+: 1535143349:0;ls
+: 1535143369:0;cp tcp_server.py tpx-core.py
+: 1535143425:0;cp tcp_server.py tpx-base-station.py
+: 1535143438:0;ls
+: 1535143444:0;vim tpx-core.py
+: 1535146973:0;sudo apt-get install sublime-text
+: 1535147006:0;wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+: 1535147199:0;vim tpx-core.py
+: 1535147270:0;l
+: 1535147281:0;mkdir archive/
+: 1535147293:0;mv tcp_client.py archive/tcp_client.py
+: 1535147299:0;mv tcp_server.py archive/tcp_server.py
+: 1535147300:0;ls
+: 1535147301:0;l
+: 1535147330:0;cp tpx-core.py tpx_core_server.py
+: 1535147331:0;ls
+: 1535147351:0;mv tpx-core.py tpx_core.py
+: 1535147354:0;l
+: 1535147366:0;vim tpx-base-station.py
+: 1535147659:0;ls
+: 1535147667:0;ranger
+: 1535147675:0;ls
+: 1535147678:0;cd
+: 1535147679:0;cd dotfiles
+: 1535147680:0;ls
+: 1535147689:0;cd ..
+: 1535147691:0;cd tc
+: 1535147692:0;ls
+: 1535147701:0;cd gitRepos/tpx-source
+: 1535147702:0;ls
+: 1535147713:0;ranger
+: 1535148065:0;python tpx_core_server.py
+: 1535148076:0;python tpx_core_client.py
+: 1535148085:0;vim tpx_core_client.py
+: 1535148092:0;python tpx_core_client.py
+: 1535148124:0;vim tpx_core_client.py
+: 1535148434:0;python tpx_core_server.py
+: 1535148441:0;python tpx_core_client.py
+: 1535148614:0;python tpx_core_server.py
+: 1535148618:0;python tpx_core_client.py
+: 1535148837:0;python tpx_core_server.py
+: 1535148839:0;python tpx_core_client.py
+: 1535148861:0;vim tpx_core_client.py
+: 1535148910:0;python tpx_core_client.py
+: 1535148957:0;python tpx_core_server.py
+: 1535148959:0;python tpx_core_client.py
+: 1535148968:0;vim tpx_core_client.py
+: 1535149053:0;python tpx_core_server.py
+: 1535149059:0;python tpx_core_client.py
+: 1535149079:0;python tpx_core_server.py
+: 1535149081:0;python tpx_core_client.py
+: 1535149132:0;python tpx_core_server.py
+: 1535149134:0;python tpx_core_client.py
+: 1535149742:0;python tpx_core_server.py
+: 1535149744:0;python tpx_core_client.py
+: 1535150324:0;python tpx_core_server.py
+: 1535150326:0;python tpx_core_client.py
+: 1535150398:0;python tpx_core_server.py
+: 1535150401:0;python tpx_core_client.py
+: 1535150700:0;python tpx_core_server.py
+: 1535150702:0;python tpx_core_client.py
+: 1535154556:0;ls
+: 1535154557:0;git st
+: 1535154570:0;rm tpx-base-station.py
+: 1535154604:0;git add .
+: 1535154624:0;git ci "split up tpx_core into server and client"
+: 1535154627:0;git push
+: 1535154632:0;ls
+: 1535154840:0;ranger
+: 1535154880:0;git clone ssh://git@stash:7999/fswtest/autotest.git
+: 1535154963:0;cd autotest
+: 1535154963:0;ls
+: 1535154972:0;cd hardware
+: 1535154973:0;ls
+: 1535154975:0;cd ..
+: 1535154992:0;cd hardware/xbee_radio
+: 1535154993:0;ls
+: 1535156653:0;cd ~/gitRepos/tpx-source
+: 1535156656:0;ls
+: 1535156665:0;vim tpx_core_server.py
+: 1535157443:0;ssh ht-telepathyx-a1
+: 1535157474:0;ssh ht-telepathx-a1
+: 1535158089:0;ls
+: 1535158102:0;vim tpx_core_server.py
+: 1535158128:0;git st
+: 1535158129:0;git diff
+: 1535158133:0;git stash
+: 1535158139:0;git bran -a
+: 1535158142:0;git br -a
+: 1535158158:0;git co feature/base
+: 1535158159:0;ls
+: 1535158162:0;cd base
+: 1535158163:0;ls
+: 1535158169:0;vim tlpx_base.py
+: 1535158392:0;git co tcp-test
+: 1535158394:0;ls
+: 1535158404:0;git stash -list
+: 1535158406:0;git st
+: 1535158414:0;ls
+: 1535158416:0;cd ..
+: 1535158421:0;git stash -list
+: 1535158427:0;git stash list
+: 1535158432:0;git stash show
+: 1535158437:0;git stash apply
+: 1535158444:0;ls
+: 1535160635:0;vim tpx_core_server.py
+: 1535160723:0;git mv tpx_core_server.py base_server.py
+: 1535160724:0;ls
+: 1535160736:0;vim tpx_core_client.py
+: 1535160908:0;ls
+: 1535160918:0;git st
+: 1535160930:0;git mv base_server.py tpx_base_server.py
+: 1535160931:0;ls
+: 1535160932:0;git st
+: 1535160944:0;vim tpx_core_client.py
+: 1535161100:0;ls
+: 1535161103:0;la
+: 1535161108:0;vim tpx_core_client.py
+: 1535389404:0;ls
+: 1535389408:0;git st
+: 1535389426:0;vim tpx_core
+: 1535389432:0;vim tpx_core_client.py
+: 1535393454:0;ls
+: 1535393455:0;cd
+: 1535393456:0;ls
+: 1535393461:0;cd gitRepos
+: 1535393461:0;ls
+: 1535393472:0;cdaut
+: 1535393474:0;cd autotest
+: 1535393475:0;ls
+: 1535393540:0;git co feature/AUTOTEST-2571-Telepathyx-sx_hardware-driver
+: 1535393573:0;git checkout feature/AUTOTEST-2571-Telepathyx-sx_hardware-driver
+: 1535393592:0;git checkout feature/AUTOTEST-2571-TelepathyX-sx_hardware-driver
+: 1535393641:0;git br -m tpx-driver
+: 1535393672:0;ls
+: 1535393680:0;cd hardware
+: 1535393683:0;cd telepathyx
+: 1535393684:0;ls
+: 1535393704:0;cd sx_hardware_telepathyx
+: 1535393705:0;ls
+: 1535393711:0;ranger
+: 1535399657:0;ls
+: 1535399673:0;ranger
+: 1535400036:0;ls
+: 1535400063:0;python make.py test hardware/telepathyx
+: 1535400242:0;prism
+: 1535400325:0;sudo apt-get install prism
+: 1535400582:0;python sx_hardware_telepathyx --node_name MyDriver --tlm_port 10018 --cmd_port 9001
+: 1535401093:0;vim /home/dtan/gitRepos/autotest/logs/failed/hardware-telepathyx.log
+: 1535401205:0;ls
+: 1535401210:0;ls make
+: 1535401217:0;ls make*
+: 1535401224:0;la .git*
+: 1535401230:0;vim .gitignore
+: 1535401270:0;virtualenv venv
+: 1535401293:0;source venv/bin/activate
+: 1535401299:0;pip install pylint
+: 1535401308:0;pip list
+: 1535401316:0;pip install upgrade pip
+: 1535401325:0;pip upgrade pip
+: 1535401329:0;pip install update pip
+: 1535401340:0;sudo apt-get install pylint
+: 1535401385:0;python make.py test hardware/telepathyx
+: 1535401632:0;pylint
+: 1535401874:0;python make.py develop hardware/telepathyx
+: 1535402052:0;sx_hardware_telepathyx
+: 1535402062:0;pip install update pip
+: 1535402069:0;pip install --upgrade pip
+: 1535402080:0;pip install serial
+: 1535402092:0;sx_hardware_telepathyx
+: 1535402097:0;pip install xbee
+: 1535402102:0;sx_hardware_telepathyx
+: 1535402344:0;sudo apt-get install i3-wm
+: 1535402403:0;i3-wm
+: 1535402407:0;i3
+: 1535402482:0;cd
+: 1535402482:0;ls
+: 1535402483:0;cd dotfiles
+: 1535402484:0;ls
+: 1535402489:0;cd i3
+: 1535402489:0;ls
+: 1535402539:0;cd
+: 1535402540:0;la
+: 1535402579:0;cd .config
+: 1535402579:0;ls
+: 1535402581:0;cd i3
+: 1535402581:0;ls
+: 1535402585:0;cd co
+: 1535402587:0;vim config
+: 1535402694:0;stow -t ~/.config/i3 i3
+: 1535402696:0;cd ..
+: 1535402698:0;stow -t ~/.config/i3 i3
+: 1535402705:0;ls
+: 1535402716:0;mv config _old_config
+: 1535402719:0;stow -t ~/.config/i3 i3
+: 1535402721:0;ls
+: 1535402739:0;vim config
+: 1535402785:0;ls
+: 1535402802:0;cd i3
+: 1535402803:0;ls
+: 1535402805:0;vim config
+: 1535402899:0;cd i3
+: 1535402901:0;vim config
+: 1535402932:0;cd ..
+: 1535402932:0;ls
+: 1535402935:0;cd
+: 1535402941:0;cd .config/i3
+: 1535402942:0;ls
+: 1535402952:0;mv config __gitconfig
+: 1535402958:0;mv _old_config config
+: 1535402959:0;vim config
+: 1535403003:0;\
+
+: 1535403008:0;vim config
+: 1535403080:0;sudo reboot now
+: 1535403112:0;cd ..
+: 1535403112:0;ls
+: 1535403113:0;cd
+: 1535403115:0;cd gitRepos
+: 1535403115:0;ls
+: 1535403121:0;cd autotest
+: 1535403121:0;ls
+: 1535403154:0;cd ..
+: 1535403155:0;ls
+: 1535403157:0;cd tpx-source
+: 1535403158:0;ls
+: 1535403172:0;vim tpx-todo.md
+: 1535403468:0;cd hardware/telepathyx
+: 1535403469:0;ls
+: 1535403479:0;cd sx_hardware_telepathyx
+: 1535403480:0;ls
+: 1535403486:0;ranger
+: 1535406085:0;ls
+: 1535406087:0;la
+: 1535406090:0;cd .vim
+: 1535406090:0;ls
+: 1535406093:0;cd vimrc
+: 1535406093:0;ls
+: 1535406096:0;cd ..
+: 1535406104:0;vim .vimrc
+: 1535406106:0;la
+: 1535406107:0;cd ..
+: 1535406107:0;la
+: 1535406110:0;vim .vimrc
+: 1535406125:0;ls
+: 1535406128:0;cd .vim
+: 1535406129:0;ls
+: 1535406131:0;cd vimrc
+: 1535406131:0;ls
+: 1535406135:0;cd plugins.vim
+: 1535406140:0;vim plugins.vim
+: 1535406161:0;cd
+: 1535406161:0;ls
+: 1535406163:0;la
+: 1535406677:0;cd .config/i3
+: 1535406678:0;vim config
+: 1535406769:0;vim tpx-todo.md
+: 1535406785:0;cd
+: 1535406800:0;cd gitRepos/autotest/hardware/tele
+: 1535406803:0;cd gitRepos/autotest/hardware/telepathyx
+: 1535406831:0;ls
+: 1535406836:0;cd sx_hardware_telepathyx
+: 1535406836:0;ls
+: 1535406848:0;git log
+: 1535406877:0;git pull
+: 1535406900:0;ls
+: 1535406906:0;git st
+: 1535406921:0;git rm receiver.py
+: 1535406926:0;git rm scapy_client.py
+: 1535406931:0;git rm interface_xbee.py
+: 1535406932:0;ls
+: 1535406946:0;git st
+: 1535406953:0;cd ..
+: 1535406954:0;ls
+: 1535406956:0;cd tests
+: 1535406957:0;ls
+: 1535406974:0;mv test_telepathyx_component.py telepathyx_component.py
+: 1535406975:0;git st
+: 1535406977:0;ls
+: 1535406990:0;git mv telepathyx_component.py test_telepathyx_component.py
+: 1535406991:0;ls
+: 1535406993:0;git st
+: 1535406997:0;git log
+: 1535407024:0;git commit
+: 1535407049:0;cd
+: 1535407052:0;cd gitRepos/autotest
+: 1535407055:0;git log
+: 1535407103:0;git push
+: 1535407391:0;cat .git/HEAD
+: 1535407442:0;git push origin HEAD:feature/AUTOTEST-2571-TelepathyX-sx_hardware-driver
+: 1535407738:0;ls
+: 1535407741:0;cd ..
+: 1535407741:0;ls
+: 1535407746:0;cd sx_hardware_telepathyx
+: 1535407746:0;ls
+: 1535407783:0;ranger
+: 1535407828:0;ls
+: 1535407829:0;cd ..
+: 1535407830:0;ls
+: 1535407831:0;cd ..
+: 1535407833:0;ls
+: 1535407853:0;python make.py test hardware/telepathyx
+: 1535407864:0;ls
+: 1535408264:0;ssh ht-telepathx-a1
+: 1535408680:0;ls
+: 1535409247:0;cd
+: 1535409247:0;ls
+: 1535409251:0;cd dotfiles
+: 1535409252:0;ls
+: 1535409253:0;cd vim
+: 1535409255:0;cd pl
+: 1535409256:0;ls
+: 1535409262:0;cd .vim/plugged
+: 1535409264:0;cd youcompleteme
+: 1535409264:0;ls
+: 1535409278:0;sudo apt-get install build-essential cmake
+: 1535409388:0;ls
+: 1535409391:0;python install.py
+: 1535410022:0;ls
+: 1535410024:0;cd
+: 1535410024:0;ls
+: 1535410026:0;cd gitRepos
+: 1535410027:0;ls
+: 1535410092:0;cd autotest
+: 1535410092:0;ls
+: 1535410096:0;cd hardware
+: 1535410097:0;ls
+: 1535410125:0;cd tele
+: 1535410126:0;ls
+: 1535410127:0;cd tels
+: 1535410129:0;cd telepathyx
+: 1535410131:0;ls
+: 1535410143:0;cd sx_hardware_telepathyx
+: 1535410144:0;ls
+: 1535410148:0;ranger
+: 1535410367:0;python make.py test hardware/telepathyx
+: 1535410374:0;cd ~/gitRepos/autotest
+: 1535410376:0;python make.py test hardware/telepathyx
+: 1535410600:0;ls
+: 1535410615:0;cd hardware/telepathyx/sx_hardware_telepathyx
+: 1535410616:0;ls
+: 1535410634:0;vim telepathyx_component.py
+: 1535410721:0;python make.py test hardware/telepathyx
+: 1535411255:0;vim telepathyx_component.py
+: 1535411308:0;python make.py test hardware/telepathyx
+: 1535411708:0;sudo pip install --upgrade pip
+: 1535411741:0;sudo -H pip install --upgrade pip
+: 1535411932:0;python sx_hardware_telepathyx --node_name MyDriver --tlm_port 10018 --cmd_port 9001
+: 1535411960:0;python make.py develop hardware/telepathyx
+: 1535412023:0;source venv/bin/activate
+: 1535412026:0;python make.py develop hardware/telepathyx
+: 1535412070:0;python make.py install
+: 1535414092:0;ranger
+: 1535421507:0;git st
+: 1535421517:0;vim tpx_base_server.py
+: 1535421529:0;git diff tpx_base_server.py
+: 1535421541:0;git add .
+: 1535421577:0;git ci "split core file"
+: 1535421579:0;git push
+: 1535421593:0;ls
+: 1535421595:0;git st
+: 1535421601:0;git diff telepathyx_component.py
+: 1535478308:0;ls
+: 1535478322:0;git st
+: 1535478326:0;git diff telepathyx_component.py
+: 1535478339:0;vim telepathyx_component.py
+: 1535478373:0;git add telepathyx_component.py
+: 1535478397:0;git ci "channel formatting"
+: 1535478399:0;git push
+: 1535478416:0;git push origin HEAD:feature/AUTOTEST-2571-TelepathyX-sx_hardware-driver
+: 1535478478:0;git commit --amend
+: 1535478497:0;git push
+: 1535478504:0;git push origin HEAD:feature/AUTOTEST-2571-TelepathyX-sx_hardware-driver
+: 1535478538:0;ls
+: 1535478540:0;cd
+: 1535478542:0;cd dotfiles
+: 1535478543:0;cd git
+: 1535478544:0;ls
+: 1535478544:0;cd
+: 1535478547:0;vim .gitconfig
+: 1535478589:0;ls
+: 1535478603:0;vim .gitconfig
+: 1535478758:0;ls
+: 1535478765:0;vim tpx_core_client.py
+: 1535478916:0;python tpx_core_client.py
+: 1535478975:0;vim tpx_core_client.py
+: 1535478982:0;python tpx_core_client.py
+: 1535479030:0;ssh 10.33.233.65
+: 1535479038:0;ping 10.33.233.65
+: 1535479049:0;ssh root@10.33.233.65
+: 1535479070:0;ssh root@telepathyx-connectport01
+: 1535479655:0;telnet 10.33.233.65 5005
+: 1535479726:0;python tpx_core_client.py
+: 1535479753:0;vim tpx_core_client.py
+: 1535479802:0;python tpx_core_client.py
+: 1535479913:0;vim tpx_core_client.py
+: 1535479935:0;python tpx_core_client.py
+: 1535480111:0;vim tpx_core_client.py
+: 1535480140:0;python tpx_core_client.py
+: 1535480163:0;vim tpx_core_client.py
+: 1535480205:0;cd
+: 1535480205:0;ls
+: 1535480208:0;cd gitRepos
+: 1535480208:0;ls
+: 1535480212:0;cd tpx-source
+: 1535480212:0;ls
+: 1535480216:0;python tpx_core_client.py
+: 1535485227:0;python tpx_core_client.py]
+: 1535485241:0;python tpx_core_client.py
+: 1535491247:0;git st
+: 1535491252:0;l
+: 1535491258:0;rm '
+: 1535491262:0;ranger
+: 1535491283:0;ls
+: 1535491284:0;git st
+: 1535491287:0;git add .
+: 1535491297:0;git ci "communicating with xbee base station"
+: 1535491298:0;git push
+: 1535491303:0;ls
+: 1535491328:0;cd ..
+: 1535491328:0;ls
+: 1535491336:0;cd autotest/hardware/telepathyx
+: 1535491336:0;ls
+: 1535491340:0;cd sx_hardware_telepathyx
+: 1535491341:0;ls
+: 1535504215:0;vim telepathyx_component.py
+: 1535589210:0;ls
+: 1535589225:0;grep -r measure
+: 1535589237:0;cd ..
+: 1535589238:0;ls
+: 1535589247:0;grep -r measure
+: 1535589271:0;ls
+: 1535589273:0;cd examples
+: 1535589273:0;ls
+: 1535589279:0;vim telepathyx_client_example.py
+: 1535591950:0;cd sx_ha
+: 1535591959:0;cd ..
+: 1535591963:0;cd sx_hardware_telepathyx
+: 1535591966:0;vim telepathyx
+: 1535591974:0;vim telepathyx.py
+: 1535608098:0;cd
+: 1535608104:0;cd gitRepos/tpx-source
+: 1535608104:0;ls
+: 1535608184:0;cd ..
+: 1535608184:0;ls
+: 1535608201:0;git clone git@github.com:Tanbourine/clock_squared.git
+: 1535608204:0;cd clock_squared
+: 1535608205:0;ls
+: 1535608214:0;python3 main.py
+: 1535610350:0;cd ..
+: 1535610350:0;ls
+: 1535610357:0;rm 'Telepathyx configs.xlsx'
+: 1535610412:0;ls
+: 1535610422:0;cd autotest
+: 1535610425:0;cd hardware
+: 1535610429:0;cd tele
+: 1535610431:0;cd telepathyx
+: 1535610432:0;ls
+: 1535610438:0;cd sx_hardware_telepathyx
+: 1535610439:0;ls
+: 1535610447:0;vim telepathyx.py
+: 1535610453:0;vim telepathyx_component.py
+: 1535610568:0;cd ..
+: 1535610570:0;ls
+: 1535610582:0;cd sorensen_psu
+: 1535610583:0;ls
+: 1535610587:0;cd sx_hardware_sorensen_psu
+: 1535610588:0;ls
+: 1535610598:0;vim sorensen_scpi.py
+: 1535610666:0;vim sorensen_xpf.py
+: 1535610686:0;vim client.py
+: 1535648828:0;ls
+: 1535648834:0;cd ..
+: 1535648834:0;ls
+: 1535648836:0;cd ..
+: 1535648838:0;sl
+: 1535648839:0;ls
+: 1535648850:0;cd loads_checkout_box
+: 1535648851:0;ls
+: 1535648853:0;cd sx_hardware_loads_checkout_box
+: 1535648854:0;ls
+: 1535648857:0;vim driver.py
+: 1535649212:0;cd ..
+: 1535649212:0;ls
+: 1535649216:0;cd sx_hardware_loads_checkout_box
+: 1535649218:0;vim __main__.py
+: 1535649225:0;cd ..
+: 1535649226:0;ls
+: 1535649234:0;cd ..
+: 1535649235:0;ls
+: 1535649238:0;cd fluke_7526a
+: 1535649239:0;ls
+: 1535649242:0;cd sx_hardware_fluke_7526a
+: 1535649243:0;ls
+: 1535649251:0;vim fluke_7526a.py
+: 1535649302:0;vim fluke_7526a_co
+: 1535649306:0;vim fluke_7526a_component.py
+: 1535651121:0;cd ..
+: 1535651122:0;ls
+: 1535651125:0;cd sx_template
+: 1535651125:0;ls
+: 1535651127:0;cd examples
+: 1535651127:0;ls
+: 1535651131:0;vim sx_template_client_example.py
+: 1535651254:0;ls
+: 1535651256:0;cd ..
+: 1535651256:0;ls
+: 1535651259:0;cd sx_hardware_sx_template
+: 1535651259:0;ls
+: 1535651265:0;vim sx_template.py
+: 1535651328:0;vim sx_template_component.py
+: 1535652767:0;cd ..
+: 1535652767:0;ls
+: 1535652769:0;cd examples
+: 1535652769:0;ls
+: 1535652772:0;vim sx_template_client_example.py
+: 1535653605:0;ls
+: 1535653607:0;cd
+: 1535653607:0;ls
+: 1535653611:0;cd gitRepos
+: 1535653611:0;ls
+: 1535653723:0;vim tpx-notes.md
+: 1535660806:0;sudo apt-get install pandoc
+: 1535660836:0;ls
+: 1535660880:0;pandoc tpx-notes.md --pdf-engine=xelatex -o tpx-notes.pdf
+: 1535660937:0;sudo apt-get install pdflatex
+: 1535660958:0;pandoc tpx-notes.md -o tpx-notes.pdf
+: 1535661057:0;sudo apt-get install texlive-full
+: 1535661374:0;sudo apt-get install latex
+: 1535661732:0;\
+df
+: 1535664667:0;ls
+: 1535664673:0;vim tpx-notes.md
+: 1535672188:0;ls
+: 1535672582:0;cd autotest
+: 1535672583:0;ls
+: 1535672604:0;git st
+: 1535672616:0;cd hardware/telepathyx
+: 1535672617:0;ls
+: 1535672620:0;cd sx_hardware_telepathyx
+: 1535672620:0;ls
+: 1535672630:0;vim telepathyx.py
+: 1535736198:0;ls
+: 1535736203:0;cd ..
+: 1535736204:0;ls
+: 1535736451:0;ranger
+: 1535736467:0;ls
+: 1535736470:0;cd sf_gitRepos
+: 1535736471:0;s
+: 1535736482:0;sudo cd sf_gitRepos
+: 1535736489:0;ls
+: 1535736574:0;cd
+: 1535736575:0;ls
+: 1535736578:0;cd Desktop
+: 1535736579:0;ls
+: 1535736589:0;tar xctu.tar.gz
+: 1535736615:0;man tar
+: 1535736641:0;tar -xvzf xctu.tar.gz
+: 1535754532:0;sudo vim /etc/gdm3/custom.conf
+: 1535754648:0;gparted
+: 1535754692:0;df -h
+: 1535754720:0;ls
+: 1535754739:0;rm -r XCTU-NG
+: 1535754749:0;rm -rf XCTU-NG
+: 1535754755:0;df -h
+: 1535754761:0;rm xctu.tar.gz
+: 1535754763:0;ls
+: 1535754765:0;df -h
+: 1535754770:0;ls
+: 1535754774:0;cd ..
+: 1535754774:0;ls
+: 1535754785:0;cd gitRepos
+: 1535754787:0;l
+: 1535754819:0;ls -lh
+: 1535758084:0;cd ..
+: 1535758088:0;ls -lh
+: 1535758624:0;sudo vim /etc/gdm3/custom.conf
+: 1535758641:0;sudo restart now
+: 1535758643:0;sudo reboot
+: 1535760070:0;df -k
+: 1535760268:0;sudo shutdown now
+: 1535761470:0;cd
+: 1535761470:0;ls
+: 1535761472:0;cd Desktop
+: 1535761473:0;ls
+: 1535761477:0;la
+: 1535761539:0;tar -xzf xctu.tar.gz
+: 1535761881:0;ls
+: 1535761883:0;cd ..
+: 1535761883:0;ls
+: 1535761901:0;ssh-keygen -p -f ~/.ssh/id_rsa
+: 1535761926:0;ls
+: 1535761935:0;df -h
+: 1535762007:0;cd Desktop
+: 1535762008:0;ls
+: 1535762012:0;cd XCTU-NG
+: 1535762013:0;ls
+: 1535762028:0;XCTUcmd
+: 1535762036:0;. XCTUcmd
+: 1535762043:0;./ XCTUcmd
+: 1535762063:0;sudo ./XCTUcmd
+: 1535762134:0;ls
+: 1535762168:0;sudo apt-get install i3status
+: 1535762227:0;nautilus
+: 1535762674:0;lsusb
+: 1535762746:0;sudo apt-get install input-utils
+: 1535762762:0;lsinput
+: 1535762766:0;sudo lsinput
+: 1535763327:0;sudo shutdown now
+: 1535763423:0;ls
+: 1535763430:0;./ app
+: 1535763432:0;./app
+: 1535763532:0;sudo ./app
+: 1536074889:0;lsusb
+: 1536074929:0;ls
+: 1536074932:0;cd
+: 1536074934:0;cd ..
+: 1536074934:0;ls
+: 1536074936:0;cd ..
+: 1536074936:0;ls
+: 1536074941:0;cd media
+: 1536074941:0;ls
+: 1536074944:0;cd sf_gitRepos
+: 1536074954:0;sudo cd sf_gitRepos
+: 1536075014:0;sudo mount sf_gitRepos 
+: 1536075049:0;sudo mount sf_gitRepos git_repos
+: 1536075156:0;sudo mount -t vboxsf sf_gitRepos ~/sf_gitRepos
+: 1536075268:0;sudo mount -t vboxsf -o uid=$UID,gid=$ (id -g) sf_gitRepos ~/host
+: 1536075308:0;sudo mount -t vboxsf -o uid=$UID,gid=$(id -g) sf_gitRepos ~/host
+: 1536075451:0;sudo usermod -aG vboxsf dtan
+: 1536075458:0;sudo reboot now
+: 1536075496:0;ls
+: 1536075503:0;cd sf_gitRepos
+: 1536075504:0;ls
+: 1536075507:0;ranger
+: 1536075565:0;virtualenv venv
+: 1536075570:0;ls
+: 1536075578:0;source venv/bin/activate
+: 1536075581:0;pip list
+: 1536075590:0;pip install serial
+: 1536075598:0;pip install xbee
+: 1536075603:0;python echoAnalyzer_multithreaded.py
+: 1536075610:0;lsusb
+: 1536075683:0;usb-devices
+: 1536075863:0;cd /dev
+: 1536075864:0;ls
+: 1536075914:0;cd ttyUSB0
+: 1536075923:0;l ttyUSB0
+: 1536076105:0;lsusb -t
+: 1536076224:0;ls
+: 1536076319:0;ls ttyUS
+: 1536076325:0;fomd ttyISB
+: 1536076331:0;find tty USB
+: 1536076334:0;find ttyUSB
+: 1536076338:0;find ttyUSB0
+: 1536076345:0;cd ..
+: 1536076346:0;ls
+: 1536076347:0;cd dev
+: 1536076348:0;ls
+: 1536076353:0;lsusb
+: 1536076368:0;ls
+: 1536076794:0;lsusb
+: 1536076807:0;lsusb -t
+: 1536076824:0;cd
+: 1536076825:0;ls
+: 1536076827:0;cd gitRepos
+: 1536076828:0;ls
+: 1536076830:0;vim echoAnalyzer_multithreaded.py
+: 1536076869:0;lsusb
+: 1536077024:0;sudo reboot now
+: 1536077100:0;lsusb
+: 1536077278:0;sudo usermod -a -G vboxusers dtan
+: 1536077312:0;sudo shutdown now
+: 1536181878:0;cd dot
+: 1536181879:0;ls
+: 1536181880:0;cd
+: 1536181881:0;cd dott
+: 1536181883:0;cd dotfiles
+: 1536181885:0;git st
+: 1536181887:0;git pull
+: 1536181902:0;sudo shutdown now
+: 1536182453:0;git diff
+: 1536182485:0;cd ..
+: 1536182486:0;ls
+: 1536182788:0;ssh pi@dtan-pi
+: 1536182801:0;ssh pi@blee-pi
+: 1536190511:0;lsusb
+: 1536190654:0;id -Gn dtan
+: 1536190671:0;sudo usermod -a -G dialout dtan
+: 1536190817:0;id -Gn dtan
+: 1536190884:0;cd /dev/tty
+: 1536190885:0;ls
+: 1536190886:0;cd /dev
+: 1536190887:0;ls
+: 1536190897:0;l ttyUSB0
+: 1536190985:0;sudo reboot now
+: 1536192090:0;ssh pi@blee-pi
+: 1536192101:0;cd
+: 1536192103:0;cd gitRepos
+: 1536192103:0;ls
+: 1536192130:0;git clone ssh://git@stash:7999/~dtan/xbee_test.git
+: 1536192136:0;ls
+: 1536192139:0;cd xbee_test
+: 1536192140:0;ls
+: 1536192143:0;lsusb
+: 1536192149:0;vim xbee_test.py
+: 1536192523:0;virtualenv venv
+: 1536192536:0;source venv/bin/activate
+: 1536192543:0;pip install -r requirements.txt
+: 1536192574:0;python xbee_test.py
+: 1536192582:0;vim xbee_test.py
+: 1536192599:0;ssh pi@dtan-pi
+: 1536193638:0;lsusb
+: 1536251798:0;ls
+: 1536252591:0;ssh pi@dtan-pi
+: 1536252631:0;ssh pi@blee-pi
+: 1536266487:0;ls
+: 1536266491:0;cd 
+: 1536266495:0;cd Desktop
+: 1536266495:0;ls
+: 1536266501:0;l
+: 1536266511:0;cd..
+: 1536266511:0;ls
+: 1536266513:0;cd ..
+: 1536266513:0;ls
+: 1536266516:0;cd arduino-1.8.6
+: 1536266516:0;ls
+: 1536266529:0;./install.sh
+: 1536266685:0;cd ..
+: 1536266686:0;ls
+: 1536266701:0;mkdir packages
+: 1536266703:0;cd packages
+: 1536266707:0;git clone https://github.com/wolfSSL/wolfssl.git
+: 1536266762:0;cd wolfssl
+: 1536266763:0;ls
+: 1536266767:0;cd IDE/ARDUINO
+: 1536266769:0;ls
+: 1536266776:0;./wolfssl-arduino.sh
+: 1536266887:0;ls
+: 1536266893:0;cd wolfSSL
+: 1536266894:0;ls
+: 1536266937:0;arduino
+: 1536267064:0;arduino --version
+: 1536267073:0;arduino
+: 1536267234:0;ls
+: 1536267248:0;cd wolfcrypt
+: 1536267249:0;ls
+: 1536267255:0;cd src
+: 1536267256:0;ls
+: 1536267286:0;cd ..
+: 1536267286:0;cd..
+: 1536267290:0;cd ..
+: 1536267291:0;ls
+: 1536267296:0;cd wolfssl
+: 1536267297:0;ls
+: 1536267301:0;cd wolfcrypt
+: 1536267302:0;ls
+: 1536267304:0;vim settings.h
+: 1536267410:0;cd ..
+: 1536267414:0;.
+: 1536267416:0;cd ..
+: 1536267424:0;./wolfssl-arduino.sh
+: 1536267439:0;vim wolfssl-arduino.sh
+: 1536267500:0;sudo ./wolfssl-arduino.sh
+: 1536267530:0;vim wolfssl-arduino.sh
+: 1536267583:0;ls
+: 1536267588:0;cd lib
+: 1536267591:0;cd librar
+: 1536267596:0;ls
+: 1536267602:0;cd ..
+: 1536267605:0;cd libraries
+: 1536267606:0;ls
+: 1536267623:0;cd
+: 1536267627:0;la
+: 1536267780:0;cd 
+: 1536267782:0;cd gitRepos/packages
+: 1536267783:0;ls
+: 1536267808:0;cp wolfssl ~/arduino-1.8.6/libraries/wolfssl
+: 1536267818:0;cp -r wolfssl ~/arduino-1.8.6/libraries/wolfssl
+: 1536267822:0;ls
+: 1536267827:0;cd wolfssl
+: 1536267829:0;ls
+: 1536267842:0;cd wolf
+: 1536267851:0;cd IDE/ARDUINO
+: 1536267852:0;ls
+: 1536267859:0;./wolfssl-arduino.sh
+: 1536267964:0;vim wolfssl-arduino.sh
+: 1536268001:0;cd ..
+: 1536268024:0;cd IDE/ARDUINO/wolfSSL/wolfcrypt
+: 1536268029:0;ls
+: 1536268030:0;cd ..
+: 1536268034:0;cd wolfssl
+: 1536268036:0;cd wolfcrypt
+: 1536268036:0;ls
+: 1536268039:0;vim settings.h
+: 1536268070:0;vim random.c
+: 1536268096:0;cd ~/arduino-1.8.6/libraries/wolfssl/IDE/ARDUINO
+: 1536268097:0;ls
+: 1536268102:0;./wolfssl-arduino.sh
+: 1536268119:0;vim wolfssl-arduino.sh
+: 1536268512:0;which bash
+: 1536268516:0;which sh
+: 1536268948:0;cd ..
+: 1536268948:0;ls
+: 1536268957:0;cd ~/arduino-1.8.6
+: 1536268958:0;ls
+: 1536268961:0;cd lib
+: 1536268963:0;cd ..
+: 1536268964:0;cd libraries
+: 1536268964:0;ls
+: 1536269255:0;rm -rf wolfssl
+: 1536269432:0;cd
+: 1536269434:0;ls
+: 1536269437:0;cd Arduino
+: 1536269437:0;ls
+: 1536269439:0;cd libraries
+: 1536269440:0;ls
+: 1536269446:0;cd wolfSSL
+: 1536269447:0;ls
+: 1536269451:0;cd wolfssl
+: 1536269454:0;cd wolfcrypt
+: 1536269455:0;vim settings.h
+: 1536269501:0;cd ..
+: 1536269502:0;ls
+: 1536269508:0;cd ..
+: 1536269511:0;find random.c
+: 1536269588:0;ls
+: 1536269599:0;vim random.c
+: 1536270110:0;ls
+: 1536270123:0;cd
+: 1536270123:0;ls
+: 1536270131:0;cd gitRepos/packages/wolfssl/IDE/ARDUINO
+: 1536270132:0;ls
+: 1536270137:0;./wolfssl-arduino.sh
+: 1536270159:0;chmod -x wolfssl-arduino.sh
+: 1536270161:0;l
+: 1536270227:0;sudo ./wolfssl-arduino.sh
+: 1536270235:0;ls
+: 1536270267:0;sudo chmod -x wolfssl-arduino.sh
+: 1536270268:0;l
+: 1536270306:0;chmod +x wolfssl-arduino.sh
+: 1536270308:0;l
+: 1536270316:0;./wolfssl-arduino.sh
+: 1536270324:0;sudo ./wolfssl-arduino.sh
+: 1536270328:0;ls
+: 1536270336:0;vim wolfssl-arduino.sh
+: 1536270345:0;l
+: 1536270353:0;sudo ./wolfssl-arduino.sh
+: 1536270364:0;vim wolfssl-arduino.sh
+: 1536270401:0;sudo ./wolfssl-arduino.sh
+: 1536270412:0;l
+: 1536270593:0;cd wolfSSL/wolfssl/wolfcrypt
+: 1536270595:0;vim settings.h
+: 1536270619:0;vim random.c
+: 1536270884:0;cd ..
+: 1536270888:0;ls
+: 1536270900:0;'./wolfssl-arduino.sh'
+: 1536270939:0;l
+: 1536270954:0;chown root wolfssl-arduino.sh
+: 1536270960:0;sudo chown root wolfssl-arduino.sh
+: 1536270961:0;ls
+: 1536270962:0;l
+: 1536270968:0;sudo ./wolfssl-arduino.sh
+: 1536270974:0;./wolfssl-arduino.sh
+: 1536270983:0;ls
+: 1536270984:0;l
+: 1536271048:0;sudo chown dtan wolfssl-arduino.sh
+: 1536271049:0;l
+: 1536271055:0;./wolfssl-arduino.sh
+: 1536271166:0;vim wolfssl-arduino.sh
+: 1536271180:0;./wolfssl-arduino.sh
+: 1536271184:0;clear
+: 1536271186:0;./wolfssl-arduino.sh
+: 1536271188:0;clear
+: 1536271192:0;sudo ./wolfssl-arduino.sh
+: 1536271194:0;ls
+: 1536271205:0;l
+: 1536271222:0;sudo chown root wolfssl-arduino.sh
+: 1536271223:0;l
+: 1536271230:0;sudo ./wolfssl-arduino.sh
+: 1536271232:0;l
+: 1536271244:0;./wolfssl-arduino.sh
+: 1536271261:0;vim wolfssl-arduino.sh
+: 1536271280:0;cd
+: 1536271281:0;ls
+: 1536271291:0;cd gitRepos/packages/wolfssl
+: 1536271294:0;cd IDE/ARDUINO
+: 1536271295:0;ls
+: 1536271312:0;rm -rf wolfSSL
+: 1536271316:0;l
+: 1536271336:0;sudo chown dtan wolfSSL
+: 1536271341:0;l
+: 1536271350:0;sudo chown dtan wolfssl-arduino.sh
+: 1536271353:0;./wolfssl-arduino.sh
+: 1536271368:0;sudo ./wolfssl-arduino.sh
+: 1536271371:0;ls
+: 1536271385:0;rm -rf wolfSSL/
+: 1536271388:0;l
+: 1536271400:0;sudo chown wolfssl/
+: 1536271407:0;chown --help
+: 1536271436:0;sudo chown -R dtan wolfSSL
+: 1536271438:0;l
+: 1536271444:0;rm -rf wolfSSL
+: 1536271446:0;l
+: 1536271459:0;mkdir wolfSSL
+: 1536271463:0;git st
+: 1536271470:0;l
+: 1536271485:0;cp ../../src/*.c ./wolfSSL
+: 1536271491:0;pwd
+: 1536271512:0;cd /home/dtan/gitRepos/packages/wolfssl/IDE/ARDUINO
+: 1536271516:0;cd wolfSSL
+: 1536271516:0;ls
+: 1536271529:0;cp ../../wolfcrypt/src/*.c ./wolfSSL
+: 1536271538:0;mkdir wolfSSL/wolfssl
+: 1536271552:0;cp ../../wolfssl/*.h ./wolfSSL/wolfssl
+: 1536271562:0;mkdir wolfSSL/wolfssl/wolfcrypt
+: 1536271590:0;cp ../../wolfssl/wolfcrypt/*.h ./wolfSSL/wolfssl/wolfcrypt
+: 1536271606:0;mkdir ./wolfSSL/wolfcrypt
+: 1536271613:0;mkdir ./wolfSSL/wolfcrypt/src
+: 1536271660:0;cp ../../wolfcrypt/src/misc.c ./wolfSSL/wolfcrypt/src
+: 1536271676:0;mv ./wolfSSL/bio.c ./wolfSSL/wolfssl
+: 1536271687:0;mv ./wolfSSL/evp.c ./wolfSSL/wolfssl
+: 1536271707:0;ls
+: 1536271726:0;cd wolfSSL/wolfssl/wolfcrypt/
+: 1536271728:0;vim settings.h
+: 1536271753:0;cd
+: 1536271755:0;cd Arduino
+: 1536271757:0;cd libraries
+: 1536271758:0;l
+: 1536271761:0;rm -rf wolfSSL
+: 1536271842:0;vim wolfssl-arduino.sh
+: 1536271853:0;cd ..
+: 1536271855:0;ls
+: 1536271939:0;cd wolfssl
+: 1536271939:0;ls
+: 1536271946:0;cd ..
+: 1536271982:0;./wolfSSL/wolfssl.h
+: 1536272022:0;cd wolfSSL/wolf
+: 1536272029:0;cd wolfSSL/wolfssl
+: 1536272029:0;ls
+: 1536272074:0;cd ..
+: 1536272077:0;ls
+: 1536272109:0;echo "/* Generated wolfSSL header file for Arduino */" >> ./wolfSSL/wolfssl.h
+: 1536272110:0;l
+: 1536272115:0;cd wolfSSL
+: 1536272115:0;ls
+: 1536272122:0;vim wolfssl.h
+: 1536272166:0;rm -rf wolfSSL
+: 1536272167:0;ls
+: 1536272174:0;rm -rf wolfssl
+: 1536272203:0;cd
+: 1536272204:0;cd Arduino
+: 1536272205:0;ls
+: 1536272208:0;cd libraries/wolfSSL
+: 1536272209:0;ls
+: 1536272211:0;vim random.c
+: 1536272268:0;cd wolfssl/wolfcrypt
+: 1536272270:0;vim settings.h
+: 1536272321:0;vim random.h
+: 1536272332:0;vim random.c
+: 1536272403:0;cd ..
+: 1536272404:0;ls
+: 1536272408:0;cd ..
+: 1536272409:0;ls
+: 1536272411:0;vim random.c
+: 1536343311:0;cd wolfSSL
+: 1536343312:0;ls
+: 1536343323:0;cd wolfssl/wolfcrypt
+: 1536343329:0;vim settings.h
+: 1536346835:0;ssh pi@blee-pi
+: 1536346849:0;ssh pi@dtan-pi
+: 1536347748:0;cd
+: 1536347748:0;ls
+: 1536347767:0;mkdir Arduino
+: 1536347777:0;vim gitRepos
+: 1536347785:0;cd gitRepos
+: 1536347785:0;ls
+: 1536347792:0;cd tpx-source
+: 1536347796:0;git st
+: 1536347798:0;git diff
+: 1536347805:0;git co tpx-todo.md
+: 1536347814:0;git br -all
+: 1536347819:0;git br --all
+: 1536347840:0;git co feature/base
+: 1536347842:0;ls
+: 1536347845:0;cd base
+: 1536347845:0;ls
+: 1536347847:0;cd examples
+: 1536347848:0;ls
+: 1536347851:0;cd ..
+: 1536347891:0;cd
+: 1536347893:0;cd gitRepos
+: 1536347900:0;git ssh://git@stash:7999/telepathyx/support.git tpx-support
+: 1536347905:0;git clone ssh://git@stash:7999/telepathyx/support.git tpx-support
+: 1536347909:0;cd tpx-s
+: 1536347913:0;cd tpx-support
+: 1536347913:0;ls
+: 1536347915:0;cd tls_test
+: 1536347915:0;ls
+: 1536347920:0;vim client.py
+: 1536355053:0;ls
+: 1536355067:0;sudo apt-get install feh
+: 1536355086:0;ls
+: 1536355088:0;cd
+: 1536355088:0;ls
+: 1536355092:0;la
+: 1536355108:0;cd .config
+: 1536355109:0;ls
+: 1536355111:0;cd i3
+: 1536355111:0;ls
+: 1536355122:0;vim config
+: 1536355152:0;sudo apt-get install dmenu
+: 1536355237:0;ls
+: 1536355239:0;vim config
+: 1536355289:0;ls
+: 1536355292:0;cd ..
+: 1536355292:0;ls
+: 1536355298:0;cd i3
+: 1536355299:0;ls
+: 1536355307:0;mkdir wallpapers
+: 1536355308:0;ls
+: 1536355312:0;cd
+: 1536355312:0;ls
+: 1536355315:0;cd ..
+: 1536355317:0;cd..
+: 1536355318:0;cd ..
+: 1536355318:0;ls
+: 1536355323:0;cd media
+: 1536355323:0;ls
+: 1536355326:0;cd sf_gitRepos
+: 1536355327:0;ls
+: 1536355330:0;cd linux_transfers
+: 1536355331:0;ls
+: 1536355350:0;cp ancient-architecture-asia-301614.jpg ~/.config/i3/wallpapers/bw-arch-asia.jpg
+: 1536357441:0;cd
+: 1536357441:0;ls
+: 1536357443:0;cd dotfiles
+: 1536357443:0;ls
+: 1536357447:0;cd zsh
+: 1536357450:0;vim .zshrc
+: 1536357454:0;ls
+: 1536357456:0;git diff
+: 1536357482:0;cd
+: 1536365158:0;ls
+: 1536365162:0;cd gitRepos
+: 1536365162:0;ls
+: 1536365164:0;cd autotest
+: 1536365164:0;ls
+: 1536365175:0;cd hardware
+: 1536365177:0;cd telepathyx
+: 1536365178:0;ls
+: 1536365202:0;cd ~/gitRepos/tpx-source
+: 1536365203:0;ls
+: 1536365209:0;git co tcp-test
+: 1536365211:0;ls
+: 1536588844:0;cd sx_hardware_telepathyx
+: 1536588845:0;ls
+: 1536588851:0;vim telepathyx.py
+: 1536588894:0;cd
+: 1536588895:0;ls
+: 1536588898:0;cd gitRepos
+: 1536588898:0;ls
+: 1536588899:0;cd
+: 1536588900:0;cd ..
+: 1536588903:0;cd /media
+: 1536588904:0;ls
+: 1536588906:0;cd sf_gitRepos
+: 1536588906:0;ls
+: 1536588908:0;cd linux_transfers
+: 1536588911:0;ls
+: 1536588914:0;cd autotest-api-latest
+: 1536588915:0;ls
+: 1536588917:0;firefox
+: 1536588942:0;ls
+: 1536588948:0;firefox index.html
+: 1536589394:0;cd ~/.config/i3
+: 1536589395:0;vim config
+: 1536600617:0;cp telepathyx.py bk_telepathyx.py
+: 1536600627:0;cp telepathyx_component.py bk_telepathyx_component.py
+: 1536600632:0;vim telepathyx.py
+: 1536603185:0;cd
+: 1536603185:0;ls
+: 1536603189:0;cd gitRepos
+: 1536603189:0;s
+: 1536603192:0;ls
+: 1536603213:0;cd tpx-source
+: 1536603214:0;ls
+: 1536603229:0;vim tpx_core
+: 1536603235:0;vim tpx_core.py
+: 1536603254:0;vim tpx_core_client.py
+: 1536603333:0;ranger
+: 1536603402:0;vim telepathyx.py
+: 1536603519:0;ls
+: 1536603524:0;vim tpx_core_client.py
+: 1536604489:0;ls
+: 1536604491:0;ranger
+: 1536604564:0;ls
+: 1536604677:0;cp tpx_core.py tpx-base.py 
+: 1536604678:0;ls
+: 1536604693:0;ranger
+: 1536604718:0;mv tpx-base.py tpx_base.py
+: 1536604721:0;ranger
+: 1536605926:0;ls
+: 1536605931:0;vim tpx_core_client.py
+: 1536606444:0;ls
+: 1536606459:0;vim tpx_base_server.py
+: 1536674153:0;wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+: 1536674219:0;sudo apt-get install wget
+: 1536674252:0;wget https://download.sublimetext.com/sublime_text_3_build_3176_x64.tar.bz2
+: 1536674334:0;pip install pylint
+: 1536674340:0;pip install flake8
+: 1536692675:0;ls
+: 1536692679:0;ranger
+: 1536692802:0;ls
+: 1536692809:0;vim tpx_core_client.py
+: 1536692930:0;python tpx_base_server.py
+: 1536692960:0;vim tpx_base_server.py
+: 1536693145:0;python tpx_base_server.py
+: 1536693838:0;python tpx_core_client.py
+: 1536693932:0;python tpx_base_server.py
+: 1536693935:0;python tpx_core_client.py
+: 1536698445:0;[200~/proc/sys/net/ipv4/tcp_rmeM
+: 1536698448:0;/proc/sys/net/ipv4/tcp_rmem
+: 1536698451:0;sudo /proc/sys/net/ipv4/tcp_rmem
+: 1536698479:0;/proc/sys/net/core/rmem_default
+: 1536698482:0;sudo /proc/sys/net/core/rmem_default
+: 1536698505:0;vim /proc/sys/net/core/rmem
+: 1536698512:0;vim /proc/sys/net/core/rmem_default
+: 1536698527:0;python tpx_base_server.py
+: 1536698533:0;python tpx_core_client.py
+: 1536698545:0;vim /proc/sys/net/core/rmem
+: 1536698786:0;python tpx_base_server.py
+: 1536698788:0;python tpx_core_client.py
+: 1536698832:0;python tpx_base_server.py
+: 1536698835:0;python tpx_core_client.py
+: 1536700348:0;vim /proc/sys/net/core/
+: 1536700371:0;cd /proc/sys/net/core/
+: 1536700371:0;ls
+: 1536700381:0;cat remem_max
+: 1536700392:0;cat rmem_max
+: 1536700595:0;python tpx_core_client.py
+: 1536700597:0;python tpx_base_server.py
+: 1536700599:0;python tpx_core_client.py
+: 1536700845:0;python tpx_base_server.py
+: 1536700847:0;python tpx_core_client.py
+: 1536701061:0;cat /proc/sys/net/core/rmem_max
+: 1536701065:0;cat /proc/sys/net/core/rmem_default
+: 1536701771:0;ls
+: 1536701775:0;ranger
+: 1536701970:0;python tpx_base_server.py
+: 1536701976:0;python tpx_core_client.py
+: 1536701993:0;python tpx_base_server.py
+: 1536701994:0;python tpx_core_client.py
+: 1536702995:0;ranger
+: 1536703269:0;ls
+: 1536703283:0;mv tpx_base_server.py server_buffer_test.py
+: 1536769373:0;sudo shutdown now
+: 1537403470:0;cd
+: 1537403470:0;ls
+: 1537403474:0;cd gitRepos
+: 1537403475:0;ls
+: 1537403483:0;rm parse_configs.py
+: 1537403507:0;mkdir cv_test
+: 1537403518:0;cd cv_test
+: 1537403522:0;vim cv_test.py
+: 1537403528:0;ls
+: 1537403537:0;virtualenv venv
+: 1537403549:0;source venv/bin/activate
+: 1537403685:0;pip install numpy matplotlib 
+: 1537403716:0;pip install --upgrade pip
+: 1537403730:0;sudo apt-get update
+: 1537403747:0;pip list
+: 1537403754:0;pip install numpy
+: 1537403787:0;pip install matplotlib
+: 1537403866:0;pip install --upgrade setuptools
+: 1537403874:0;pip2 install matplotlib
+: 1537403985:0;pip install matplotlib==2.2.3
+: 1537403993:0;pip install opencv
+: 1537404025:0;pip uninstall opencv
+: 1537404030:0;pip list
+: 1537404048:0;pip install opencv-python
+: 1537404057:0;pip list
+: 1537404067:0;python
+: 1537404172:0;ls
+: 1537404174:0;vim cv_test.py
+: 1537404400:0;cd ~/dotfiles/vim/.vim/vimrc/
+: 1537404403:0;vim plugin_configs.vim
+: 1537404502:0;ranger
+: 1537404559:0;mv 154D1C3C.PNG lm_interior.png
+: 1537405868:0;ranger
+: 1537406226:0;vim cv_test.py
+: 1537406245:0;pip list
+: 1537406255:0;python
+: 1537406263:0;vim cv_test.py
+: 1537406377:0;vim cv
+: 1537406379:0;ls
+: 1537406382:0;cd
+: 1537406385:0;cd gitRepos/cv_test
+: 1537406387:0;vim cv_test.py
+: 1537406454:0;source venv/bin/activate
+: 1537406457:0;vim cv_test.py
+: 1537464389:0;l
+: 1537464394:0;vim cv_test.py
+: 1537482120:0;git pull
+: 1537482126:0;ls
+: 1537482130:0;python main.py
+: 1537482136:0;python3 main.py
+: 1537482142:0;vim main.py
+: 1537482264:0;python3 main.py
+: 1537486318:0;pip list
+: 1537486323:0;python3 main.py
+: 1537486328:0;vim cv_test.py
+: 1537487141:0;python cv_test.py
+: 1537487149:0;source venv/bin/activate
+: 1537487153:0;python cv_test.py
+: 1537487953:0;vim cv_test.py
+: 1537488020:0;python cv_test.py
+: 1537488691:0;ranger
+: 1537488747:0;python cv_test.py
+: 1537490178:0;ranger
+: 1537490184:0;python cv_test.py
+: 1537493829:0;ranger
+: 1537493831:0;python cv_test.py
+: 1537497054:0;cd ~/.vim/vimrc
+: 1537497060:0;vim settings.vim
+: 1537497087:0;vim cv_test.py
+: 1537497531:0;cd ~/gitRepos/cv_test
+: 1537497539:0;source venv/bin/activate
+: 1537497543:0;python cv_test.py
+: 1537497582:0;cp cv_test.py blob_detect.py
+: 1537497584:0;vim blob_detect.py
+: 1537550029:0;ls
+: 1537550034:0;vim cv_test.py
+: 1537550052:0;source venv/bin/activate
+: 1537550061:0;vim cv_test.py
+: 1537550075:0;ls
+: 1537550078:0;vim blob_detect.py
+: 1537550330:0;cd ..
+: 1537550330:0;ls
+: 1537550356:0;cp cv_test cp_cv_test/
+: 1537550362:0;cp -r cv_test cp_cv_test/
+: 1537550364:0;ls
+: 1537550381:0;mv cv_test/ manual-valves-opencv/
+: 1537550382:0;ls
+: 1537550384:0;cd manual-valves-opencv
+: 1537550384:0;ls
+: 1537550391:0;vim .gitignore
+: 1537550404:0;la
+: 1537550412:0;ranger
+: 1537550453:0;git init
+: 1537550459:0;git add --all
+: 1537550469:0;git ci "initial commit"
+: 1537550478:0;ls
+: 1537550490:0;git rm venv/
+: 1537550491:0;ls
+: 1537550519:0;git rm --cached -r venv
+: 1537550522:0;git st
+: 1537550528:0;vim .gitignore
+: 1537550562:0;git add .
+: 1537550563:0;git st
+: 1537550568:0;ls
+: 1537550598:0;pip freeze > requirements.txt
+: 1537550600:0;ls
+: 1537550602:0;git st
+: 1537550605:0;git add .
+: 1537550608:0;cat requirements.txt
+: 1537550644:0;rm requirements.txt q
+: 1537550647:0;ls
+: 1537550653:0;git rm requirements.txt
+: 1537550659:0;git st
+: 1537550663:0;ls
+: 1537550666:0;rm requirements.txt
+: 1537550672:0;ls
+: 1537550676:0;rm requirements.txt
+: 1537550678:0;ls
+: 1537550680:0;git st
+: 1537550689:0;git add .
+: 1537550690:0;l
+: 1537550702:0;pip freeze -l > requirements.txt
+: 1537550705:0;cat requirements.txt
+: 1537550721:0;pip list
+: 1537550774:0;pip freeze --user > req.txt
+: 1537550776:0;cat req
+: 1537550780:0;cat req.txt
+: 1537550790:0;ls
+: 1537550794:0;rm requirements.txt
+: 1537550796:0;ls
+: 1537550802:0;mv req.txt requirements.txt
+: 1537550802:0;ls
+: 1537550804:0;git st
+: 1537550807:0;git add .
+: 1537550809:0;cat requirements.txt
+: 1537550819:0;ls
+: 1537550828:0;git ci "added requirements"
+: 1537550841:0;git remote add origin ssh://git@stash:7999/~dtan/manual-valves-opencv.git
+: 1537550850:0;git push -u origin master
+: 1537550869:0;ls
+: 1537550871:0;l
+: 1537550902:0;vim blob_detect.py
+: 1537551553:0;ls
+: 1537551556:0;source venv/bin/activate
+: 1537551557:0;ls
+: 1537551562:0;vim blob_detect.py
+: 1537551578:0;python
+: 1537551586:0;deactivate
+: 1537551591:0;source venv/bin/activate
+: 1537551592:0;ls
+: 1537551594:0;pip list
+: 1537551617:0;ls
+: 1537551626:0;sudo reboot now
+: 1537551664:0;sudo shutdown now
+: 1537551720:0;ls
+: 1537551722:0;pip list
+: 1537551732:0;source venv/bin/acc
+: 1537551735:0;source venv/bin/activate
+: 1537551736:0;pip list
+: 1537551743:0;deactivate
+: 1537551743:0;ls
+: 1537551751:0;rm -rf venv
+: 1537551752:0;ls
+: 1537551756:0;virtualenv venv
+: 1537551762:0;pip list
+: 1537551776:0;source venv/bin/activate
+: 1537551778:0;pip list
+: 1537551789:0;cat requirements.txt q
+: 1537551815:0;pip install python-opencv
+: 1537551867:0;pip install opencv-python
+: 1537551880:0;pip list
+: 1537551885:0;pip install matplotlib
+: 1537551921:0;python -m pip install matplotlib
+: 1537551958:0;pip install matplotlib==2.2.3
+: 1537551964:0;ls
+: 1537551965:0;pip list
+: 1537551970:0;vim blob_detect.py
+: 1537552023:0;ls
+: 1537552029:0;rm requirements.txt
+: 1537552038:0;pip freeze -l > requirements.txt
+: 1537552041:0;cat requirements.txt
+: 1537552043:0;git st
+: 1537552049:0;git add requirements.txt
+: 1537552058:0;git ci "updated requirements with new stripped down venv"
+: 1537552063:0;vim blob_detect.py
+: 1537553490:0;ls
+: 1537553494:0;python cv_test.py
+: 1537554620:0;ls
+: 1537554623:0;git st
+: 1537554625:0;vim blob_detect.py
+: 1537554845:0;python blob_detect.py
+: 1537554851:0;source venv/bin/activate
+: 1537554853:0;python blob_detect.py
+: 1537560610:0;vim blob_detect.py
+: 1537562479:0;source venv/bin/activate
+: 1537562481:0;python blob_detect.py
+: 1537563850:0;source venv/bin/activate
+: 1537563851:0;ls
+: 1537563853:0;vim blob_detect.py
+: 1537564581:0;ls
+: 1537564583:0;git st
+: 1537564585:0;git add .
+: 1537564616:0;git ci "draw squares around launch position"
+: 1537564617:0;git push
+: 1537564621:0;ls
+: 1537564641:0;cp blob_detect.py valve_detect.py
+: 1537564644:0;vim valve_detect.py
+: 1537565894:0;vim ~/.vim/vimrc/plugins.vim
+: 1537565932:0;vim valve_detect.py
+: 1537566007:0;vim ~/.vim/vimrc/plugins.vim
+: 1537566044:0;vim valve_detect.py
+: 1537566425:0;ls
+: 1537566432:0;rm blob_detect.py
+: 1537566441:0;cp valve_detect.py blob_detect.py
+: 1537566445:0;python blob_detect.py
+: 1537566449:0;vim valve_detect.py
+: 1537566458:0;ls
+: 1537566459:0;git st
+: 1537566464:0;git add blob_detect.py
+: 1537566472:0;git ci "conforming to pylint"
+: 1537566476:0;git push
+: 1537566485:0;vim valve_detect.py
+: 1537569637:0;source venv/bin/activate
+: 1537569641:0;vim manual_valve.py
+: 1537570921:0;source venv/bin/activate
+: 1537570921:0;ls
+: 1537570924:0;vim manual_valve.py
+: 1537572415:0;python blob_detect.py
+: 1537572422:0;vim blob_detect.py
+: 1537572696:0;clear
+: 1537572700:0;vim manual_valve.py
+: 1537573931:0;clear
+: 1537573934:0;python blob_detect.py
+: 1537573984:0;vim manual_valve.py
+: 1537574174:0;python blob_detect.py
+: 1537574283:0;vim blob_detect.py
+: 1537575679:0;python manual_valve.py
+: 1537576433:0;git st
+: 1537576438:0;git diff blob_detect.py
+: 1537576451:0;git add .
+: 1537576456:0;git ci "manual valve class"
+: 1537576457:0;git push
+: 1537579807:0;ls
+: 1537579812:0;vim manual_valve.py
+: 1537584354:0;git st
+: 1537588960:0;python blob_detect.py
+: 1537588985:0;python cv_test.py
+: 1537589187:0;python blob_detect.py
+: 1537589191:0;vim blob_detect.py
+: 1537590689:0;ranger
+: 1537746831:0;git diff blob_detect.py
+: 1537746852:0;vim manual_valve.py
+: 1537748052:0;clear
+: 1537748055:0;vim manual_valve.py
+: 1537748843:0;vim ~/.vim/vimrc/plugin_configs.vim
+: 1537749125:0;vim manual_valve.py
+: 1537749689:0;python
+: 1537749985:0;RANGER
+: 1537749988:0;ranger
+: 1537751224:0;wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+: 1537985316:0;
+: 1537985316:0;
+: 1537751709:0;vim ~/.config/i3/config
+: 1537752550:0;vim manual_valve.py
+: 1537754447:0;python
+: 1537755454:0;ls
+: 1537755455:0;git st
+: 1537755460:0;git add .
+: 1537755490:0;git ci "parameterized blob detection"
+: 1537755493:0;git push
+: 1537755498:0;git st
+: 1537755500:0;git push
+: 1537755511:0;git pull
+: 1537755518:0;ls
+: 1537755536:0;git push -u origin master
+: 1537755591:0;git remove -v
+: 1537755595:0;git remote -v
+: 1537755618:0;git push -u origin master
+: 1537755622:0;git pull
+: 1537755696:0;sudo reboot now
+: 1537755810:0;git push
+: 1537755840:0;cd ..
+: 1537755857:0;git clone ssh://git@stash:7999/~dtan/manual-valves-opencv.git cvtest
+: 1537755907:0;ls
+: 1537755916:0;cd manual-valves-opencv
+: 1537755918:0;source venv/bin/activate
+: 1537755919:0;ls
+: 1537755929:0;rm manual_valve.pyc
+: 1537755936:0;vim manual_valve.py
+: 1537757758:0;source venv/bin/activate
+: 1537757760:0;python manual_valve.py
+: 1537759442:0;vim manual_valve.py
+: 1537759507:0;python manual_valve.py
+: 1537761184:0;wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+: 1537761190:0;python manual_valve.py
+: 1537764113:0;source venv/bin/activate
+: 1537764116:0;python manual_valve.py
+: 1537771306:0;source venv/bin/activate
+: 1537771308:0;python manual_valve.py
+: 1537775026:0;ls
+: 1537775027:0;clear
+: 1537775028:0;git st
+: 1537775029:0;git add .
+: 1537775039:0;git ci "color changes for plot"
+: 1537775040:0;git push
+: 1537775045:0;git log --graph
+: 1537808085:0;ls
+: 1537808087:0;clear
+: 1537808089:0;vim manual_valve.py
+: 1537808400:0;python manual_valve.py
+: 1537808880:0;source venv/bin/activate
+: 1537808883:0;python manual_valve.py
+: 1537809110:0;vim manual_valve.py
+: 1537809123:0;ranger
+: 1537811511:0;ls
+: 1537811515:0;pip install pandas
+: 1537811529:0;pip freeze -l > requirements.txt
+: 1537811531:0;cat requirements.txt
+: 1537811536:0;git push
+: 1537811545:0;git pull
+: 1537811553:0;ls
+: 1537811562:0;mkdir archive
+: 1537811573:0;git mv cv_test.py archive/cv_test.py
+: 1537811591:0;git mv blob_detect.py archive/blob_detect.py
+: 1537811593:0;ls
+: 1537811606:0;mkdir images
+: 1537811622:0;git mv alex_desk.jpg images/desk.jpg
+: 1537811636:0;git mv blob_detect_parameters.jpg images/blob_detect_parameters.jpg
+: 1537811636:0;ls
+: 1537811643:0;vim valve_detect.py
+: 1537811766:0;ls
+: 1537811767:0;git st
+: 1537811886:0;git add requirements.txt
+: 1537811896:0;git ci "reorganized to remove clutter"
+: 1537811897:0;git push
+: 1537811901:0;ls
+: 1537811905:0;vim manual_valve.py
+: 1537811914:0;ranger
+: 1537814096:0;pip install xlrd xlwt
+: 1537814105:0;pip freeze -l > requirements.txt
+: 1537814117:0;vim valve_detect.py
+: 1537814340:0;python valve_detect.py
+: 1537814349:0;source venv/bin/activate
+: 1537814357:0;python valve_detect.py
+: 1537815628:0;python
+: 1537819798:0;ranger
+: 1537819842:0;vim manual_valve.py
+: 1537821519:0;clear
+: 1537821523:0;vim valve_detect.py
+: 1537821566:0;ranger
+: 1537823063:0;ls
+: 1537823064:0;git st
+: 1537823071:0;git add .
+: 1537823088:0;git ci "import excel and run valve_verify"
+: 1537823089:0;git push
+: 1537823099:0;vim manual_valve.py
+: 1537823319:0;python
+: 1537824020:0;ls
+: 1537824023:0;ranger
+: 1537825735:0;source venv/bin/activate
+: 1537825740:0;ranger
+: 1537827830:0;source venv/bin/activate
+: 1537827833:0;vim manual_valve.py
+: 1537828741:0;clear
+: 1537828745:0;vim valve_detect.py
+: 1537828993:0;ranger
+: 1537829535:0;ls
+: 1537829541:0;vim valve_detect.py
+: 1537829936:0;sudo apt-get install htop
+: 1537829947:0;htop
+: 1537830810:0;sudo shutdown now
+: 1537830872:0;source venv/bin/activate
+: 1537830876:0;vim valve_detect.py
+: 1537830898:0;ranger
+: 1537831118:0;htop
+: 1537831144:0;vim manual_valve.py
+: 1537831356:0;source venv/bin/activate
+: 1537831359:0;vim manual_valve.py
+: 1537831818:0;git st
+: 1537831827:0;vim .gitignore
+: 1537831834:0;git st
+: 1537831836:0;git add .
+: 1537831852:0;git ci "multiple runs problem"
+: 1537831853:0;git push
+: 1537832834:0;ls
+: 1537832843:0;vim valve_detect.py
+: 1537833175:0;vim manual_valve.py
+: 1537833824:0;source venv/bin/activate
+: 1537833831:0;vim valve_detect.py
+: 1537833854:0;ranger
+: 1537833888:0;htop
+: 1537836225:0;ranger
+: 1537839278:0;clear
+: 1537839280:0;ranger
+: 1537897686:0;clear
+: 1537897689:0;vim manual_valve.py
+: 1537914756:0;ls
+: 1537914757:0;git st
+: 1537914769:0;git add manual_valve.py valve_detect.py
+: 1537914781:0;git ci "updated for ht-25 testing"
+: 1537914782:0;git push
+: 1537919021:0;git pull
+: 1537919034:0;ls
+: 1537919035:0;ranger
+: 1537919647:0;git diff draw_test.py
+: 1537919653:0;git co draw_test.py
+: 1537919655:0;vim draw_test.py
+: 1537919748:0;source venv/bin/activate
+: 1537919757:0;pip install openpyxl
+: 1537919764:0;pip freeze -l > requirements.txt
+: 1537919766:0;git add requirements.txt
+: 1537919772:0;git ci "updated with openpyxl"
+: 1537919773:0;git push
+: 1537919975:0;ls
+: 1537919986:0;source venv/bin/activate
+: 1537919993:0;ranger
+: 1537920005:0;python valve_detect.py
+: 1537922393:0;vim manual_valve.py
+: 1537924056:0;python valve_detect.py
+: 1537924136:0;vim manual_valve.py
+: 1537924153:0;vim valve_detect.py
+: 1537924744:0;vi manual_valve.py
+: 1537924767:0;vim valve_detect.py
+: 1537925738:0;vim manual_valve.py
+: 1537926999:0;vim valve_detect.py
+: 1537927026:0;vim manual_valve.py
+: 1537927821:0;source venv/bin/activate
+: 1537927825:0;python valve_detect.py
+: 1537928956:0;vim valve_
+: 1537928960:0;vim valve_detect.py
+: 1537929136:0;python valve_detect.py
+: 1537936923:0;ls
+: 1537942128:0;git st
+: 1537942137:0;git add .
+: 1537942150:0;git ci "annotated image"
+: 1537942151:0;git push
+: 1537942158:0;clear
+: 1537984115:0;git push
+: 1537984119:0;clear
+: 1537984119:0;ls
+: 1537984143:0;ranger
+: 1537985325:0;source venv/bin/activate
+: 1537985326:0;ls
+: 1537985329:0;vim channels_test.py
+: 1537985580:0;source venv/bin/activate
+: 1537985592:0;vim channels_test.py
+: 1537986731:0;source venv/bin/activate
+: 1537986733:0;ls chal
+: 1537986735:0;vim channels_test.py
+: 1537988454:0;ranger
+: 1537991024:0;ls
+: 1537991026:0;cd imag
+: 1537991028:0;ls
+: 1537991043:0;mkdir color_detect
+: 1537991105:0;ranger
+: 1537992544:0;ls
+: 1537992557:0;mv channels_test.py color_detect.py
+: 1537992560:0;git st
+: 1537992579:0;ranger
+: 1537992623:0;git st
+: 1537992630:0;vim .gitignore
+: 1537992638:0;git add .
+: 1537992649:0;git ci "color detect algorithm"
+: 1537992654:0;git push
+: 1537992663:0;vim manual_valve.py
+: 1537992790:0;python
+: 1537992858:0;git st
+: 1537992860:0;git add .
+: 1537992864:0;vim manual_valve.py
+: 1537992880:0;git st
+: 1537992882:0;git add .
+: 1537992887:0;vim valve_detect.py
+: 1537998296:0;git st
+: 1537998298:0;git add .
+: 1537998307:0;git ci "os.makedirs simplification"
+: 1537998309:0;git push
+: 1537998312:0;ls
+: 1537998327:0;git mv color_detect.py color_isolate.py
+: 1537998330:0;vim color_isolate.py
+: 1537998447:0;ls
+: 1537998469:0;mv color_detect/ color_isolate
+: 1537998470:0;ls
+: 1537998472:0;git st
+: 1537998549:0;vim color_isolate.py
+: 1537998639:0;ranger
+: 1537998682:0;git st
+: 1537998683:0;git add .
+: 1537998689:0;git ci "rename to color_isolate"
+: 1537998691:0;git push
+: 1537999555:0;pip install pyzbar
+: 1537999559:0;python
+: 1537999702:0;pip freeze -l > requirements.txt
+: 1537999706:0;git add requirements.txt q
+: 1537999709:0;git add requirements.txt
+: 1537999716:0;git ci "updated with pyzbar"
+: 1537999718:0;git push
+: 1537999845:0;cd ~/.config/ranger
+: 1537999846:0;ls
+: 1537999847:0;la
+: 1537999855:0;vim rc.conf
+: 1537999867:0;cd ~/dotfiles
+: 1537999867:0;ls
+: 1537999869:0;cd ranger
+: 1537999869:0;ls
+: 1537999877:0;cd ..
+: 1537999882:0;ls
+: 1537999898:0;stow ranger -t ~/.config/
+: 1537999905:0;cd .conf
+: 1537999912:0;cd ~/.config/ranger
+: 1537999912:0;ls
+: 1537999914:0;cd ..
+: 1537999914:0;ls
+: 1537999921:0;la
+: 1537999926:0;rm luke_ranger_readme.md
+: 1537999932:0;rm commands_full.py
+: 1537999938:0;rm commands.py
+: 1537999943:0;rm rc.conf
+: 1537999947:0;rm rifle.conf
+: 1537999951:0;rm scope.sh
+: 1537999953:0;rm tagged
+: 1537999954:0;la
+: 1537999961:0;rm bookmarks
+: 1537999963:0;la
+: 1537999966:0;stow ranger -t ~/.config/ranger
+: 1537999971:0;l
+: 1537999976:0;rm -r ranger
+: 1537999981:0;stow ranger -t ~/.config/ranger
+: 1537999996:0;mkdir ranger
+: 1537999998:0;stow ranger -t ~/.config/ranger
+: 1538000001:0;cd ranger
+: 1538000002:0;la
+: 1538000009:0;ranger
+: 1538000019:0;vim rc.conf
+: 1538000086:0;ranger
+: 1538000223:0;ls
+: 1538000224:0;cd
+: 1538000228:0;cd gitRepos/manual-valves-opencv
+: 1538000229:0;ls
+: 1538000230:0;git st
+: 1538000257:0;vim qr_scanner.py
+: 1538000979:0;ranger
+: 1538001005:0;vim ~/.config/ranger/rc.conf
+: 1538001183:0;sudo apt-get install libzbar0
+: 1538001198:0;ls
+: 1538001207:0;vim README.txt
+: 1538001250:0;mv README.txt README.md
+: 1538001253:0;vim README.md
+: 1538001257:0;git st
+: 1538001265:0;git add .
+: 1538001269:0;git ci "qr scanner code"
+: 1538001272:0;git push
+: 1538001281:0;vim qr_scanner.py
+: 1538001923:0;ranger
+: 1538001976:0;vim qr_scanner.py
+: 1538002156:0;ranger
+: 1538004214:0;vim qr_scanner
+: 1538004222:0;cd ..
+: 1538004223:0;ls
+: 1538004225:0;vim qr_scanner.py
+: 1538004229:0;ranger
+: 1538005321:0;ls
+: 1538005322:0;git st
+: 1538005337:0;git add .
+: 1538005344:0;git ci "qr scanner update"
+: 1538005345:0;git push
+: 1538005539:0;ls
+: 1538005565:0;vim magic_align.py
+: 1538006591:0;ls
+: 1538006599:0;ranger
+: 1538006610:0;ls
+: 1538006800:0;vim magic_align.py
+: 1538009296:0;source venv/bin/activate
+: 1538009301:0;vim qr_scanner.py
+: 1538009383:0;python qr_scanner.py
+: 1538009421:0;ranger
+: 1538009442:0;vim qr_scanner.py
+: 1538009567:0;ls
+: 1538009630:0;vim magic_align.py
+: 1538014399:0;ranger
+: 1538014755:0;source venv/bin/activate
+: 1538014758:0;python magic_align.py
+: 1538015329:0;ranger
+: 1538026878:0;clear
+: 1538026881:0;vim magic_align.py
+: 1538027792:0;python
+: 1538028981:0;ranger
+: 1538030556:0;python qr_scanner.py
+: 1538030689:0;ranger
+: 1538030827:0;vim .gitignore
+: 1538030872:0;source venv/bin/activate
+: 1538030883:0;python
+: 1538030901:0;pip list
+: 1538030910:0;deactivate
+: 1538030913:0;pip list
+: 1538030925:0;source venv/bin/activate
+: 1538030927:0;pip list
+: 1538030941:0;pip freeze -l > requirements.txt
+: 1538030945:0;cat requirements.txt
+: 1538030950:0;vim requirements.txt
+: 1538030988:0;pip install -r requirements.txt
+: 1538031002:0;ls
+: 1538031019:0;vim manual_valve.py
+: 1538070598:0;python
+: 1538081554:0;ranger
+: 1538084172:0;vim main.py
+: 1538084435:0;source venv/bin/activate
+: 1538084444:0;vim main.py
+: 1538084451:0;rm .main.py.swp
+: 1538084453:0;la
+: 1538084461:0;vim main.py
+: 1538087751:0;ls
+: 1538087756:0;git st
+: 1538087775:0;rm 180927_124246_warped_magic_align_master.png
+: 1538087778:0;git st
+: 1538087780:0;git add .
+: 1538087785:0;git ci "magic align sort"
+: 1538087787:0;git push
+: 1538087793:0;ls
+: 1538087811:0;ranger
+: 1538090012:0;python
+: 1538091444:0;ranger
+: 1538091574:0;python draw_test.py
+: 1538091584:0;vim draw_test.py
+: 1538091956:0;ranger
+: 1538092422:0;source venv/bin/activate
+: 1538092424:0;ls
+: 1538092430:0;vim ma
+: 1538092433:0;vim main.py
+: 1538161858:0;source venv/bin/activate
+: 1538161859:0;python ma
+: 1538161862:0;python main.py
+: 1538166058:0;git st
+: 1538166063:0;git add .
+: 1538166078:0;git ci "beginning integrated tests"
+: 1538166079:0;git push
+: 1538166086:0;ls
+: 1538166091:0;rm manual_valve.pyc
+: 1538166097:0;ls *.pyc
+: 1538166103:0;rm magic_align.pyc
+: 1538166107:0;vim ma
+: 1538166114:0;vim main.py
+: 1538166617:0;python main.py
+: 1538178795:0;git st
+: 1538178807:0;ls
+: 1538178811:0;ranger
+: 1538178817:0;cd ..
+: 1538178820:0;cd integrated_tests
+: 1538178822:0;rm homography_bin.png
+: 1538178824:0;git st
+: 1538178826:0;git add .
+: 1538178837:0;git ci "improved homography point detector"
+: 1538178843:0;cd ..
+: 1538178845:0;ls
+: 1538178846:0;git add .
+: 1538178854:0;git ci "improved homography point detector"
+: 1538178855:0;git push
+: 1538179499:0;ranger
+: 1538179528:0;vim main.py
+: 1538180040:0;python main.py
+: 1538445526:0;
+: 1538445526:0;
+: 1538445526:0;
+: 1538180358:0;python main.py
+: 1538180369:0;la
+: 1538180376:0;cd integrated_tests
+: 1538180376:0;ls
+: 1538180377:0;la
+: 1538180382:0;feh ._warped.png
+: 1538180419:0;cd ..
+: 1538180430:0;source venv/bin/activate
+: 1538180432:0;python main.py
+: 1538180460:0;cd images/integrated_tests
+: 1538180461:0;ls
+: 1538180461:0;la
+: 1538180466:0;rm ._warped.png
+: 1538180470:0;ranger
+: 1538180761:0;cd ..
+: 1538180763:0;ls
+: 1538180766:0;python main.py
+: 1538180939:0;ranger
+: 1538181068:0;python main.py
+: 1538181542:0;ranger
+: 1538182783:0;vim ~/.vim/vimrc/plugins.vim
+: 1538182852:0;vim main.py
+: 1538182906:0;vim ~/.vim/vimrc/plugin_configs.vim
+: 1538184748:0;python main.py
+: 1538188013:0;q
+: 1538188044:0;python main.py
+: 1538190793:0;vim main.py
+: 1538190832:0;python main.py
+: 1538191500:0;ranger
+: 1538191533:0;python3 main.py
+: 1538191655:0;vim clock_config.py
+: 1538191769:0;git st
+: 1538191773:0;git add .
+: 1538191783:0;git ci "working full stack"
+: 1538191785:0;git push
+: 1538202011:0;ls
+: 1538202023:0;python main.py
+: 1538202115:0;ranger
+: 1538256792:0;vim manual_valve.py
+: 1538348277:0;vim ~/.vim/vimrc/plugins.vim
+: 1538348382:0;vim main.py
+: 1538355773:0;ls
+: 1538356126:0;python main.py
+: 1538412735:0;ls
+: 1538418352:0;pip install apriltag
+: 1538418539:0;ranger
+: 1538419584:0;vim mnemonics.md
+: 1538421035:0;cd ..
+: 1538421036:0;ls
+: 1538421042:0;git clone https://github.com/swatbotics/apriltag.git
+: 1538421047:0;cd apriltag
+: 1538421051:0;mkdir build
+: 1538421053:0;cd build
+: 1538421062:0;cmake .. -DCMAKE_BUILD_TYPE=Release
+: 1538421068:0;make -j4
+: 1538421082:0;sudo make install
+: 1538421117:0;apriltag_opencv_demo -h
+: 1538421122:0;ls
+: 1538421124:0;cd ..
+: 1538421127:0;cd build
+: 1538421130:0;apriltag_demo
+: 1538421134:0;vim apriltag_demo
+: 1538421144:0;./apriltag_demo -h
+: 1538421181:0;./apriltag_demo -B ../images/mapping_feb_2014/*.JPG
+: 1538421208:0;./apriltag_demo -B -c ../images/mapping_feb_2014/*.JPG
+: 1538421255:0;cd ..
+: 1538421255:0;ls
+: 1538421264:0;cd python
+: 1538421265:0;ls
+: 1538421279:0;python apriltag.py -c -k '(765.00, 764.18, 393.72, 304.66)' -s .127 ../images/mapping_feb_2014/*JPG
+: 1538421482:0;ls
+: 1538421699:0;cd ..
+: 1538421700:0;ls
+: 1538421703:0;cd manual-valves-opencv
+: 1538421704:0;lks
+: 1538421706:0;pip list
+: 1538421722:0;cd ..
+: 1538421722:0;ls
+: 1538421735:0;cp -r apriltag manual-valves-opencv/apriltag/
+: 1538421737:0;ls
+: 1538421747:0;vim main.py
+: 1538421961:0;ranger
+: 1538422136:0;ls
+: 1538422142:0;vim __init__.py
+: 1538422342:0;vim main.py
+: 1538422417:0;pip install apriltag
+: 1538422490:0;vim __init__.py
+: 1538422515:0;vim main.py
+: 1538422585:0;pip install apriltags
+: 1538422895:0;vim __init__.py
+: 1538422900:0;ranger
+: 1538423300:0;cd apriltag
+: 1538423301:0;ls
+: 1538423303:0;git st
+: 1538423318:0;ls
+: 1538423379:0;ranger
+: 1538444745:0;git st
+: 1538444758:0;git add magic_align.py main.py
+: 1538444772:0;git add __init__.py apriltag/ images/apriltag/
+: 1538444790:0;git st
+: 1538444825:0;git submodule add https://github.com/swatbotics/apriltag.git apriltag
+: 1538444832:0;git rm apriltag
+: 1538444914:0;git reset HEAD apriltag
+: 1538444915:0;git st
+: 1538444928:0;git submodule add https://github.com/swatbotics/apriltag.git apriltag
+: 1538444931:0;git st
+: 1538444951:0;git add apriltag
+: 1538444953:0;git st
+: 1538444973:0;git ci "apriltag detection"
+: 1538444976:0;git st
+: 1538444982:0;git push
+: 1538445002:0;l
+: 1538445009:0;git st
+: 1538445138:0;git rm apriltag
+: 1538445154:0;git st
+: 1538445166:0;s
+: 1538445167:0;ls
+: 1538445175:0;rm -r apriltag
+: 1538445181:0;rm -rf apriltag
+: 1538445182:0;ls
+: 1538445190:0;git add submodule https://github.com/swatbotics/apriltag.git apriltag
+: 1538445196:0;git add submodule https://github.com/swatbotics/apriltag.git 
+: 1538445198:0;ls
+: 1538445200:0;la
+: 1538445206:0;vim .gitmodules
+: 1538445213:0;git submodule update --init
+: 1538445216:0;ls
+: 1538445219:0;cd apriltag
+: 1538445220:0;ls
+: 1538445224:0;mkdir build
+: 1538445246:0;cd build
+: 1538445254:0;cmake .. -DCMAKE_BUILD_TYPE=Release
+: 1538445266:0;make -j4
+: 1538445380:0;cd ..
+: 1538445380:0;ls
+: 1538445384:0;cd build
+: 1538445385:0;ls
+: 1538445395:0;cd lib
+: 1538445395:0;ls
+: 1538445399:0;cd .. .. ..
+: 1538445402:0;cd ../..
+: 1538445403:0;ls
+: 1538445407:0;cd ../..
+: 1538445409:0;cd manual-valves-opencv
+: 1538445410:0;ls
+: 1538445414:0;git st
+: 1538445427:0;vim ma
+: 1538445430:0;vi main.py
+: 1538445458:0;ls
+: 1538445468:0;cd apriltag
+: 1538445469:0;ls
+: 1538445479:0;touch __init__.py
+: 1538445480:0;cd ..
+: 1538445485:0;python main.py
+: 1538445517:0;ranger
+: 1538445543:0;python main.py
+: 1538445630:0;vim main.py
+: 1538446461:0;cd ..
+: 1538446464:0;source venv/bin/activate
+: 1538446466:0;python main.py
+: 1538446478:0;vim main.py
+: 1538446498:0;vim magic_align.py
+: 1538448338:0;ranger
+: 1538455716:0;vim main.py
+: 1538457023:0;ranger
+: 1538457165:0;ls
+: 1538457167:0;cd images
+: 1538457168:0;ls
+: 1538457170:0;cd apriltag
+: 1538457171:0;ls
+: 1538457214:0;pwd
+: 1538457220:0;la
+: 1538457307:0;ls
+: 1538457337:0;ranger
+: 1538457869:0;python main.py
+: 1538457877:0;vim main.py
+: 1538458454:0;ranger
+: 1538458560:0;vim main.py
+: 1538458951:0;git st
+: 1538458983:0;git add .
+: 1538458990:0;git ci "apriltag homography"
+: 1538459020:0;cd ..
+: 1538459021:0;ls
+: 1538459029:0;cd autotest
+: 1538459029:0;ls
+: 1538459032:0;cd hardware
+: 1538459032:0;ls
+: 1538459034:0;cd tele
+: 1538459037:0;cd telepathyx
+: 1538459037:0;ls
+: 1538459051:0;git st
+: 1538459057:0;ls
+: 1538459069:0;ls *_component
+: 1538459077:0;la
+: 1538459087:0;git diff
+: 1538459099:0;cd ..
+: 1538459100:0;ls
+: 1538459105:0;cd telepathyx
+: 1538459105:0;ls
+: 1538459112:0;cd sx_hardware_telepathyx
+: 1538459112:0;ls
+: 1538459117:0;vim telepathyx.py
+: 1538459192:0;git pull
+: 1538459195:0;vim telepathyx.py
+: 1538461210:0;cd ../..
+: 1538461211:0;ls
+: 1538461214:0;cd ../..
+: 1538461216:0;cd manual-valves-opencv/
+: 1538461217:0;ls
+: 1538461222:0;vim main
+: 1538461229:0;vim main.py
+: 1538461239:0;ranger
+: 1538494494:0;source venv/bin/activate
+: 1538494496:0;ls
+: 1538494500:0;vim main.py
+: 1538495228:0;ranger
+: 1538495923:0;tar -xvzf apriltag-2015-03-18.tgz
+: 1538495924:0;ls
+: 1538495927:0;ranger
+: 1538523005:0;vim main.py
+: 1538537674:0;ls
+: 1538537676:0;vim main.py
+: 1538540707:0;sudo apt-get update
+: 1538548324:0;htop
+: 1538548465:0;python
+: 1538549572:0;htop
+: 1538574495:0;cd ../autotest/hardware/telepathyx/sx_hardware_telepathyx
+: 1538574496:0;ls
+: 1538574501:0;vim telepathyx
+: 1538574507:0;vim telepathyx.py
+: 1538576692:0;cd ../../../../tpx-source
+: 1538576692:0;ls
+: 1538576699:0;vim tpx_base_server.py
+: 1538576710:0;vim telepathyx
+: 1538576715:0;vim telepathyx.py
+: 1538580874:0;git st
+: 1538580890:0;git add .
+: 1538581059:0;cd ../autotest/hardware/telepathyx/sx_hardware_telepathyx
+: 1538581061:0;ls
+: 1538581063:0;l
+: 1538581076:0;vim tpx_frame.py
+: 1538581082:0;la
+: 1538581086:0;rm .tpx_frame.py.swp
+: 1538581092:0;vim tpx_frame.py
+: 1538581101:0;ls
+: 1538581101:0;git st
+: 1538581208:0;git ci "restructured import and auto thresh"
+: 1538581210:0;git push
+: 1538581395:0;sudo shutdown now
+: 1538582274:0;ls
+: 1538582306:0;vim telepathyx.py
+: 1538582326:0;vim tpx_base_server.py
+: 1538582350:0;l
+: 1538582354:0;vim tpx_base
+: 1538582358:0;vim tpx_base.py
+: 1538582423:0;vim tpx_core.py
+: 1538582456:0;cd ../../../../tpx-source
+: 1538582459:0;la
+: 1538582467:0;vim tpx_base_server.py
+: 1538583044:0;ls
+: 1538583048:0;vim tpx_base_server.py
+: 1538583071:0;vim tpx_core_client.py
+: 1538583078:0;python tpx_base_server.py
+: 1538588132:0;cd ..
+: 1538588133:0;ls
+: 1538588135:0;cd manual-valves-opencv
+: 1538588136:0;ls
+: 1538588147:0;source venv/bin/activate
+: 1538588150:0;vim main.py
+: 1538588210:0;git diff
+: 1538588213:0;git co main.py
+: 1538588215:0;la
+: 1538588218:0;rm .main.py.swp
+: 1538588223:0;vim main.py
+: 1538589872:0;git diff
+: 1538589878:0;vim main.py
+: 1538590822:0;vim valve_detect.py
+: 1538591128:0;ranger
+: 1538591618:0;source venv/bin/activate
+: 1538591622:0;python draw_test2.py
+: 1538591657:0;vim draw_test2.py
+: 1538599310:0;source venv/bin/activate
+: 1538599311:0;ls
+: 1538599322:0;vim draw_test2.py
+: 1538599547:0;ranger
+: 1538600380:0;vim notes.md
+: 1538603338:0;ls
+: 1538603341:0;ls note
+: 1538603347:0;ls ma*
+: 1538605495:0;vim main.py
+: 1538606501:0;source venv/bin/activate
+: 1538606502:0;ls
+: 1538606508:0;vim draw_test2.py
+: 1538614422:0;python draw_test2.py
+: 1538616447:0;ranger
+: 1538622877:0;clear
+: 1538622910:0;cd ../autotest/hardware/telepathyx/sx_hardware_telepathyx
+: 1538622919:0;vim telepathyx.py
+: 1538622939:0;cd ../../../
+: 1538622974:0;cd ..
+: 1538622978:0;cd tpx-source
+: 1538622979:0;ls
+: 1538623067:0;vim tpx_base_server.py
+: 1538625025:0;ls
+: 1538625033:0;vim tpx_frame.py
+: 1538628564:0;python main.py
+: 1538628617:0;vim manual_valve.py
+: 1538630599:0;vim main.py
+: 1538634110:0;cd ..
+: 1538634113:0;git clone https://github.com/adafruit/Adafruit_NeoPixel.git
+: 1538634118:0;cd Adafruit_NeoPixel
+: 1538634153:0;ls
+: 1538634177:0;cd
+: 1538634178:0;ls
+: 1538634181:0;cd Arduino
+: 1538634182:0;ls
+: 1538634184:0;cd ..
+: 1538634192:0;cd Arduino
+: 1538634193:0;ls
+: 1538634469:0;ranger
+: 1538660828:0;:q
+: 1538673374:0;cd ../gitRepos/autotest/hardware/telepathyx/sx_hardware_telepathyx
+: 1538673376:0;ls
+: 1538673377:0;la
+: 1538673381:0;vim tpx_frame.py
+: 1538673386:0;rm .tpx_frame.py.swp
+: 1538673390:0;vim tpx_frame.py
+: 1538677493:0;ranger
+: 1538682706:0;cd ~/gitRepos/manual-valves-opencv
+: 1538682706:0;ls
+: 1538682708:0;vim main.py
+: 1538683126:0;source venv/bin/activate
+: 1538683128:0;python main.py
+: 1538683163:0;vim main.py
+: 1538683291:0;source venv/bin/activate
+: 1538683299:0;vim draw_test2.py
+: 1538684206:0;ranger
+: 1538684655:0;vim main.py
+: 1538684663:0;htop
+: 1538684666:0;python main.py
+: 1538689246:0;source venv/bin/activate
+: 1538689249:0;python main.py
+: 1538699109:0;source venv/bin/activate
+: 1538699117:0;python draw_test2.py
+: 1538779500:0;source venv/bin/activate
+: 1538779500:0;ls
+: 1538779507:0;ranger
+: 1538779524:0;ls
+: 1538779528:0;ranger
+: 1538779530:0;git st
+: 1538779560:0;vim main.py
+: 1538843431:0;ranger
+: 1538844443:0;vim draw_test2.py
+: 1538845115:0;vim main.py
+: 1538845835:0;python color_diff.py
+: 1538845841:0;vim color_diff.py
+: 1539021456:0;deactivate
+: 1539021489:0;cd ../autotest/hardware/telepathyx/sx_hardware_telepathyx
+: 1539021489:0;ls
+: 1539021515:0;vim telepathyx.py
+: 1539025794:0;cd
+: 1539025797:0;cd gitRepos/manual-valves-opencv
+: 1539025850:0;source venv/bin/activate
+: 1539025851:0;ls
+: 1539025854:0;vim main.py
+: 1539026436:0;vim magic_align.py
+: 1539040425:0;cd ..
+: 1539040426:0;ls
+: 1539040432:0;mkdir pid_test
+: 1539040434:0;cd pid_test
+: 1539040437:0;vim pid.py
+: 1539040666:0;cd ..
+: 1539040667:0;ls
+: 1539040672:0;cd pid_test
+: 1539040677:0;git clone https://github.com/ivmech/ivPID.git
+: 1539040680:0;cd ivPID
+: 1539040680:0;ls
+: 1539040686:0;python test_pid.py
+: 1539040693:0;virtualenv venv
+: 1539040711:0;pi plist
+: 1539040712:0;pip list
+: 1539040724:0;deactivate
+: 1539040730:0;source venv/bin/activate
+: 1539040732:0;pip list
+: 1539040742:0;pip install matplotlib
+: 1539040755:0;pip install matplotlib==2.2.3
+: 1539040767:0;pip install scipy
+: 1539040778:0;python test_pid.py
+: 1539040808:0;vim test_pid.py
+: 1539042039:0;vim PID.py
+: 1539044004:0;source venv/bin/activate
+: 1539044006:0;python test_pid.py
+: 1539046306:0;ls
+: 1539108454:0;cd ..
+: 1539108455:0;ls
+: 1539108456:0;cd ..
+: 1539108458:0;ls
+: 1539108460:0;cd manual-valves-opencv
+: 1539108460:0;ls
+: 1539108467:0;source venv/bin/activate
+: 1539108469:0;vim main.py
+: 1539109061:0;htop
+: 1539119196:0;vim main.py
+: 1539194814:0;cd ..
+: 1539194815:0;ls
+: 1539194818:0;cd pid_test
+: 1539194818:0;ls
+: 1539194819:0;cd ivPID
+: 1539194820:0;ls
+: 1539194826:0;source venv/bin/activate
+: 1539194827:0;ls
+: 1539194830:0;python test_pid.py
+: 1539196808:0;vim test_pid.py
+: 1539196895:0;source venv/bin/activate
+: 1539196897:0;python test_pid.py
+: 1539200740:0;source venv/bin/activate
+: 1539200840:0;python test_pid.py
+: 1539201757:0;ls
+: 1539201758:0;git st
+: 1539201766:0;git diff PID.py
+: 1539203673:0;ls
+: 1539203676:0;pip list
+: 1539203686:0;git diff PID.py
+: 1539203694:0;git checkout PID.py
+: 1539203698:0;vim test_pid.py
+: 1539204097:0;ls
+: 1539204106:0;cp test_pid.py bk_test_pid.py
+: 1539204109:0;git co test_pid.py
+: 1539204111:0;vim test_pid.py
+: 1539204606:0;pip install -U Sphinx
+: 1539204615:0;cd ..
+: 1539204616:0;ls
+: 1539204638:0;pip install Sphinx
+: 1539204659:0;pip install pidsim
+: 1539204669:0;git clone https://github.com/rafaelmartins/pidsim.git
+: 1539204673:0;cd pidsim
+: 1539204678:0;make -C doc html
+: 1539204691:0;pip install pngmath
+: 1539204698:0;sudo apt-get install pngmath
+: 1539204889:0;cd ..
+: 1539204890:0;ls
+: 1539204893:0;git clone https://github.com/unprolix/jataruku.git
+: 1539204896:0;ls
+: 1539204899:0;cd jataruku
+: 1539204900:0;ls
+: 1539204904:0;vim test.py
+: 1539204960:0;python test.py
+: 1539205038:0;cd ..
+: 1539205038:0;ls
+: 1539205041:0;cd pidsim
+: 1539205042:0;ls
+: 1539205047:0;cd pidsim
+: 1539205048:0;ls
+: 1539205056:0;cd core
+: 1539205057:0;ls
+: 1539205063:0;cd pid
+: 1539205063:0;ls
+: 1539205070:0;python tuning.py
+: 1539205089:0;ls
+: 1539205092:0;cd ..
+: 1539205092:0;ls
+: 1539205183:0;pip install simple-pid
+: 1539205264:0;cd ../../..
+: 1539205264:0;ls
+: 1539205276:0;mkdir simple-pid
+: 1539205279:0;cd simple-pid
+: 1539205283:0;vim pid.py
+: 1539205457:0;cd ..
+: 1539205458:0;ls
+: 1539205460:0;cd simple-pid
+: 1539205460:0;ls
+: 1539205468:0;git clone https://github.com/m-lundberg/simple-pid.git
+: 1539205486:0;ls
+: 1539205488:0;cd simple-pid
+: 1539205488:0;ls
+: 1539205516:0;cp ../pid.py pid.py
+: 1539205517:0;ls
+: 1539205525:0;cd simple-pid
+: 1539205526:0;ls
+: 1539205529:0;vim pid.py
+: 1539205696:0;ls
+: 1539205698:0;cd ..
+: 1539205699:0;ls
+: 1539205702:0;cd ivPID
+: 1539205702:0;ls
+: 1539205706:0;vim test_pid.py
+: 1539205785:0;vim bk_test_pid.py
+: 1539212837:0;source venv/bin/activate
+: 1539212838:0;pip list
+: 1539212843:0;python bk_test_pid.py
+: 1539215249:0;cd ..
+: 1539215249:0;ls
+: 1539215253:0;cd ivPID
+: 1539215254:0;ls
+: 1539215256:0;python bk_test_pid.py
+: 1539218085:0;ls
+: 1539218096:0;cp PID.py bk_PID.py
+: 1539218109:0;vim PID.py
+: 1539218118:0;git st
+: 1539218123:0;git diff
+: 1539218127:0;git diff PID.py
+: 1539218139:0;git co PID.py test_pid.py
+: 1539218150:0;source venv/bin/activate
+: 1539218156:0;python test_pid.py
+: 1539218173:0;vim test_pid.py
+: 1539220054:0;cd ../..
+: 1539220054:0;ls
+: 1539220065:0;cd autotest/hardware/telepathyx/sx_hardware_telepathyx
+: 1539220069:0;vim telepathyx.py
+: 1539220086:0;ranger
+: 1539361863:0;cd ..
+: 1539361864:0;sl
+: 1539361865:0;ls
+: 1539361872:0;cd autotest/hardware/telepathyx/sx_hardware_telepathyx
+: 1539361873:0;ls
+: 1539361900:0;vim tpx_core_client.py
+: 1539361909:0;vim tpx_base
+: 1539361917:0;vim tpx_base_server.py
+: 1539378714:0;ls
+: 1539378722:0;vim tpx_frame.py
+: 1539379372:0;python
+: 1539586144:0;cd ~/dotfiles/vim/.vim/vimrc
+: 1539586145:0;ls
+: 1539586148:0;python plugins.vim
+: 1539586155:0;vim plugins.vim
+: 1539586354:0;ls
+: 1539586356:0;vim settings.vim
+: 1539644875:0;cd
+: 1539644877:0;cd gitRepos
+: 1539644877:0;ls
+: 1539644884:0;cd autotest/hardware/telepathyx/sx_hardware_telepathyx
+: 1539644884:0;ls
+: 1539644890:0;vim tpx_frame.py
+: 1539646989:0;python tpx_frame.py
+: 1539649361:0;python
+: 1539704757:0;sudo shutdown now
+: 1539706011:0;vim tpx_frame.py
+: 1539706029:0;python
+: 1539720795:0;cd
+: 1539720798:0;cd gitRepos/manual-valves-opencv
+: 1539720798:0;ls
+: 1539720803:0;source venv/bin/activate
+: 1539726749:0;ls
+: 1539726754:0;ranger
+: 1539727158:0;vim main.py
+: 1539727307:0;ranger
+: 1539727387:0;source venv/bin/activate
+: 1539727396:0;ranger
+: 1539733570:0;ls *.sw
+: 1539733579:0;ls *.swp
+: 1539733584:0;la *.sw
+: 1539733585:0;la
+: 1539733594:0;ranger
+: 1539733678:0;ssh telepathyx-connectport01
+: 1539733704:0;ssh root@telepathyx-connectport01
+: 1539736059:0;ssh root@10.33.233.6
+: 1539796224:0;sudo shutdown now
+: 1539802654:0;cd ..
+: 1539802654:0;ls
+: 1539802673:0;cd autotest/hardware/telepathyx/sx_hardware_telepathyx
+: 1539802673:0;ls
+: 1539802683:0;vim tpx_base_server.py
+: 1539803608:0;ranger
+: 1539820156:0;cd
+: 1539820160:0;cd gitRepos/manual-valves-opencv
+: 1539820160:0;ls
+: 1539820161:0;git st
+: 1539820178:0;ranger
+: 1539820988:0;ls
+: 1539820990:0;ranger
+: 1539821073:0;source venv/bin/activate
+: 1539821074:0;ls
+: 1539821076:0;vim main.py
+: 1539821452:0;ls
+: 1539821456:0;vim .gitignore
+: 1539821524:0;git status
+: 1539821591:0;git add .
+: 1539821632:0;git st
+: 1539821742:0;git st
+: 1539821775:0;git commit 
+: 1539821814:0;vim
+: 1539821856:0;git ci "cleaned up all images"
+: 1539821899:0;htop
+: 1539821915:0;ranger
+: 1539821934:0;vim .gitignore
+: 1539822031:0;git st
+: 1539822077:0;git add .
+: 1539822101:0;git ci "added *images to gitignore"
+: 1539822117:0;ls
+: 1539822120:0;git push
+: 1539822262:0;git st
+: 1539823632:0;ls
+: 1539823635:0;git log
+: 1539823637:0;git st
+: 1539823702:0;git co -b dev
+: 1539823707:0;git push
+: 1539823714:0;git push --set-upstream origin dev
+: 1539881955:0;ranger
+: 1539882073:0;git st
+: 1539882079:0;git add .
+: 1539882091:0;git ci "removed extraneous excel files"
+: 1539883672:0;git st
+: 1539883677:0;git add README.md
+: 1539883723:0;git ci "updated with detailed project goals"
+: 1539884323:0;ls
+: 1539884324:0;l
+: 1539884332:0;git mv main.py import_image.py
+: 1539884334:0;ls
+: 1539884336:0;git st
+: 1539884438:0;git ci "renamed to handle all import processesing"
+: 1539884440:0;git st
+: 1539884445:0;git add README.md
+: 1539884454:0;git ci "module definitions"
+: 1539884499:0;git mv magic_align.py magic_utils.py
+: 1539884534:0;git mv qr_scanner.py archive/qr_scanner.py
+: 1539885446:0;ranger
+: 1539885467:0;source venv/bin/activate
+: 1539885470:0;ranger
+: 1539885722:0;git rm test.py
+: 1539885723:0;git st
+: 1539885755:0;git rm draw_test.py
+: 1539885770:0;git mv draw_test2.py panel_setup.py
+: 1539885794:0;git rm color_diff.py
+: 1539885820:0;git mv color_isolate.py archive/color_isolate.py
+: 1539885879:0;git st
+: 1539885902:0;vim main.py
+: 1539885958:0;git st
+: 1539885964:0;git add .
+: 1539885974:0;git ci "repo restructure with new filenames"
+: 1539886903:0;ls
+: 1539886951:0;rm magic_align.pyc
+: 1539886954:0;ls
+: 1539886955:0;l
+: 1539886957:0;la
+: 1539886959:0;clear
+: 1539886960:0;la
+: 1539886969:0;rm manual_valve.pyc
+: 1539886983:0;rm valve_detect.pyc
+: 1539886984:0;ls
+: 1539887021:0;cp manual_valve.py archive/bk_manual_valve.py
+: 1539887353:0;vim reports.py
+: 1539892251:0;git mv manual_valve.py archive/bk_manual_valve.py
+: 1539892260:0;git st
+: 1539892269:0;rm archive/bk_manual_valve.py
+: 1539892284:0;git mv manual_valve.py archive/bk_manual_valve.py
+: 1539892286:0;git st
+: 1539892326:0;git add reports.py
+: 1539892332:0;git st
+: 1539892351:0;vim manual_valve.py
+: 1539893666:0;python
+: 1539894286:0;source venv/bin/activate
+: 1539894292:0;vim manual_valve.py
+: 1539894610:0;la
+: 1539894634:0;source venv/bin/activate
+: 1539894646:0;vim manual_valve.py
+: 1539895128:0;source venv/bin/activate
+: 1539895130:0;ranger
+: 1539914416:0;cd ..
+: 1539914416:0;ls
+: 1539914460:0;mkdir TAC_Trendlines
+: 1539914463:0;cd TAC_Trendlines
+: 1539914464:0;ls
+: 1539914489:0;vim tac_trendline.py
+: 1539914638:0;vim csv_spoof.py
+: 1539977762:0;ls
+: 1539978545:0;vim csv_spoof.py
+: 1539978559:0;vim tac_csv.csv
+: 1539978573:0;vim tac_trendline.py
+: 1539993762:0;ls
+: 1539993771:0;git init
+: 1539993777:0;git add tac_trendline.py
+: 1539993784:0;git add tac_csv.csv
+: 1539993805:0;git ci "initial commit"
+: 1539993807:0;git remote add origin ssh://git@stash:7999/~dtan/tac_trendlines.git
+: 1539993819:0;git push -u origin master
+: 1539993987:0;ls
+: 1539993992:0;vim tac_trendline.py
+: 1539994033:0;ranger
+: 1540061000:0;clear
+: 1540061252:0;git st
+: 1540061263:0;git add tac_trendline.py
+: 1540061278:0;git ci "plot error bands"
+: 1540061279:0;git push
+: 1540061285:0;git push --set-upstream origin master
+: 1540061705:0;vim tac_trendline.py
+: 1540135802:0;ls
+: 1540135810:0;git sk
+: 1540135811:0;git st
+: 1540135822:0;git diff magic_utils.py
+: 1540135828:0;git diff main.py
+: 1540135838:0;vim main.py
+: 1540135856:0;vim manual_valve.py
+: 1540135882:0;git add .
+: 1540135914:0;git ci "reformatting with panel and valve classes"
+: 1540135916:0;git push
+: 1540136032:0;vim main.py
+: 1540136040:0;ls
+: 1540136043:0;l
+: 1540136067:0;vim main.py
+: 1540136141:0;l
+: 1540136150:0;vim panel_setup.py
+: 1540136166:0;vim color_diff2.py
+: 1540136187:0;l
+: 1540136196:0;vim main.py
+: 1540136890:0;ranger
+: 1540212167:0;git st
+: 1540212170:0;git diff main.py
+: 1540212175:0;git co main.py
+: 1540212177:0;git push
+: 1540212197:0;cd ..
+: 1540212197:0;ls
+: 1540212199:0;cd TAC_Trendlines
+: 1540212200:0;git st
+: 1540212207:0;git push --set-upstream origin
+: 1540212211:0;git push --set-upstream origin master
+: 1540212275:0;cd ..
+: 1540212277:0;cd manual-valves-opencv
+: 1540212280:0;vim README.md
+: 1540212671:0;git add README.md
+: 1540212678:0;git ci "bolded module names"
+: 1540212679:0;git push
+: 1540217172:0;vim README.md
+: 1540217187:0;git add README.md
+: 1540217195:0;git ci "bolded import image"
+: 1540217197:0;git push
+: 1540230298:0;ls
+: 1540232193:0;mkdir cerebro
+: 1540232195:0;l
+: 1540232206:0;git mv import_image.py cerebro/import_image.py
+: 1540232216:0;git mv magic_utils.py cerebro/magic_utils.py
+: 1540232229:0;git mv panel_setup.py cerebro/panel_setup.py
+: 1540232310:0;l
+: 1540232345:0;rm *.pyc
+: 1540232352:0;l
+: 1540232363:0;git mv reports.py cerebro/reports.py
+: 1540232370:0;vim valve_detect.py
+: 1540232385:0;git mv valve_detect.py archive/valve_detect.py
+: 1540232463:0;l
+: 1540232480:0;git mv color_diff2.py cerebro/color_diff2.py
+: 1540232481:0;l
+: 1540232497:0;git mv manual_valve.py cerebro/manual_valve.py
+: 1540232498:0;l
+: 1540232504:0;git st
+: 1540232506:0;git add .
+: 1540232516:0;ls
+: 1540232524:0;touch cerebro/__init__.py
+: 1540232526:0;git st
+: 1540232528:0;git add .
+: 1540232547:0;git ci "reorg folder structure to package names"
+: 1540232548:0;git push
+: 1540232880:0;vim
+: 1540256110:0;ls
+: 1540256150:0;git mv cerebro valve_vision
+: 1540256151:0;ls
+: 1540256165:0;git ci "rename to valve vision"
+: 1540256172:0;ls
+: 1540256174:0;cd valve_vision
+: 1540256175:0;ls
+: 1540256184:0;vim panel_setup.py
+: 1540256196:0;vim manual_valve.py 
+: 1540256555:0;ls
+: 1540256557:0;cd ..
+: 1540256557:0;ls
+: 1540256566:0;git mv apriltag valve_vision/apriltag
+: 1540256568:0;ls
+: 1540256570:0;cd valve_vision
+: 1540256574:0;vim manual_valve.py
+: 1540256683:0;ls
+: 1540256688:0;vim main.py
+: 1540261894:0;ls
+: 1540261900:0;python main.py
+: 1540262536:0;vim ../main.py
+: 1540262696:0;ls
+: 1540262697:0;git st
+: 1540262703:0;git add .
+: 1540262715:0;git ci "import and create panel and valves"
+: 1540262752:0;ls
+: 1540262753:0;ranger
+: 1540265389:0;git ls
+: 1540265391:0;git st
+: 1540265395:0;git add .
+: 1540265413:0;git ci "import options"
+: 1540266077:0;ranger
+: 1540269265:0;vim manual_valve.py
+: 1540271129:0;git mv valve_vision/manual_valve.py valve_vision/panel.py
+: 1540271131:0;git st
+: 1540271148:0;git ci "rename to panel.py"
+: 1540271153:0;git add .
+: 1540271160:0;git ci "able to detect apriltags"
+: 1540271686:0;git st
+: 1540304414:0;ls
+: 1540304424:0;cd ..
+: 1540304424:0;ls
+: 1540304427:0;cd valve_vision
+: 1540304428:0;ls
+: 1540304455:0;vim ../main.py
+: 1540304703:0;ranger
+: 1540396851:0;ls
+: 1540396854:0;cd ..
+: 1540396934:0;ls
+: 1540397112:0;cd autotest
+: 1540397113:0;ls
+: 1540397118:0;cd hardware
+: 1540397118:0;ls
+: 1540397120:0;cd telepathyx
+: 1540397121:0;ls
+: 1540397127:0;cd sx_hardware_telepathyx
+: 1540397128:0;ls
+: 1540397133:0;vim tpx_frame.py
+: 1540398100:0;la *.sw
+: 1540398105:0;la *swp
+: 1540398107:0;la
+: 1540398115:0;la *.swp
+: 1540398119:0;la *.
+: 1540398124:0;la .
+: 1540398135:0;rm .tpx_frame.py.swp
+: 1540604048:0;cd
+: 1540604050:0;cd gitRepos
+: 1540604050:0;ls
+: 1540604053:0;cd manual-valves-opencv
+: 1540604054:0;ls
+: 1540604055:0;git st
+: 1540604058:0;git push
+: 1540683934:0;vim
+: 1540686444:0;ls
+: 1540686445:0;vim main.py
+: 1540686460:0;vim a.py
+: 1540811474:0;sudo shutdown now
+: 1541030727:0;ranger
+: 1541030777:0;vim
+: 1541030797:0;:q
+: 1541078892:0;sudo shutdown now
+: 1541307987:0;ls
+: 1541307988:0;cd 
+: 1541307989:0;ls
+: 1541307990:0;cd git
+: 1541307990:0;ls
+: 1541307992:0;cd gitRepos
+: 1541307992:0;ls
+: 1541307993:0;cd clock_squared
+: 1541307994:0;ls
+: 1541308041:0;vim main.py
+: 1541308053:0;python3 main.py
+: 1541308941:0;ls
+: 1541308942:0;cd ..
+: 1541308942:0;ls
+: 1541308954:0;ranger
+: 1541309028:0;vim
+: 1541309033:0;sl
+: 1541309034:0;ls
+: 1541309058:0;cd ..
+: 1541312760:0;sudo shutdown now
+: 1541546770:0;ls
+: 1541546772:0;cd git
+: 1541546774:0;cd gitRepos
+: 1541546775:0;cd clock_squared
+: 1541546776:0;ls
+: 1541546778:0;vim main.py
+: 1541546788:0;python3 main.py
+: 1541548910:0;ls
+: 1541548915:0;sudo shutdown now
+: 1543866178:0;ranger
+: 1543869853:0;ls
+: 1543869854:0;cd ..
+: 1543869857:0;ranger
+: 1543869893:0;ls
+: 1543869894:0;l
+: 1543869909:0;cp PLC_A_PID_SQL_TO_BORG_QUERY.json PLC_B_PID_SQL_TO_BORG_QUERY.json
+: 1543869943:0;cd ..
+: 1543869944:0;ls
+: 1543869946:0;cd gitRepos
+: 1543869947:0;ls
+: 1543869952:0;cd ..
+: 1543869953:0;ls
+: 1543869955:0;cd ..
+: 1543869956:0;ls
+: 1543869957:0;cd ..
+: 1543869957:0;ls
+: 1543869960:0;cd media
+: 1543869960:0;ls
+: 1543869964:0;cd sf_gitRepos
+: 1543869964:0;ls
+: 1543869967:0;cd linux_transfers
+: 1543869967:0;ls
+: 1543870030:0;ranger
+: 1543877974:0;sudo shutdown now
+: 1544030521:0;ls
+: 1544030570:0;cd
+: 1544030570:0;ls
+: 1544030573:0;cd gitRepos
+: 1544030573:0;ls
+: 1544030584:0;mkdir TAC_Analysis
+: 1544030590:0;cd TAC_Analysis
+: 1544030590:0;ls
+: 1544030603:0;vim tac_analysis.py
+: 1544030686:0;pip install --user sx-borg
+: 1544030725:0;cd ..
+: 1544030725:0;ls
+: 1544030732:0;cd manual-valves-opencv
+: 1544030732:0;l
+: 1544030739:0;cd valve_vision
+: 1544030740:0;ls
+: 1544030744:0;vim reports.py
+: 1544030751:0;vim magic_utils.py
+: 1544244359:0;ls
+: 1544244364:0;vim magic_utils.py
+: 1544244412:0;ranger
+: 1544244420:0;cd
+: 1544244420:0;ls
+: 1544244422:0;cd dotfiles
+: 1544244422:0;ls
+: 1544244424:0;cd vim
+: 1544244424:0;ls
+: 1544244427:0;cd .vim/vimrc
+: 1544244427:0;ls
+: 1544244430:0;vim settings.vim
+: 1544244466:0;vim plugins.vim
+: 1544244928:0;ranger
+: 1544244938:0;vim
+: 1544244994:0;v
+: 1544244998:0;ranger
+: 1544245408:0;ls
+: 1544245458:0;sudo apt-get install i3wm
+: 1544245549:0;ranger
+: 1544245573:0;git st
+: 1544245589:0;cd ..
+: 1544245589:0;ls
+: 1544245592:0;cd ../.
+: 1544245594:0;ls
+: 1544245594:0;cd ..
+: 1544245595:0;ls
+: 1544245599:0;cd SublimeText
+: 1544245601:0;cd ..
+: 1544246072:0;ranger
+: 1544461523:0;sudo shutdown now
+: 1544467126:0;ranger
+: 1544467350:0;sudo apt-get install compton
+: 1544467377:0;ranger
+: 1544467502:0;vim compton.conf
+: 1544467587:0;ls
+: 1544467596:0;cd ..
+: 1544467596:0;ls
+: 1544467624:0;cd
+: 1544467624:0;ls
+: 1544467713:0;ranger
+: 1544473817:0;ssh root@telepathyx-connectport01 -c aes256-cbc# password 'telepathyx'
+: 1544473827:0;ssh root@telepathyx-connectport01
+: 1544487385:0;ranger
+: 1544487400:0;cd tpx-s
+: 1544487403:0;cd tpx-source
+: 1544487408:0;cd ..
+: 1544487408:0;ls
+: 1544487411:0;ranger
+: 1544487424:0;vim b.py
+: 1544562356:0;ranger
+: 1544562889:0;vim x.py
+: 1544563471:0;ranger
+: 1544565893:0;ls
+: 1544565894:0;ranger
+: 1544566057:0;git st
+: 1544566063:0;git diff tpx_base_server.py
+: 1544566084:0;cd ..
+: 1544566084:0;ls
+: 1544566089:0;cd tpx-support
+: 1544566090:0;ls
+: 1544566098:0;cd tls_test
+: 1544566098:0;ls
+: 1544566102:0;vim client.py
+: 1544566109:0;cd ..
+: 1544566109:0;ls
+: 1544566111:0;cd ..
+: 1544566112:0;ls
+: 1544647453:0;ranger
+: 1544924171:0;apt list polybar
+: 1544924201:0;sudo apt-get install update
+: 1544924213:0;sudo apt-get update
+: 1544924270:0;sudo apt-get upgrade
+: 1544924446:0;sudo apt-get install curl vim exuberant-ctags git ack-grep
+: 1544925195:0;ls
+: 1544925198:0;ranger
+: 1544926346:0;cd
+: 1544926347:0;cd .vim
+: 1544926348:0;ls
+: 1544926350:0;cd vimrc
+: 1544926351:0;ls
+: 1544926352:0;cd ..
+: 1544926354:0;cd plugged
+: 1544926354:0;ls
+: 1544926359:0;cd python-mode
+: 1544926359:0;ls
+: 1544926377:0;git submodules update --init --recursive
+: 1544926386:0;git submodule update --init --recursive
+: 1544927055:0;sudo apt-get install fzf
+: 1544927160:0;cd ..
+: 1544927160:0;ls
+: 1544927174:0;git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+: 1544927182:0;~/.fzf/install
+: 1544927428:0;fzf
+: 1544927437:0;source ~/.zshrc
+: 1544927440:0;fzf
+: 1544928551:0;python install.py
+: 1544928587:0;ranger
+: 1544929931:0;ls
+: 1544930094:0;cd
+: 1544930095:0;ls
+: 1544930097:0;cd Downloads
+: 1544930097:0;ls
+: 1544930105:0;git clone https://www.github.com/Airblader/i3 i3-gaps
+: 1544930157:0;cd i3-gaps
+: 1544930169:0;autoreconf --force --install
+: 1544934305:0;libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev \\
+libxcb-util0-dev libxcb-icccm4-dev libyajl-dev \\
+libstartup-notification0-dev libxcb-randr0-dev \\
+libev-dev libxcb-cursor-dev libxcb-xinerama0-dev \\
+libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev \\
+autoconf libxcb-xrm0 libxcb-xrm-dev automake libxcb-shape0-dev
+: 1544934367:0;sudo apt-get install i3-gaps
+: 1544934486:0;sudo apt remove i3* && sudo apt autoremove\
+
+: 1544934506:0;sudo reboot now
+: 1544934562:0;sudo apt-get remove i3wm
+: 1544934594:0;sudo apt-get remove i3*
+: 1544934707:0;sudo apt-get remove i3-wm
+: 1544934724:0;sudo apt-get remove i3-*
+: 1544934735:0;sudo apt-get autoremove
+: 1544934791:0;sudo apt-get remove "^i3.*"
+: 1544934818:0;sudo apt install libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev xutils-dev autoconf\
+
+: 1544934970:0;cd /tmp
+: 1544934976:0;git clone https://github.com/Airblader/xcb-util-xrm\
+
+: 1544934983:0;cd xcb-util-xrm\
+
+: 1544934987:0;git submodule update --init\
+
+: 1544935199:0;cd ..
+: 1544935203:0;git clone https://www.github.com/Airblader/i3 i3-gaps\
+cd i3-gaps
+: 1544935214:0;cd i3-gaps
+: 1544935224:0;# compile & install\
+autoreconf --force --install
+: 1544935234:0;rm -rf build/
+: 1544935240:0;mkdir -p build && cd build/
+: 1544935247:0;../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers\
+
+: 1544935262:0;make
+: 1544935267:0;sudo make install\
+
+: 1544935287:0;ls
+: 1544935300:0;../configure --prefix=/usr --sysconfdir=/etc\
+
+: 1544935366:0;sudo make install
+: 1544935370:0;make
+: 1544935385:0;../configure --prefix=/usr --sysconfdir=/etc\
+
+: 1544935417:0;sudo add-apt-repository ppa:aguignard/ppa\
+
+: 1544935445:0;sudo apt-get install libxcb-xrm-dev \
+
+: 1544935539:0;../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers\
+
+: 1544935591:0;sudo apt-get install xcb-shape
+: 1544935634:0;cd ..
+: 1544935635:0;ls
+: 1544935636:0;cd ..
+: 1544935636:0;ls
+: 1544935644:0;cd xcb-util-xrm
+: 1544935653:0;git submodule update --init
+: 1544935661:0;./autogen.sh --prefix=/usr\
+
+: 1544935692:0;make
+: 1544935700:0;sudo make install\
+
+: 1544935708:0;cd ..
+: 1544935709:0;ls
+: 1544935715:0;cd i3-gaps
+: 1544935727:0;autoreconf --force --install\
+
+: 1544935737:0;mkdir build\
+
+: 1544935747:0;cd build
+: 1544935750:0;v
+: 1544935752:0;../configure --prefix=/usr --sysconfdir=/etc\
+
+: 1544935768:0;cd ..
+: 1544935770:0;rm -rf build/\
+
+: 1544935777:0;mkdir -p build && cd build/\
+
+: 1544935782:0;../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers\
+
+: 1544936182:0;cd ../..
+: 1544936190:0;cd xcb-util-xrm
+: 1544936195:0;./autogen.sh --prefix=/usr\
+
+: 1544936213:0;make
+: 1544936219:0;sudo make install
+: 1544936269:0;cd ../i3-gaps
+: 1544936282:0;git checkout gaps && git pull
+: 1544936293:0;autoreconf --force --install\
+
+: 1544936304:0;rm -rf build\
+mkdir build
+: 1544936309:0;cd build
+: 1544936313:0;../configure --prefix=/usr --sysconfdir=/etc\
+
+: 1544936326:0;make
+: 1544936364:0;sudo make install
+: 1544936376:0;i3-gaps
+: 1544936709:0;sudo apt-get install i3bar
+: 1544936790:0;ls
+: 1544936795:0;cd gitRepos
+: 1544936795:0;ls
+: 1544936798:0;git clone https://github.com/LukeSmithxyz/voidrice.git
+: 1544936807:0;ls
+: 1544936810:0;cd voidrice
+: 1544936810:0;ls
+: 1544936815:0;la
+: 1544936818:0;cd .config
+: 1544936818:0;ls
+: 1544936822:0;cd i3
+: 1544936823:0;ls
+: 1544936825:0;vim config
+: 1544936892:0;ranger
+: 1544961293:0;ls
+: 1544961301:0;cd
+: 1544961306:0;cd .config
+: 1544961306:0;ls
+: 1544961307:0;cd i3
+: 1544961308:0;ls
+: 1544961309:0;ranger
+: 1544962034:0;sudo apt-get install i3blocks
+: 1544965253:0;ls
+: 1544965255:0;vim config
+: 1544965355:0;sudo reboot now
+: 1544965533:0;vim config
+: 1544965631:0;ls
+: 1544965639:0;vim config_nogaps
+: 1544965781:0;sudo reboot now
+: 1544965922:0;ranger
+: 1544965990:0;ls
+: 1544965999:0;ranger
+: 1544966035:0;sudo reboot now
+: 1544966321:0;sudo apt-get install libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev \\
+libxcb-util0-dev libxcb-icccm4-dev libyajl-dev \\
+libstartup-notification0-dev libxcb-randr0-dev \\
+libev-dev libxcb-cursor-dev libxcb-xinerama0-dev \\
+libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev \\
+autoconf libxcb-xrm0 libxcb-xrm-dev automake libxcb-shape0-dev
+: 1544966340:0;sudo apt autoremove
+: 1544966374:0;cd ~/tmp
+: 1544966382:0;cd /tmp
+: 1544966383:0;ls
+: 1544966397:0;cd ~
+: 1544966398:0;ls
+: 1544966401:0;cd Downloads
+: 1544966401:0;ls
+: 1544966404:0;cd i3-gaps
+: 1544966406:0;git pull
+: 1544966418:0;autoreconf --force --install\
+
+: 1544966430:0;rm -rf build/\
+
+: 1544966434:0;mkdir -p build && cd build/\
+
+: 1544966440:0;../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers\
+
+: 1544966481:0;make -j8
+: 1544966496:0;sudo make install
+: 1544966510:0;sudo reboot now
+: 1544966574:0;cd
+: 1544966579:0;cd .config/i3
+: 1544966580:0;ls
+: 1544966594:0;vim config
+: 1544966627:0;ranger
+: 1544966806:0;sudo apt-get install i3status
+: 1544967049:0;vim config
+: 1544967156:0;ls
+: 1544967415:0;cd ~/Downloads
+: 1544967418:0;git clone --branch 3.2 --recursive https://github.com/jaagr/polybar
+: 1544967436:0;cd polybar
+: 1544967439:0;mkdir build
+: 1544967441:0;cd build
+: 1544967446:0;cmake ..
+: 1544967459:0;cd ..
+: 1544967459:0;ls
+: 1544967465:0;./build.sh
+: 1544967471:0;./build.sh -f
+: 1544967515:0;cd /home/dtan/Downloads/polybar/build/CMakeFiles
+: 1544967520:0;vim CMakeOutput.log
+: 1544967527:0;vim CMakeError.log
+: 1544967560:0;sudo apt-get install build-essential
+: 1544967577:0;sudo apt-get insall clang-7.0
+: 1544967582:0;sudo apt-get install clang-7.0
+: 1544967593:0;sudo apt-get install clang
+: 1544967749:0;sudo apt-get install cmake
+: 1544967754:0;ls
+: 1544967762:0;./build -f
+: 1544967776:0;./build.sh -f
+: 1544967835:0;sudo apt-get insall xcb-proto
+: 1544967894:0;sudo apt-get install xcb-proto
+: 1544967904:0;./build.sh -f
+: 1544967977:0;sudo apt install xcb
+: 1544968004:0;apt install libxcb-ewmh2
+: 1544968017:0;sudo apt install libxcb-ewmh2
+: 1544968036:0;sudo apt-get install libxcb-ewmh-dev
+: 1544968045:0;ls
+: 1544968054:0;rm -rf build
+: 1544968058:0;mkdir build
+: 1544968060:0;cd build
+: 1544968063:0;cmake ..
+: 1544968077:0;sudo apt-get install xcbgen
+: 1544968112:0;sudo apt-get install xcb-proto
+: 1544968140:0;sudo apt-get install python-xcbgen
+: 1544968151:0;cmake ..
+: 1544968165:0;sudo make install
+: 1544968669:0;make userconfig
+: 1544968674:0;polybar example
+: 1544968713:0;ranger
+: 1544969184:0;polybar example
+: 1544972680:0;ranger
+: 1544973194:0;pip install requests
+: 1544973217:0;terminator --version
+: 1544973364:0;ranger
+: 1544973781:0;cd
+: 1544973784:0;cd .config
+: 1544973784:0;ls
+: 1544973787:0;cd i3
+: 1544973787:0;ls
+: 1544973790:0;vim config
+: 1544973841:0;cd ..
+: 1544973842:0;ls
+: 1544973844:0;cd
+: 1544973846:0;cd gitRepos
+: 1544973847:0;ls
+: 1544973849:0;cd tpx-source
+: 1544973850:0;ls
+: 1544973853:0;vim x.py
+: 1544973865:0;ranger
+: 1544973913:0;vim x.py
+: 1544974041:0;sudo rebootnow
+: 1544974045:0;sudo reboot now
+: 1544974087:0;vim x.py
+: 1544974302:0;cd 
+: 1544974306:0;vim .vimrc
+: 1544974316:0;ranger
+: 1544974339:0;vim x.py
+: 1544984652:0;ls
+: 1544984656:0;cd dotfiles
+: 1544984657:0;ls
+: 1544984675:0;cd ..
+: 1544984676:0;ls
+: 1544984678:0;cd gitRepos
+: 1544984678:0;ls
+: 1544984686:0;vim echoAnalyzer_multithreaded.py
+: 1544984699:0;vim x.py
+: 1544984734:0;sudo apt-get install terminte
+: 1544984738:0;sudo apt-get install termite
+: 1545049193:0;sudo reboot now
+: 1545049242:0;ls
+: 1545049287:0;vim echoAnalyzer_multithreaded.py
+: 1545049598:0;
+: 1545049603:0;vim echoAnalyzer_multithreaded.py
+: 1545049635:0;ranger
+: 1545049775:0;polybar example
+: 1545050579:0;vim
+: 1545050582:0;ls
+: 1545050586:0;ranger
+: 1545051224:0;source venv/bin/activate
+: 1545051227:0;vim main.py
+: 1545051298:0;ranger
+: 1545053501:0;ls
+: 1545053535:0;source venv/bin/activate
+: 1545053536:0;ls
+: 1545053547:0;ranger
+: 1545089030:0;sudo shutdown now
+: 1545235710:0;cd manual-valves-opencv
+: 1545235710:0;ls
+: 1545235713:0;vim main.py
+: 1545240213:0;ls
+: 1545240216:0;git st
+: 1545240221:0;cd ..
+: 1545240222:0;sl
+: 1545240223:0;ls
+: 1545240235:0;cd tpx-source
+: 1545240236:0;ls
+: 1545240244:0;vim tpx_base_server.py
+: 1545240482:0;vim x.py
+: 1545240843:0;vim tpx_base_server.py
+: 1545241301:0;vim
+: 1545241867:0;git st
+: 1545241872:0;git pull
+: 1545241889:0;git st
+: 1545245805:0;htop
+: 1545326277:0;ls
+: 1545331509:0;vim tpx_base_server.py
+: 1545337406:0;python tpx_base_server.py
+: 1545337491:0;python
+: 1545337573:0;python tpx_base_server.py
+: 1545337664:0;python tpx_core_client.py
+: 1545337703:0;python tpx_base_server.py
+: 1545337706:0;python tpx_core_client.py
+: 1545337714:0;vim tpx_core_client.py
+: 1545337724:0;python tpx_core_client.py
+: 1545337826:0;python tpx_base_server.py
+: 1545337828:0;python tpx_core_client.py
+: 1545337934:0;python tpx_base_server.py
+: 1545337935:0;python tpx_core_client.py
+: 1545337975:0;python tpx_base_server.py
+: 1545337978:0;python tpx_core_client.py
+: 1545338117:0;python tpx_base_server.py
+: 1545338119:0;python tpx_core_client.py
+: 1545338441:0;python tpx_base_server.py
+: 1545338443:0;python tpx_core_client.py
+: 1545338500:0;python tpx_base_server.py
+: 1545338502:0;python tpx_core_client.py
+: 1545338538:0;python tpx_base_server.py
+: 1545338539:0;python tpx_core_client.py
+: 1545339444:0;source venv/bin/ac
+: 1545339451:0;ls
+: 1545339458:0;source tpx-env/bin/activate
+: 1545339460:0;pip list
+: 1545339470:0;deactivate
+: 1545339470:0;ls
+: 1545339476:0;virtualenv venv
+: 1545339505:0;source venv/bin/activate
+: 1545339507:0;pip list
+: 1545339517:0;pip install zigbee
+: 1545339530:0;vim tpx_base_server.py
+: 1545340225:0;pip install python-xbee
+: 1545340235:0;pip install digi-xbee
+: 1545340419:0;pip install xbee
+: 1545340432:0;vim tpx_base_server.py
+: 1545341237:0;vim ~/.vim/vimrc/settings.vim
+: 1545341246:0;vim
+: 1545341485:0;vim tpx_base_server.py
+: 1545341502:0;vim ~/.vim/vimrc/settings.vim
+: 1545341550:0;vim tpx_base_server.py
+: 1545341669:0;python tpx_base_server.py
+: 1545341672:0;python tpx_core_client.py
+: 1545341830:0;vim ~/.vim/vimrc/settings.vim
+: 1545341849:0;vim tpx_base_server.py
+: 1545341897:0;vim ~/.vim/vimrc/settings.vim
+: 1545341914:0;vim tpx_base_server.py
+: 1545342016:0;python tpx_base_server.py
+: 1545342018:0;python tpx_core_client.py
+: 1545342211:0;python tpx_base_server.py
+: 1545342213:0;python tpx_core_client.py
+: 1545342316:0;git st
+: 1545342322:0;git diff tpx_core
+: 1545342327:0;git diff tpx_core_client.py
+: 1545342353:0;git add tpx_base_server.py tpx_core_client.py 
+: 1545342355:0;git st
+: 1545342359:0;git add tpx_core.py
+: 1545342361:0;git st
+: 1545342366:0;git pull
+: 1545342525:0;ls
+: 1545342527:0;l
+: 1545342539:0;git rm -rf tpx-env/
+: 1545342543:0;git st
+: 1545342544:0;ls
+: 1545342545:0;l
+: 1545342559:0;pip freeze > requirements.txt
+: 1545342563:0;cat re
+: 1545342566:0;cat requirements.txt
+: 1545342579:0;vim tpx-todo.md
+: 1545342589:0;git rm tpx-todo.md
+: 1545342589:0;ls
+: 1545342599:0;ranger
+: 1545342609:0;git rm -rf archive/
+: 1545342611:0;ls
+: 1545342618:0;vim README.md
+: 1545342621:0;git st
+: 1545342625:0;git add requirements.txt
+: 1545342652:0;git ci "refresh with code from x.py"
+: 1545342653:0;git push
+: 1545342683:0;ls
+: 1545342688:0;git st
+: 1545342698:0;ls -la
+: 1545342702:0;rm .b.py.swp
+: 1545342706:0;la
+: 1545342713:0;vim .gitignore
+: 1545342772:0;ls
+: 1545342783:0;vim b.py
+: 1545342869:0;vim tpx_base_server.py
+: 1545416437:0;l
+: 1545416438:0;la
+: 1545421134:0;exit
+: 1545421144:0;close
+: 1545421146:0;exit
+: 1545421154:0;source venv/bin/activate
+: 1545421168:0;:
+: 1545421169:0;:q
+: 1545421172:0;close
+: 1545421172:0;:
+: 1545421173:0;exit
+: 1545423432:0;fg
+: 1545424785:0;htop
+: 1545424796:0;git st
+: 0:0;
+: 0:0;
+: 0:0;
+: 0:0;
+: 0:0;
+: 1545425264:0;:q
+: 1545430387:0;vim tpx_core_client.py
+: 1545431492:0;python
+: 1545432212:0;vim tpx_base_server.py
+: 1545432320:0;source venv/bin/activate
+: 1545432331:0;python tpx_base_server.py
+: 1545432337:0;python tpx_core_client.py
+: 1545432371:0;python tpx_base_server.py
+: 1545432372:0;python tpx_core_client.py
+: 1545432436:0;python tpx_base_server.py
+: 1545432438:0;python tpx_core_client.py
+: 1545432474:0;python tpx_base_server.py
+: 1545432475:0;python tpx_core_client.py
+: 1545432553:0;python tpx_base_server.py
+: 1545432555:0;python tpx_core_client.py
+: 1545432625:0;la
+: 1545432631:0;ls -la
+: 1545541299:0;vim tpx_base_server.py
+: 1545541868:0;source venv/bin/activate
+: 1545541873:0;vim tpx_base_server.py
+: 1545542049:0;python tpx_base_server.py
+: 1545542054:0;python tpx_core_client.py
+: 1545542411:0;python tpx_base_server.py
+: 1545542413:0;python tpx_core_client.py
+: 1545542434:0;python tpx_base_server.py
+: 1545542436:0;python tpx_core_client.py
+: 1545542469:0;python tpx_base_server.py
+: 1545542471:0;python tpx_core_client.py
+: 1545543121:0;python tpx_base_server.py
+: 1545543123:0;python tpx_core_client.py
+: 1545543275:0;python tpx_base_server.py
+: 1545543277:0;python tpx_core_client.py
+: 1545543441:0;python tpx_base_server.py
+: 1545543444:0;python tpx_core_client.py
+: 1545543535:0;python tpx_base_server.py
+: 1545543537:0;python tpx_core_client.py
+: 1545543559:0;python tpx_base_server.py
+: 1545578373:0;vim tpx_base_server.py
+: 1545578763:0;python tpx_base_server.py
+: 1545578764:0;python tpx_core_client.py
+: 1545578981:0;python tpx_base_server.py
+: 1545578983:0;python tpx_core_client.py
+: 1545593740:0;python tpx_base_server.py
+: 1545593742:0;python tpx_core_client.py
+: 1545594360:0;python tpx_base_server.py
+: 1545594492:0;python tpx_core_client.py
+: 1545594529:0;python tpx_base_server.py
+: 1545594530:0;python tpx_core_client.py
+: 1545594791:0;source venv/bin/activate
+: 1545594813:0;python debug_client.py
+: 1545595202:0;python tpx_core_client.py
+: 1545595209:0;python vm_client.py
+: 1545595297:0;python tpx_base_server.py
+: 1545595301:0;python debug_client.py
+: 1545595314:0;python tpx_base_server.py
+: 1545595317:0;python vm_client.py
+: 1545595321:0;python debug_client.py
+: 1545595401:0;python tpx_base_server.py
+: 1545595403:0;python vm_client.py
+: 1545595408:0;python debug_client.py
+: 1545595531:0;python tpx_base_server.py
+: 1545595533:0;python debug_client.py
+: 1545595547:0;python vm_client.py
+: 1545595622:0;python tpx_base_server.py
+: 1545595624:0;python debug_client.py
+: 1545595626:0;python vm_client.py
+: 1545595784:0;python debug_client.py
+: 1545595830:0;python tpx_base_server.py
+: 1545595832:0;python vm_client.py
+: 1545595835:0;python debug_client.py
+: 1545595878:0;python tpx_base_server.py
+: 1545595879:0;python debug_client.py
+: 1545595883:0;python vm_client.py
+: 1545595967:0;python tpx_base_server.py
+: 1545595969:0;python debug_client.py
+: 1545595971:0;python vm_client.py
+: 1545596378:0;source venv/bin/activate
+: 1545596383:0;python mgn_client.py
+: 1545596469:0;python tpx_base_server.py
+: 1545596472:0;python debug_client.py
+: 1545596473:0;python vm_client.py
+: 1545596476:0;python mgn_client.py
+: 1545596637:0;python tpx_base_server.py
+: 1545596639:0;python debug_client.py
+: 1545596640:0;python vm_client.py
+: 1545596643:0;python mgn_client.py
+: 1545596725:0;python tpx_base_server.py
+: 1545596728:0;python debug_client.py
+: 1545596730:0;python vm_client.py
+: 1545596731:0;python mgn_client.py
+: 1545596792:0;python tpx_base_server.py
+: 1545596795:0;python debug_client.py
+: 1545596796:0;python vm_client.py
+: 1545596938:0;python tpx_base_server.py
+: 1545596940:0;python mgn_client.py
+: 1545596941:0;python vm_client.py
+: 1545596943:0;python debug_client.py
+: 1545597299:0;python tpx_base_server.py
+: 1545597303:0;python vm_client.py
+: 1545597304:0;python mgn_client.py
+: 1545597397:0;python debug_client.py
+: 1545597680:0;python vm_client.py
+: 1545597687:0;python debug_client.py
+: 1545597704:0;python tpx_base_server.py
+: 1545597707:0;python debug_client.py
+: 1545597708:0;python vm_client.py
+: 1545597713:0;python mgn_client.py
+: 1545597753:0;python tpx_base_server.py
+: 1545597755:0;python debug_client.py
+: 1545597757:0;python vm_client.py
+: 1545597758:0;python mgn_client.py
+: 1545601326:0;vim tpx_base_server.py
+: 1545764894:0;htop
+: 1545764955:0;python tpx_base_server.py
+: 1545764957:0;python debug_client.py
+: 1545764959:0;python vm_client.py
+: 1545764961:0;python mgn_client.py
+: 1545765356:0;python vm_client.py
+: 1545765357:0;python mgn_client.py
+: 1545765431:0;python debug_client.py
+: 1545765438:0;python tpx_base_server.py
+: 1545765441:0;python debug_client.py
+: 1545765442:0;python vm_client.py
+: 1545765443:0;python mgn_client.py
+: 1545765654:0;python tpx_base_server.py
+: 1545765656:0;python debug_client.py
+: 1545765659:0;python vm_client.py
+: 1545765660:0;python mgn_client.py
+: 1545765827:0;python tpx_base_server.py
+: 1545765831:0;python mgn_client.py
+: 1545765834:0;python vm_client.py
+: 1545765898:0;python tpx_base_server.py
+: 1545765904:0;python debug_client.py
+: 1545766025:0;python tpx_base_server.py
+: 1545766027:0;python debug_client.py
+: 1545766351:0;python tpx_base_server.py
+: 1545766353:0;python debug_client.py
+: 1545766388:0;python tpx_base_server.py
+: 1545766389:0;python debug_client.py
+: 1545766395:0;python tpx_base_server.py
+: 1545766397:0;python debug_client.py
+: 1545766472:0;python tpx_base_server.py
+: 1545766474:0;python debug_client.py
+: 1545766532:0;python tpx_base_server.py
+: 1545766536:0;python debug_client.py
+: 1545766555:0;python tpx_base_server.py
+: 1545766557:0;python debug_client.py
+: 1545766570:0;python tpx_base_server.py
+: 1545766572:0;python debug_client.py
+: 1545769728:0;python tpx_base_server.py
+: 1545769733:0;python debug_client.py
+: 1545769755:0;python tpx_base_server.py
+: 1545769771:0;python debug_client.py
+: 1545769779:0;python vm_client.py
+: 1545769782:0;python mgn_client.py
+: 1545769896:0;python tpx_base_server.py
+: 1545769898:0;python debug_client.py
+: 1545798595:0;python vm_client.py
+: 1545798602:0;python mgn_client.py
+: 1545798689:0;python tpx_base_server.py
+: 1545798691:0;python debug_client.py
+: 1545798694:0;python vm_client.py
+: 1545798696:0;python mgn_client.py
+: 1545798860:0;python tpx_base_server.py
+: 1545798863:0;python debug_client.py
+: 1545798946:0;python tpx_base_server.py
+: 1545798949:0;python debug_client.py
+: 1545798952:0;python vm_client.py
+: 1545799043:0;python debug_client.py
+: 1545799068:0;python tpx_base_server.py
+: 1545799071:0;python debug_client.py
+: 1545848431:0;source venv/bin/activate
+: 1545848439:0;vim tpx_base_server.py
+: 1545848580:0;source venv/bin/activate
+: 1545848595:0;python tpx_base_server.py
+: 1545848606:0;python debug_client.py 
+: 1545862309:0;python
+: 1545862583:0;python tpx_base_server.py
+: 1545862584:0;python debug_client.py 
+: 1545864002:0;python clients.py
+: 1545864050:0;python tpx_base_server.py
+: 1545864051:0;python clients.py
+: 1545864089:0;python tpx_base_server.py
+: 1545864091:0;python clients.py
+: 1545945321:0;vim tpx_base_server.py
+: 1545945385:0;source venv/bin/activate
+: 1545945399:0;python tpx_base_server.py
+: 1545945405:0;python clients.py
+: 1545945436:0;python tpx_base_server.py
+: 1545945437:0;python clients.py
+: 1545947783:0;htop
+: 1545948044:0;python tpx_base_server.py
+: 1545948064:0;python clients.py
+: 1545948146:0;python tpx_base_server.py
+: 1545948148:0;python clients.py
+: 1545948921:0;python tpx_base_server.py
+: 1545948923:0;python clients.py
+: 1545949086:0;python tpx_base_server.py
+: 1545949087:0;python clients.py
+: 1545949411:0;python tpx_base_server.py
+: 1545949413:0;python clients.py
+: 1545949547:0;python tpx_base_server.py
+: 1545949549:0;python clients.py
+: 1545949804:0;python tpx_base_server.py
+: 1545949805:0;python clients.py
+: 1545949936:0;python tpx_base_server.py
+: 1545949938:0;python clients.py
+: 1545950126:0;python tpx_base_server.py
+: 1545950127:0;python clients.py
+: 1545950144:0;python tpx_base_server.py
+: 1545950146:0;python clients.py
+: 1545950175:0;python tpx_base_server.py
+: 1545950176:0;python clients.py
+: 1545951873:0;source venv/bin/activate
+: 1545951876:0;python tpx_base_server.py
+: 1545951883:0;python debug_client.py
+: 1545951918:0;python tpx_base_server.py
+: 1545951921:0;python vm_client.py
+: 1545951928:0;python debug_client.py
+: 1545952060:0;python tpx_base_server.py
+: 1545952064:0;python vm_client.py
+: 1545952067:0;python debug_client.py
+: 1545952078:0;python mgn_client.py
+: 1545952114:0;python tpx_base_server.py
+: 1545952117:0;python vm_client.py
+: 1545952119:0;python debug_client.py
+: 1545952181:0;python tpx_base_server.py
+: 1545952183:0;python vm_client.py
+: 1545952190:0;python debug_client.py
+: 1545952373:0;python tpx_base_server.py
+: 1545952376:0;python vm_client.py
+: 1545952380:0;python debug_client.py
+: 1545952461:0;python tpx_base_server.py
+: 1545952463:0;python vm_client.py
+: 1545952464:0;python debug_client.py
+: 1545952482:0;python tpx_base_server.py
+: 1545952484:0;python vm_client.py
+: 1545952487:0;python debug_client.py
+: 1545952563:0;python vm_client.py
+: 1545952565:0;python debug_client.py
+: 1545952569:0;python vm_client.py
+: 1545952738:0;python debug_client.py
+: 1545952775:0;python vm_client.py
+: 1545953061:0;python mgn_client.py
+: 1545982052:0;python tpx_base_server.py
+: 1545982054:0;python vm_client.py
+: 1545982057:0;python debug_client.py
+: 1545982149:0;python tpx_base_server.py
+: 1545982152:0;python debug_client.py
+: 1545982195:0;python tpx_base_server.py
+: 1545982206:0;python debug_client.py
+: 1545982357:0;vim tpx_base_server.py
+: 1545982484:0;python tpx_base_server.py
+: 1545982485:0;python debug_client.py
+: 1545982488:0;python vm_client.py
+: 1545982616:0;python tpx_base_server.py
+: 1545982620:0;python vm_client.py
+: 1545982628:0;python debug_client.py
+: 1545982697:0;python tpx_base_server.py
+: 1545982724:0;python vm_client.py
+: 1545982727:0;python debug_client.py
+: 1545982973:0;python tpx_base_server.py
+: 1545982976:0;python vm_client.py
+: 1545982979:0;python debug_client.py
+: 1545983281:0;python tpx_base_server.py
+: 1545983285:0;python vm_client.py
+: 1545983287:0;python debug_client.py
+: 1545983300:0;python tpx_base_server.py
+: 1545983301:0;python debug_client.py
+: 1545983310:0;python vm_client.py
+: 1545983410:0;vim tpx_base_server.py
+: 1545983498:0;python tpx_base_server.py
+: 1545983502:0;python vm_client.py
+: 1545983541:0;python debug_client.py
+: 1545983573:0;python tpx_base_server.py
+: 1545983575:0;python vm_client.py
+: 1545983586:0;python debug_client.py
+: 1545983721:0;python tpx_base_server.py
+: 1545983723:0;python debug_client.py
+: 1545983728:0;python vm_client.py
+: 1545983783:0;python tpx_base_server.py
+: 1545983785:0;python vm_client.py
+: 1545983787:0;python debug_client.py
+: 1545983860:0;python mgn_client.py
+: 1545983915:0;python debug_client.py
+: 1545983920:0;python tpx_base_server.py
+: 1545983923:0;python debug_client.py
+: 1545983924:0;python vm_client.py
+: 1545983926:0;python mgn_client.py
+: 1546025219:0;python tpx_base_server.py
+: 1546025220:0;python mgn_client.py
+: 1546025225:0;python debug_client.py
+: 1546025229:0;python vm_client.py
+: 1546025477:0;python tpx_base_server.py
+: 1546025478:0;python debug_client.py
+: 1546025480:0;python vm_client.py
+: 1546025481:0;python mgn_client.py
+: 1546026096:0;python tpx_base_server.py
+: 1546026101:0;python mgn_client.py
+: 1546026104:0;python vm_client.py
+: 1546026108:0;python debug_client.py
+: 1546026181:0;python tpx_base_server.py
+: 1546026183:0;python debug_client.py
+: 1546026185:0;python mgn_client.py
+: 1546026232:0;python tpx_base_server.py
+: 1546026233:0;python debug_client.py
+: 1546026235:0;python mgn_client.py
+: 1546026238:0;python vm_client.py
+: 1546026775:0;python tpx_base_server.py
+: 1546026777:0;python vm_client.py
+: 1546026779:0;python mgn_client.py
+: 1546026781:0;python debug_client.py
+: 1546026916:0;python vm_client.py
+: 1546026951:0;python mgn_client.py
+: 1546027629:0;python tpx_base_server.py
+: 1546027631:0;python vm_client.py
+: 1546027846:0;python tpx_base_server.py
+: 1546027849:0;python vm_client.py
+: 1546027851:0;python mgn_client.py
+: 1546027853:0;python debug_client.py
+: 1546030389:0;python tpx_base_server.py
+: 1546030391:0;python debug_client.py
+: 1546030618:0;python tpx_base_server.py
+: 1546030621:0;python mgn_client.py
+: 1546030654:0;python tpx_base_server.py
+: 1546030655:0;python mgn_client.py
+: 1546030660:0;python debug_client.py
+: 1546030662:0;python vm_client.py
+: 1546030678:0;python mgn_client.py
+: 1546030686:0;python debug_client.py
+: 1546030692:0;python vm_client.py
+: 1546030740:0;python debug_client.py
+: 1546030747:0;python mgn_client.py
+: 1546030750:0;python vm_client.py
+: 1546031303:0;python debug_client.py
+: 1546037977:0;vim tpx_base_server.py
+: 1546038312:0;sudo apt-get install spotify
+: 1546038483:0;sudo apt install snapd
+: 1546038496:0;snap install spotify
+: 1546038500:0;sudo snap install spotify
+: 1546038604:0;sudo add-apt-repository ppa:kip/pidgin
+: 1546038678:0;sudo apt install pidgin
+: 1546038856:0;$ sudo apt-add-repository "deb https://download.sublimetext.com/ apt/stable/"
+: 1546038865:0;sudo apt-add-repository "deb https://download.sublimetext.com/ apt/stable/"
+: 1546039055:0;sudo apt install sublime-text
+: 1546039196:0;subl
+: 1546039379:0;cd ~/Downloads/
+: 1546039387:0;sudo dpkg -i messengerfordesktop-2.0.9-linux-amd64.deb
+: 1546040577:0;cd ..
+: 1546040581:0;cd gitRepos/tpx-source
+: 1546040589:0;cd ~/gitRepos/tpx-source
+: 1546040593:0;python tpx_base_server.py
+: 1546040601:0;python debug_client.py
+: 1546040613:0;python vm_client.py
+: 1546040677:0;python debug_client.py
+: 1546040679:0;python vm_client.py
+: 1546040960:0;python tpx_base_server.py
+: 1546040961:0;python debug_client.py
+: 1546041037:0;python vm_client.py
+: 1546041040:0;python debug_client.py
+: 1546041043:0;python vm_client.py
+: 1546041099:0;python debug_client.py
+: 1546041122:0;python vm_client.py
+: 1546041565:0;sudo restart now
+: 1546041570:0;sudo reboot now
+: 1546041620:0;ls
+: 1546041625:0;vim tpx_base_server.py
+: 1546042740:0;python tpx_base_server.py
+: 1546043218:0;vim tpx_base_server.py
+: 1546043224:0;python tpx_base_server.py
+: 1546043492:0;la
+: 1546043501:0;vim tpx_server.log
+: 1546043554:0;python tpx_base_server.py
+: 1546043558:0;l
+: 1546043566:0;vim tpx_server_logs.txt
+: 1546043602:0;ls
+: 1546043604:0;git st
+: 1546043614:0;rm b.py
+: 1546043617:0;rm x.py
+: 1546043621:0;git st
+: 1546043633:0;vim mgn_client.py
+: 1546043668:0;python tpx_base_server.py
+: 1546043674:0;python debug_client.py
+: 1546043680:0;python vm_client.py
+: 1546043687:0;python mgn_client.py
+: 1546043792:0;ls
+: 1546043794:0;git st
+: 1546043800:0;vim clients.py
+: 1546043845:0;python clients.py
+: 1546043862:0;git st
+: 1546043870:0;git add tpx_base_server.py
+: 1546043896:0;git ci "successful triage of messaging and basic handling"
+: 1546043901:0;git add tpx_core_client.py
+: 1546043932:0;git add clients.py
+: 1546043939:0;git add debug_client.py mgn_client.py vm_client.py
+: 1546043944:0;git st
+: 1546043959:0;git ci "clients with blocking/nonblocking modes"
+: 1546043963:0;git st
+: 1546043969:0;cat scratchpad.md
+: 1546043974:0;rm scratchpad.md
+: 1546043990:0;vim .gitignore
+: 1546044032:0;rm tpx_server_logs.txt
+: 1546044035:0;ls
+: 1546044036:0;git st
+: 1546044040:0;git add .
+: 1546044048:0;git ci "ignore logs files"
+: 1546044080:0;python tpx_base_server.py
+: 1546044101:0;ranger
+: 1546044122:0;ls
+: 1546044125:0;git st
+: 1546044297:0;python tpx_base_server.py
+: 1546044299:0;ls
+: 1546044302:0;cd logs
+: 1546044303:0;ls
+: 1546044306:0;cat tpx_server_logs.txt
+: 1546044313:0;git st
+: 1546044317:0;git add .
+: 1546044322:0;git ci "auto create logs dir"
+: 1546045799:0;git st
+: 1546045824:0;vim tpx_base_server.py
+: 1546047058:0;python tpx_base_server.py
+: 1546047078:0;cd ..
+: 1546047081:0;python debug_client.py
+: 1546047220:0;python tpx_base_server.py
+: 1546047229:0;cat logs/tpx_server_logs.txt
+: 1546047248:0;python tpx_base_server.py
+: 1546047254:0;python clients.py
+: 1546053496:0;vim tpx_base_server.py
+: 1546070871:0;python tpx_base_server.py
+: 1546070877:0;python clients.py
+: 1546071167:0;python tpx_base_server.py
+: 1546071184:0;python clients.py
+: 1546071702:0;python tpx_base_server.py
+: 1546071704:0;python clients.py
+: 1546071864:0;python tpx_base_server.py
+: 1546071868:0;python clients.py
+: 1546077311:0;python tpx_base_server.py
+: 1546077312:0;python clients.py
+: 1546077337:0;python tpx_base_server.py
+: 1546077339:0;python clients.py
+: 1546077967:0;python tpx_base_server.py
+: 1546077969:0;python clients.py
+: 1546078176:0;python tpx_base_server.py
+: 1546078177:0;python clients.py
+: 1546078244:0;python tpx_base_server.py
+: 1546078245:0;python clients.py
+: 1546078282:0;python tpx_base_server.py
+: 1546078283:0;python clients.py
+: 1546107204:0;vim tpx_core_client.py
+: 1546107556:0;python test.py --a 4
+: 1546107631:0;rm test.py
+: 1546107645:0;ls
+: 1546107658:0;vim tpx_base_server.py
+: 1546107742:0;git st
+: 1546107974:0;python tpx_base_server.py
+: 1546107984:0;python tpx_base_server.py
+: 1546107991:0;python clients.py
+: 1546108030:0;python clients.py
+: 1546108033:0;python tpx_base_server.py
+: 1546117418:0;vim ~/.zsh_history
+: 1546117469:0;vim tpx_base_server.py
+: 1546120768:0;python tpx_base_server.py
+: 1546120775:0;python clients.py
+: 1546120913:0;python tpx_base_server.py
+: 1546120915:0;python clients.py
+: 1546121142:0;python tpx_base_server.py
+: 1546121144:0;python clients.py
+: 1546121210:0;python tpx_base_server.py
+: 1546121723:0;git diff tpx_base_server.py
+: 1546121891:0;python tpx_base_server.py
+: 1546121899:0;source venv/bin/activate
+: 1546121902:0;python tpx_base_server.py
+: 1546121906:0;pip list
+: 1546121915:0;pip install zigbee
+: 1546121971:0;python tpx_base_server.py
+: 1546121975:0;python clients.py
+: 1546122349:0;python tpx_base_server.py
+: 1546122358:0;python clients.py
+: 1546122467:0;python tpx_base_server.py
+: 1546122470:0;python clients.py
+: 1546123474:0;python tpx_base_server.py
+: 1546123478:0;python clients.py
+: 1546123592:0;python tpx_base_server.py
+: 1546123594:0;python clients.py
+: 1546123650:0;python tpx_base_server.py
+: 1546123651:0;python clients.py
+: 1546123684:0;python tpx_base_server.py
+: 1546123685:0;python clients.py
+: 1546123693:0;python tpx_base_server.py
+: 1546123694:0;python clients.py
+: 1546123709:0;python tpx_base_server.py
+: 1546123716:0;python clients.py
+: 1546123869:0;python tpx_base_server.py
+: 1546123871:0;python clients.py
+: 1546123887:0;python tpx_base_server.py
+: 1546123888:0;python clients.py
+: 1546123923:0;python tpx_base_server.py
+: 1546123924:0;python clients.py
+: 1546124008:0;python tpx_base_server.py
+: 1546124010:0;python clients.py
+: 1546124060:0;python tpx_base_server.py
+: 1546147390:0;vim tpx_base_server.py
+: 1546147510:0;python tpx_base_server.py
+: 1546148022:0;sudo apt-get install python-autopep8
+: 1546148052:0;sudo apt --fix-broken install
+: 1546148070:0;sudo apt-get install python-autopep8
+: 1546148468:0;python tpx_base_server.py
+: 1546148472:0;python clients.py
+: 1546148607:0;python tpx_base_server.py
+: 1546148608:0;python clients.py
+: 1546148829:0;python tpx_base_server.py
+: 1546148831:0;python clients.py
+: 1546150190:0;python tpx_base_server.py
+: 1546150192:0;python clients.py
+: 1546150968:0;python tpx_base_server.py
+: 1546150970:0;python clients.py
+: 1546151064:0;python tpx_base_server.py
+: 1546151066:0;python clients.py
+: 1546151141:0;python tpx_base_server.py
+: 1546151142:0;python clients.py
+: 1546151439:0;python tpx_base_server.py
+: 1546151442:0;python clients.py
+: 1546151538:0;python tpx_base_server.py
+: 1546151539:0;python clients.py
+: 1546151571:0;python tpx_base_server.py
+: 1546151572:0;python clients.py
+: 1546152062:0;python tpx_base_server.py
+: 1546152063:0;python clients.py
+: 1546152073:0;python tpx_base_server.py
+: 1546152074:0;python clients.py
+: 1546156320:0;vim tpx_base_server.py
+: 1546156995:0;python tpx_base_server.py
+: 1546156999:0;python tpx_core_client.py
+: 1546157014:0;git st
+: 1546157019:0;git add tpx_utils.py
+: 1546157036:0;git ci "add logging configuration"
+: 1546157045:0;git add .
+: 1546157054:0;git ci "basic logging functions"
+: 1546203491:0;vim tpx_base_server.py ]
+: 1546203517:0;ranger
+: 1546203619:0;vim tpx_base_server.py
+: 1546203647:0;ranger
+: 1546203727:0;python tpx_core_client.py
+: 1546203741:0;python tpx_base_server.py
+: 1546203743:0;python tpx_core_client.py
+: 1546203952:0;ranger
+: 1546204117:0;git pull
+: 1546204175:0;l
+: 1546204217:0;mkdir telepathyx
+: 1546204227:0;ranger
+: 1546204255:0;ls
+: 1546204259:0;ranger
+: 1546204287:0;git mv tpx_base_server.py telepathyx/tpx_server.py
+: 1546204300:0;git mv tpx_core_client.py telepathyx/tpx_client.py
+: 1546204309:0;git mv tpx_utils.py telepathyx/tpx_utils.py
+: 1546204311:0;l
+: 1546204313:0;ranger
+: 1546204424:0;git st
+: 1546204440:0;git rm mgn_client.py
+: 1546204446:0;git rm vm_client.py
+: 1546204452:0;git rm debug_client.py
+: 1546204454:0;git st
+: 1546204458:0;l
+: 1546204465:0;rm tpx_core_client.pyc
+: 1546204471:0;rm tpx_utils.pyc
+: 1546204473:0;ls
+: 1546204478:0;vim clients.py
+: 1546204489:0;cd telepathyx
+: 1546204497:0;touch __init__.py
+: 1546204498:0;ls
+: 1546204500:0;cd ..
+: 1546204500:0;ls
+: 1546204504:0;vim clients.py
+: 1546204712:0;ls
+: 1546204718:0;touch __init__.py
+: 1546204722:0;vim clients.py
+: 1546204837:0;ls
+: 1546204846:0;vim clients.py
+: 1546205040:0;rm __init__.py
+: 1546205045:0;vim clients.py
+: 1546229009:0;ranger
+: 1546244094:0;vim clients.py
+: 1546244276:0;ls
+: 1546244283:0;vim server.py
+: 1546244886:0;git st
+: 1546244942:0;python server.py
+: 1546244948:0;python clients.py
+: 1546245000:0;python server.py
+: 1546245003:0;python clients.py
+: 1546245804:0;git st
+: 1546245814:0;git add .
+                                                                                  : 1546279167:0;ls
+: 1546279178:0;vim ~/.zsh_history

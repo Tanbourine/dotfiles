@@ -1,0 +1,44 @@
+
+
+import time
+from datetime import datetime
+from tpx_core_client import  TPXCoreClient
+
+
+
+
+def main():
+    """main function"""
+
+    # localhost
+    host = 'localhost'
+    # eth_port = 5005
+    mgn_port = 5006
+    # debug_port = 5007
+
+    # eth_client = TPXCoreClient(host, eth_port)
+    mgn_client = TPXCoreClient(host, mgn_port)
+    # debug_client = TPXCoreClient(host, debug_port)
+
+    try:
+        while True:
+
+            # eth_client.read_socket()
+            # mgn_client.read_socket()
+
+            dtime = datetime.now().strftime("%I:%M:%S.%f")
+            msg = "FROM MGN: %s" % (dtime)
+            # eth_client.write_socket(msg)
+            mgn_client.write_socket(msg)
+            # debug_client.write_socket(msg)
+            mgn_client.read_socket()
+            time.sleep(0.5)
+
+    except KeyboardInterrupt:
+        print '\n\n Keyboard Interrupt'
+        # eth_client.close_socket()
+        mgn_client.close_socket()
+        # debug_client.close_socket()
+
+if __name__ == "__main__":
+    main()

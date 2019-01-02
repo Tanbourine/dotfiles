@@ -1,0 +1,236 @@
+import time
+import datetime
+import struct
+import binascii
+import re
+#from enum import Enum
+
+
+d
+def form_octet(val1, val2):
+    # if val1 is None:
+    assert val1 is not None
+    assert val2 is not None
+
+    if val1 > 127:
+        raise ValueError('Input value1 %d is greater than 127.' % val1)
+    elif val2 > 127:
+        raise ValueError('Input value2 %d is greater than 127.' % val2)
+
+    return ((val1 << 4) + val2)
+
+
+def split_octet(val):
+    if val > 255:
+        raise ValueError('Input value %d is greater than 255.' % val)
+
+    binary = format(val, '#010b')[2:]
+    return (int(binary[0:4], 2), int(binary[4:8], 2))
+
+
+def bool2bytes(value):
+    hex_str = struct.pack('?', value).encode('hex')
+    return bytearray.fromhex(hex_str)
+
+
+def int2bytes(value):
+    hex_str = struct.pack('>i', value).encode('hex')
+    return bytearray.fromhex(hex_str)
+
+
+def lint2bytes(value):
+    hex_str = struct.pack('>q', value).encode('hex')
+    return bytearray.fromhex(hex_str)
+
+
+def float2bytes(value):
+    #hex_str = hex(struct.unpack('<Q', struct.pack('<d', data))[0])
+    hex_str = struct.pack('>d', value).encode('hex')
+    return bytearray.fromhex(hex_str)
+
+
+def print_ba(ba):
+    print printable_ba(ba)
+
+
+def printable_ba(ba):
+    return ' '.join('{:02x}'.format(x) for x in ba).upper()
+
+
+class TpxFrame:
+    """ TelepathyX frame class """
+
+    def __init__(self, *args, **kwargs):
+        # If frame is initialized with bytes, ensure no other arguments are passed and parse. Do nothing else.
+        if 'bytes' in kwargs:
+            if len(kwargs) > 1:
+                raise Except('Additional arguments provided with bytes.')
+            else:
+                self.__ba = kwargs.get('bytes', None)
+                self.__parse()
+                return
+
+        # Parse arguments
+        self.version = kwargs.get('version', None)
+        self.options = kwargs.get('options', b'\x00')
+        self.message_type = kwargs.get('type', None)
+        self.address = kwargs.get('address', None)
+        self.data_types = []
+        self.payload = []
+
+    def print_readable(self):
+        print ""
+        print "===\tTpxFrame\t==="
+        print "Address ", printable_ba(lint2bytes(self.address))
+        print "Type\t\t", self.message_type
+        print "Payload\t", self.payload
+        print "==========================="
+        print ""
+
+    def set_version(self, version):
+        self.version = version
+
+    def set_options(self, options):
+        self.options = options
+
+    def set_address(self, address):
+        self.address = self.validate_address(address)
+
+    def set_type(self, type):
+        self.message_type = type
+
+    def set_payload_size(self, payload_size):
+        self.payload_size = payload_size
+
+    def set_payload(self, payload):
+        self.payload = payload
+
+    def get_payload(self):
+        result = []
+        return result
+
+    def clear_payload(self):
+        self.payload = []
+
+    def channel_data_to_bytes(self, channel):
+        result = bytearray()
+        data_type = channel[0]
+        data = channel[1]
+
+        if data_type == 0:  # Bool singlet
+            result.append(b'\00')
+            result.extend(bytearray.fromhex(struct.pack('?', data).encode('hex')))
+        elif data_type == 1:  # Bool 3-vector
+            result.append(b'\01')
+            result.extend(bytearray.fromhex(struct.pack('???', *data).encode('hex')))
+        elif data_type == 2:  # Int singlet
+            result.append(b'\02')
+            result.extend(bytearray.fromhex(struct.pack('>i', data).encode('hex')))
+        elif data_type == 3:  # Int 3-vector
+            result.append(b'\03')
+            result.extend(bytearray.fromhex(struct.pack('>iii', *data).encode('hex')))
+        elif data_type == 4:  # Double signlet
+            result.append(b'\04')
+            result.extend(bytearray.fromhex(struct.pack('>d', data).encode('hex')))
+        elif data_type == 5:  # Double 3-vector
+            result.append(b'\05')
+            result.extend(bytearray.fromhex(struct.pack('>ddd', *data).encode('hex')))
+
+        return result
+
+    def bytes_to_channel_data(self, data):
+        result = []
+        data_type, data = data[0], data[1:]
+
+        if data_type == 0:  # Bool singlet
+            result = (data_type, list(struct.unpack('?', data[:1])))
+            data = data[1:]
+        elif data_type == 1:  # Bool 3-vector
+            result = (data_type, list(struct.unpack('???', data[:3])))
+            data = data[3:]
+        elif data_type == 2:  # Int singlet
+            result = (data_type, list(struct.unpack('>i', data[:4])))
+            data = data[4:]
+        elif data_type == 3:  # Int 3-vector
+            result = (data_type, list(struct.unpack('>iii', data[:12])))
+            data = data[12:]
+        elif data_type == 4:  # Double signlet
+            result = (data_type, list(struct.unpack('>d', data[:8])))
+            data = data[8:]
+        elif data_type == 5:  # Double 3-vector
+            result = (data_type, list(struct.unpack('>ddd', data[:24])))
+            data = data[24:]
+
+        return data, result
+
+    def compose(self):
+        result = bytearray()
+
+        if self.version is None:
+            raise Exception('No format version specified.')
+            return bytearray()
+        else:
+            result.append(form_octet(self.version, 0))
+
+        result.extend(self.options)
+
+        if self.address is None:
+            raise Exception('No address specified.')
+            return bytearray()
+        else:
+            ba = lint2bytes(self.address)
+            result.extend(ba)
+
+        if self.message_type is None:
+            raise Exception('No type specified.')
+            return bytearray()
+        else:
+            result.append(form_octet(self.message_type, len(self.payload)))
+
+        for channel in self.payload:
+            result.extend(self.channel_data_to_bytes(channel))
+
+        return result
+
+    def __parse(self):
+        assert self.__ba is not None
+        assert len(self.__ba) > 0
+        ba = self.__ba
+
+        version = split_octet(ba[0])[0]
+        options = ba[1]
+        address = ba[2:10]
+        message_type = split_octet(ba[10])[0]
+        payload_size = split_octet(ba[10])[1]
+        payload_to_process = ba[11:]
+
+        self.set_version(version)
+        self.set_options(options)
+        self.set_address(address)
+        self.set_type(message_type)
+        self.__set_payload_size(payload_size)
+
+        payload = []
+        while payload_to_process:
+            payload_to_process, channel_data = self.bytes_to_channel_data(payload_to_process)
+            payload.extend(channel_data)
+
+        self.set_payload(payload)
+
+    def validate_address(self, address):
+        if len(address) == 16:
+            regex = r"^([[0-9a-fA-F]+)+$"
+            if re.match(regex, address):
+                # Valid address. Convert to int
+                return int(address, 16)
+            else:
+                # Invalid address.
+                return None
+        elif len(address) == 8:
+            result = int(binascii.hexlify(address), 16)
+            return result
+        else:
+            return None
+
+    def add_data(self, data_type, data):
+        self.payload.append((data_type, data))

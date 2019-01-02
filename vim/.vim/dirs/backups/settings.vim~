@@ -19,7 +19,7 @@ set autoread            " auto read when file is changed from outside
 set noshowmode          " don't show mode ("-- INSERT --") at bottom
 set nobackup            " no backup files
 set shortmess=a         " tries to avoid "hit enter to continue" messages
-set cursorline          " highlights current line
+set cursorline          " shows current line
 
 set t_Co=256				" Set color scheme to 256bit (does not work for all terms)
 set background=dark

@@ -1,0 +1,372 @@
+#!/usr/bin/env python
+
+"""
+This module is a practice for TCP/Select connections
+"""
+
+import logging
+import os
+import Queue
+import select
+import socket
+import sys
+import time
+
+# custom modules
+import tpx_utils as utils
+
+
+# Detect Python version: this will be used to determine whether the script
+# is running on the Gateway (Python 2.4, zigbee module) or in the
+# dev environment (Python 2.7, no zigbee module)
+PY_VERSION = float(sys.version_info[0]) + 0.1*float(sys.version_info[1])
+if PY_VERSION < 2.7:
+    # pylint: disable=import-error
+    import zigbee
+
+
+class TPXBaseServer(object):
+    """ TelepathyX Base Station Server"""
+    # pylint: disable = too-many-instance-attributes
+
+    def __init__(self, addr, eth_port=None, mgn_port=None, debug_port=None, save_log=False):
+
+        self.addr = addr
+        self.xbee_socket = None
+
+        self.rlist = []
+        self.wlist = []
+        self.select_timeout = 10  # seconds
+        self.msg_queue = {}
+
+        self.xbee_socket = None
+
+        self.eth_server_socket = None
+        self.eth_client_socket = None
+        self.eth_client_addr = None
+
+        self.mgn_server_socket = None
+        self.mgn_client_socket = None
+        self.mgn_client_addr = None
+
+        self.debug_server_socket = None
+        self.debug_client_socket = None
+        self.debug_client_addr = None
+
+        # configure logging settings
+        logfile = "tpx_server_log.txt"
+        utils.configure_logging(logfile, save_log)
+        logging.info("TelepathyX Base Station Server Started!")
+
+        # Detect Python version: this will be used to determine whether the script
+        # is running on the Gateway (Python 2.4, zigbee module) or in the
+        # dev environment (Python 2.7, no zigbee module)
+        py_version = float(sys.version_info[0]) + 0.1*float(sys.version_info[1])
+        if py_version and debug_port is None:
+            self.xbee_socket = self.init_xbee()
+
+        if eth_port is not None:
+            self.eth_server_socket = self.init_tcp_server(eth_port)
+
+        if mgn_port is not None:
+            self.mgn_server_socket = self.init_tcp_server(mgn_port)
+
+        if debug_port is not None:
+            self.debug_server_socket = self.init_tcp_server(debug_port)
+
+        # create message queues
+        self.msg_queue['xbee_data'] = Queue.Queue()
+        # self.msg_queue['xbee_cmd'] = Queue.Queue()
+        self.msg_queue['mgn_data'] = Queue.Queue()
+        self.msg_queue['mgn_cmd'] = Queue.Queue()
+        self.msg_queue['debug_data'] = Queue.Queue()
+        self.msg_queue['debug_cmd'] = Queue.Queue()
+
+        print "Server started!"
+
+    def init_xbee(self):
+        """Initialize Xbee socket"""
+        # pylint: disable=no-member, no-self-use, bare-except
+        # Step 1: Set up XBee and its socket
+        print "Setting up XBee..."
+        try:
+            # Determine what kind of radio in gateway
+            # This will affect how we bind the socket later.
+            vr_param = zigbee.ddo_get_param(None, 'VR')
+            print "HV = ", zigbee.ddo_get_param(None, 'HV')  # Hardware version
+            radio_version = hex(ord(vr_param[0]))
+            if radio_version == '0x21':
+                series_radio = 2
+                print "ZB radio firmware detected on gateway."
+            elif radio_version == '0x10':
+                series_radio = 1
+                print "802.15.4 radio firmware detected on gateway."
+            elif radio_version == '0x80':
+                # technically it's series 1 but for practical reasons we need series 2
+                series_radio = 2
+                print "DigiMesh radio firmware detected on gateway."
+            elif radio_version == '0x11':
+                series_radio = 2
+                print "Znet 2.5 radio firmware detected on gateway."
+            else:
+                print "Unknown radio firmware detected on gateway."
+                sys.exit(11)
+
+            # Setup XBee socket
+            xbee_socket = socket.socket(socket.AF_ZIGBEE, socket.SOCK_DGRAM,
+                                        socket.ZBS_PROT_TRANSPORT)
+            if series_radio == 1:
+                xbee_socket.bind(("", 0x00, 0, 0))
+                print "Bound to series 1 XBee."
+            else:
+                xbee_socket.bind(("", 0xe8, 0, 0))
+                print "Bound to series 2 XBee."
+        except socket.error:
+            print "Error initializing XBee socket, likely already in use."
+            sys.exit(12)
+        except:
+            err = sys.exc_info()[0]
+            print "Unknown error: ", err
+            sys.exit(-1)
+
+        return xbee_socket
+
+    def init_tcp_server(self, port):
+        """ Initializes server """
+        # pylint: disable = bare-except
+
+        # create socket for server
+        logging.info("Setting up TCP server on port %d...", port)
+
+        try:
+            sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+            # set as not blocking
+            # this will throw exception when it tries to send/recv with nothing there
+            # we're using the select module to ensure there is something to send/recv
+            sock.setblocking(0)
+
+            # reuse localhost loopback path
+            sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+
+            # bind socket to address and port
+            sock.bind((self.addr, port))
+
+        except socket.error as msg:
+            logging.critical("Server Init failed. Error Code: %s - %s", msg[0], msg[1])
+            logging.critical("EXITING PROGRAM")
+            sys.exit()
+
+        # start listening for connections
+        sock.listen(1)
+
+        # add server to list of sockets for select to monitor
+        self.rlist.append(sock)
+
+        # print "Server started at", self.addr, "on port", port
+        logging.info("Server started at '%s' on port %s", self.addr, port)
+
+        return sock
+
+    def accept_connection(self, server_sock):
+        """ handles new client connections """
+        client_sock, client_addr = server_sock.accept()
+        client_sock.setblocking(0)
+
+        if client_sock not in self.wlist:
+            self.wlist.append(client_sock)
+
+        if client_sock not in self.rlist:
+            self.rlist.append(client_sock)
+
+        logging.info("New connection from (%s, %s) on port %s", client_addr[0], client_addr[1],
+                     client_sock.getsockname()[1])
+
+        return client_sock, client_addr
+
+    def read_socket(self, sock):
+        # pylint: disable = too-many-statements
+        """ given a readable socket from I/O Select, place the data in a buffer to be read """
+
+        # A readable server socket is ready to accept a new connection
+        if sock is self.eth_server_socket:
+            # print "Readable ETH Socket"
+            self.eth_client_socket, self.eth_client_addr = self.accept_connection(sock)
+
+        elif sock is self.mgn_server_socket:
+            # print "Readable MGN Socket"
+            self.mgn_client_socket, self.mgn_client_addr = self.accept_connection(sock)
+
+        elif sock is self.debug_server_socket:
+            # print "Readable DEBUG Socket"
+            self.debug_client_socket, self.debug_client_addr = self.accept_connection(sock)
+
+        # already known connection
+        else:
+            try:
+
+                data = sock.recv(1024)
+                if data:
+
+                    # if sock is self.eth_client_socket:
+                    #     # eth_client_sock shouldn't get any read traffic
+                    #     print "DEBUG DATA", data
+                    #     self.msg_queue['debug_data'].put(data)
+
+                    if sock is self.mgn_client_socket:
+                        # if mgn socket is readable, it is receiving a command from mgn client
+                        # print "MGN CMD: %s" %(data)
+                        self.msg_queue['mgn_cmd'].put(data)
+
+                    # elif sock is self.xbee_socket:
+                    #     print "XBEE DATA:", data
+                    #     self.msg_queue['xbee_data'].put(data)
+
+                    elif sock is self.debug_client_socket:
+                        # print "DEBUG DATA: %s" %(data)
+                        self.msg_queue['debug_data'].put(data)
+                        self.msg_queue['mgn_data'].put(data)
+
+                else:
+                    # A readable client socket must have data
+                    raise socket.error
+
+            # client disconnected, remove from list
+            except socket.error:
+                # print "Closing %s after reading no data \n\n" %(sock.getsockname()[1])
+                logging.warning("Closing %s after reading no data", sock.getsockname()[1])
+                # logging.warning("Closing socket after reading no data")
+
+                # stop listening for input on the connection
+                self.close_socket(sock)
+
+    def write_socket(self, sock):
+        """ given a writable socket from I/O Select, place the data in a buffer to be read """
+
+        try:
+
+            if sock is self.eth_client_socket:
+                # next_msg = self.msg_queue['xbee_data'].get_nowait()
+                next_msg = self.msg_queue['debug_data'].get_nowait()
+
+            elif sock is self.mgn_client_socket:
+                next_msg = self.msg_queue['mgn_data'].get_nowait()
+
+            # elif sock is self.xbee_socket:
+            #     print "try to retrieve xbee cmd..."
+            #     next_msg = self.msg_queue['xbee_cmd'].get_nowait()
+
+            elif sock is self.debug_client_socket:
+                next_msg = self.msg_queue['mgn_cmd'].get_nowait()
+
+        except Queue.Empty:
+            # No messages waiting so stop checking for writability
+            pass
+            # print "Output queue is empty"
+
+        else:
+
+            try:
+                if sock is self.eth_client_socket:
+                    self.eth_client_socket.sendall(next_msg)
+                    # print "WRITE XBEE DATA: %s \n" % (next_msg)
+
+                elif sock is self.mgn_client_socket:
+                    self.mgn_client_socket.sendall(next_msg)
+                    # print "WRITE MGN CMD: %s \n" % (next_msg)
+
+                # elif sock is self.xbee_socket:
+                #     self.xbee_socket.sendall(next_msg)
+                #     print "WRITE XBEE CMD:", next_msg
+
+                elif sock is self.debug_client_socket:
+                    self.debug_client_socket.sendall(next_msg)
+                    # print "WRITE DEBUG CMD: %s \n" % (next_msg)
+
+            except socket.error as msg:
+                logging.warning("Socket write failed. Error Code: %s - %s", msg[0], msg[1])
+                self.close_socket(sock)
+
+    def select_loop(self):
+        """ Handles all functions of the server portion of the code """
+        # pylint: disable=too-many-statements, invalid-name, too-many-branches,
+        # pylint: disable=bare-except
+
+        # print "Waiting for next available socket...\n\n"
+        # select is blocking, waiting for next available socket
+        readable, writable, _ = select.select(self.rlist, self.wlist,
+                                              self.rlist,
+                                              self.select_timeout)
+
+        # handle all readable sockets
+        for sock in readable:
+            self.read_socket(sock)
+
+        # handle all writable sockets
+        for sock in writable:
+            self.write_socket(sock)
+
+    def run(self):
+        """ Initializes main loop and runs forever """
+
+        try:
+            while True:
+                # tpx-core acts as a server for autotest
+                self.select_loop()
+                # time.sleep(.5)
+        except KeyboardInterrupt:
+            logging.info("Server shutting down due to KeyboardInterrupt")
+            print "\nServer shutting down due to KeyboardInterrupt"
+            self.shutdown_server()
+
+    def shutdown_server(self):
+        """ Shut down server"""
+        # print '\n\nConnection closed'
+        self.eth_server_socket.shutdown(1)
+        self.eth_server_socket.close()
+
+        self.mgn_server_socket.shutdown(1)
+        self.mgn_server_socket.close()
+
+        self.debug_server_socket.shutdown(1)
+        self.debug_server_socket.close()
+
+        print "\n\nServer shut down\n\n"
+        logging.info("Server shut down\n\n")
+
+    def close_socket(self, sock):
+        """ politely closes client socket on exception """
+
+        try:
+            # sock.shutdown(1)
+            logging.warning("Closing socket: %s", sock.getsockname())
+            sock.close()
+
+            if sock in self.rlist:
+                self.rlist.remove(sock)
+
+            if sock in self.wlist:
+                self.wlist.remove(sock)
+
+        except socket.error:
+            logging.warning("Could not cleanly close socket")
+
+        else:
+            logging.info("Socket closed cleanly")
+
+
+def main():
+    """ main function that runs when called directly"""
+    # pylint: disable=unused-variable
+    addr = 'localhost'
+    eth_port = 5005
+    mgn_port = 5006
+    debug_port = 5007
+    save_log = False
+
+    myserver = TPXBaseServer(addr, eth_port, mgn_port, debug_port, save_log)
+    myserver.run()
+
+
+if __name__ == "__main__":
+    main()

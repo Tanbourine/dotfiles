@@ -21,14 +21,14 @@ for_window [class="^.*"] border pixel 3
 gaps inner 15
 gaps outer 15
 font pango: System San Francisco Display 7
-set $mod Mod4
+set $mod Mod1       #alt key
 set $term terminator
 set $stoprec --no-startup-id killall ffmpeg
 set $BROWSER google-chrome
 
 # #---Starting External Scripts---# #
 #Setting the background:
-exec_always --no-startup-id feh --bg-scale ~/.config/wallpapers/wall1.jpg --bg-fill ~/.config/wallpapers/wall2.jpg
+#exec_always --no-startup-id feh --bg-scale ~/.config/wallpapers/wall1.jpg --bg-fill ~/.config/wallpapers/wall2.jpg
 #exec --no-startup-id compton -f
 #exec_always --no-startup-id feh --bg-scale ~/.config/wallpaper/wall.png
 #Starts dunst for notifications:
@@ -51,7 +51,7 @@ exec --no-startup-id unclutter
 # dual monitor settings
 #exec xrandr --dpi 100
 #exec_always xrandr --output DP-0.8 --mode 2560x1440 --pos 3840x0 --rotate right --output DVI-D-0 --off --output HDMI-0 --primary --mode 2560x1440  --pos 0x176 --rotate normal
-exec_always xrandr --output DP-0.8 --mode 2560x1440 --pos 2560x0 --rotate right --output DVI-D-0 --off --output HDMI-0 --primary --mode 2560x1440 --pos 0x576 --rotate normal --output DP-5 --off --output DP-4 --off --output DP-3 --off --output DP-2 --off --output DP-1 --off --output DP-0 --off
+#exec_always xrandr --output DP-0.8 --mode 2560x1440 --pos 2560x0 --rotate right --output DVI-D-0 --off --output HDMI-0 --primary --mode 2560x1440 --pos 0x576 --rotate normal --output DP-5 --off --output DP-4 --off --output DP-3 --off --output DP-2 --off --output DP-1 --off --output DP-0 --off
 
 # keyboard repeat speed
 exec xset r rate 200 30

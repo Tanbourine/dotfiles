@@ -208,11 +208,11 @@ map tc tab_new ~/.config
 #map mc shell mv %f ~/.config
 map Yc shell cp %f ~/.config
 
-# Project files
-map ge cd ~/gitRepos/
-map te tab_new ~/gitRepos/
-map me shell mv %f ~/gitRepos/
-map Ye shell cp %f ~/gitRepos/
+# EternalDeckTracker
+map ge cd ~/gitRepos/manual-valves-opencv/
+map te tab_new ~/gitRepos/manual-valves-opencv/
+map me shell mv %f ~/gitRepos/manual-valves-opencv/
+map Ye shell cp %f ~/gitRepos/manual-valves-opencv/
 
 # vimrc 
 map gv cd ~/.vim/vimrc

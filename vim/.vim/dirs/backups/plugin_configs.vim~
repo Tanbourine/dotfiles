@@ -96,8 +96,7 @@ autocmd FileType html, css EmmetInstall
 " let g:airline#extensions#tabline#left_set = ' '
 " let g:airline#extensions#tabline#left_alt_sep = '|'
 
-" let g:airline_theme='tomorrow'
-let g:airline_theme='dark_minimal'
+let g:airline_theme='tomorrow'
 let g:airline#extensions#tabline#formatter = 'default'
 
 

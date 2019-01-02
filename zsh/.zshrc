@@ -36,7 +36,6 @@ zsh-autosuggestions
 common-aliases
 jsontools
 last-working-dir
-nyan
 pip
 python
 sublime
@@ -83,3 +82,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

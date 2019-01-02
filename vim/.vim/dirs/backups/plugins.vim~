@@ -52,7 +52,7 @@ Plug 'valloric/youcompleteme'
 Plug 'tpope/vim-commentary'
 
 " Python mode!
-" Plug 'python-mode/python-mode', { 'branch': 'develop' }
+Plug 'python-mode/python-mode', { 'branch': 'develop' }
 
 " comment everything!
 "Plug 'scrooloose/nerdcommenter'

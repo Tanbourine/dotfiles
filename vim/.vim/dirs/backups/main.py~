@@ -1,0 +1,132 @@
+""" main execution of manual valve verification """
+
+# builtin imports
+# import os
+
+# module imports
+# import cv2      # pylint: disable=import-error
+
+# custom module imports
+from valve_vision import import_image as imp
+from valve_vision import magic_utils as magic
+from valve_vision import panel as pn
+# from valve_vision import panel_setup as ps
+# from valve_vision import reports as reports
+
+def setup_panel(global_params):
+    """ finds homography points, set up ROIs, and write to excel config file """
+
+    # pop out img and excel locations
+    img_dir = global_params.pop('img_dir', None)
+    img_name = global_params.pop('img_name', None)
+    excel_file = global_params.pop('excel_file', None)
+
+    # import the image
+    panel = pn.Panel(img_dir, img_name, excel_file, **global_params)
+
+    # find apriltags
+    start_time = magic.start_timer()
+    panel.find_apriltags()
+    magic.delta_time(start_time, 'Finding apriltags took')
+
+    # preview apriltag image
+    magic.preview_image(panel.img['april'], 'apriltags', rgb=True, **global_params)
+
+    # print homography points
+    print panel.img['h_pts']
+    print panel.img['atags']
+
+    return panel.img['h_pts']
+
+def detect_valves(global_params):
+    """ detect valves """
+    pass
+
+def main():
+    """ main function that runs only when this module is executed directly """
+
+    # import configs
+    # import as-run image and identify panel from unique apriltags
+    # if no config data found for panel, run panel_setup to create configuration excel sheet
+    # use configurations to perform homography and perform preliminary filtering
+    # apply detection algorithms
+    # generate reports
+
+    img_dir = 'images/vandyland/Night/'
+    # img_dir = 'images/vandyland/RP1/'
+    img_name = 'IMG_0093.JPG'
+    excel_file = 'valve_list.xlsx'
+
+    # list of global options to be passed through all algorithms
+    global_params = {
+        # 'img_dir': img_dir,
+        # 'img_name': img_name,
+        # 'excel_file': excel_file,
+        'resize_preview': (1280, 720),
+    }
+
+    # import specific parameters. Will be combined with global params
+    import_params = {
+        'resize_img':(1920, 1080),
+        # 'resize_img':(1280, 720),
+        # 'resize_img':(None, None),
+        'apply_mask': False,
+        'blur': True,
+        'blur_param': (5, 5),
+        'thresh_mode': 1,
+        'bin_thresh':180,
+        'blob_detect': True,
+        'edge_detect': False,
+        'auto_canny': False,
+        'canny_params': (100, 255),
+        'hist': False,
+    }
+
+    # separate options dictionary for blob parameters
+    blob_params = {
+        'filterByArea':True,
+        'minArea':100,
+        'maxArea':15000,
+        'filterByInertia':True,
+        'minInertiaRatio': 0.1,
+        'filterByConvexity':False,
+        'min_convexity':0.75,
+    }
+
+    # integrate blob params into global params
+    global_params = imp.combine_options(global_params, import_params)
+    global_params = imp.combine_options(global_params, blob_params)
+
+    # time since script started
+    # start_time = magic.start_timer()
+
+    # create panel from image
+    start_time = magic.start_timer()
+    panel = pn.Panel(img_dir, img_name, excel_file, **global_params)
+    magic.delta_time(start_time, 'Importing images took')
+    panel.print_img_keys()
+
+    # magic.delta_time(start_time, 'Importing images took')
+
+    # create valves on panel using configs
+    panel.create_valves()
+
+    # detect valves
+    panel.detect_valves()
+
+    start_time = magic.start_timer()
+    panel.find_apriltags()
+    magic.delta_time(start_time, 'Finding apriltags took')
+
+    # print name of valve
+    # print panel.valves[0].cfg['name']
+
+    # preview the image
+    # magic.preview_image(panel.img['bgr'], 'bgr')
+    # magic.preview_image(panel.img['blob'], 'bgr')
+
+
+
+
+if __name__ == '__main__':
+    main()

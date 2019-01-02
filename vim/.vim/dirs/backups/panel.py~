@@ -1,0 +1,123 @@
+""" classes for panel and valves """
+
+
+# builtin modules
+import os
+
+# additional modules in requirements file
+import cv2 #pylint: disable=import-error
+
+# custom modules
+import import_image as imp
+import magic_utils as magic
+
+class Panel(object):
+    """ Stores configuration and image data for a single panel """
+    def __init__(self, img_dir, img_name, excel_file, **kwargs):
+        # create options dict for panel
+        self.options = {}
+        # combine with global options
+        self.options = imp.combine_options(kwargs, self.options)
+
+        # create img dict
+        self.img = {}
+
+        # create valves array
+        self.valves = []
+
+        # add file path to img dictionary
+        self.img = imp.generate_filepaths(self.img, img_dir, img_name, excel_file)
+
+        # import configs from excel file
+        self.img['cfg'] = imp.import_configs(self.img['excel'])
+
+        # import image and apply basic processesing filters
+        self.img = imp.import_image(self.img, **self.options)
+
+    def create_valves(self):
+        """ create instances of the Valve class from configs """
+        valve_cfgs = imp.config_to_rows(self.img['cfg'])
+        # print valve_cfgs
+
+        for cfg in valve_cfgs:
+            self.valves.append(Valve(self.img, cfg, **self.options))
+
+
+    def detect_valves(self):
+        """ detects valves """
+        for valve in self.valves:
+            valve.detect()
+
+
+
+    def print_img_keys(self):
+        """ prints all the keys stored in self.img """
+        # need to sort by alpha
+        print "List of all keys in self.img"
+        count = 0
+        for key in self.img:
+            print "    >> '%s'" %(key)
+            count += 1
+        print "There are %s keys in self.img" %(count)
+
+
+    def find_apriltags(self):
+        """ finds apriltags on panel"""
+        april_params = {}
+        img= magic.apriltag_identify(self.img, **april_params)
+        # magic.preview_image(img['april'], 'apriltags', rgb=True, **self.options)
+
+
+
+
+class Valve(object):
+    """ Stores individual states and ROIs for each valve """
+    def __init__(self, img, cfg, **kwargs):
+        # pass along img dict
+        self.img = img
+
+        # config specific for this one valve
+        self.cfg = cfg
+
+        # combine with global options
+        self.options = {}
+        self.options = imp.combine_options(kwargs, self.options)
+
+    def detect(self, **kwargs):
+        """ placeholder for handle detect """
+        pass
+        # print self.cfg
+        # print "SEPARATION -----------------"
+
+
+def main():
+    """ executes only when this module is called directly"""
+
+    img_dir = '../images/vandyland/Night/'
+    img_name = 'IMG_0085.JPG'
+    excel_file = 'valve_list.xlsx'
+
+    # img_dir = 'images/nonplanar homography/'
+    # img_name = 'DSCF1161.JPG'
+    # excel_file = 'valve_list.xlsx'
+
+    global_options = {}
+
+
+    panel = Panel(img_dir, img_name, excel_file, **global_options)
+    panel.print_img_keys()
+
+    # magic.delta_time(start_time, 'Importing images took')
+
+    start_time = magic.start_timer()
+    panel.find_apriltags()
+    magic.delta_time(start_time, 'Finding apriltags took')
+
+    # panel.create_valves()
+    # panel.detect_valves()
+
+    # magic.preview_image(panel.img['bgr'], 'bgr', (1920, 1080))
+
+
+if __name__ == '__main__':
+    main()

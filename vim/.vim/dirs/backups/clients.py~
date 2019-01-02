@@ -1,0 +1,61 @@
+
+
+import logging
+import time
+from datetime import datetime
+
+# custom modules
+from telepathyx import TPXClient
+from telepathyx import tpx_utils as utils
+
+def main():
+    """main function"""
+
+    # localhost
+    host = 'localhost'
+    eth_port = 5005
+    mgn_port = 5006
+    debug_port = 5007
+    save_logs = False
+
+    # configure logging settings
+    # logfile = "clients_log.txt"
+    # save_to_file = True
+    # utils.configure_logging(logfile, save_to_file)
+
+    # create clients
+    eth_client = TPXClient(host, eth_port, save_logs=save_logs)
+    mgn_client = TPXClient(host, mgn_port, save_logs=save_logs)
+    debug_client = TPXClient(host, debug_port, save_logs=save_logs)
+
+    # logging.info("Started logging on clients.py")
+
+    try:
+        while True:
+
+            dtime = datetime.now().strftime("%I:%M:%S.%f")
+            debug_msg = "FROM DEBUG: %s" % (dtime)
+            mgn_msg = "FROM MGN: %s" % (dtime)
+
+            # eth_client.write_socket(dtime)
+            debug_client.add_write_queue(debug_msg)
+            mgn_client.add_write_queue(mgn_msg)
+
+            debug_client.write_socket()
+            mgn_client.write_socket()
+            time.sleep(1)
+
+            eth_client.read_socket()
+            mgn_client.read_socket()
+            debug_client.read_socket()
+
+    except KeyboardInterrupt:
+        # print '\n\n Keyboard Interrupt'
+        # logging.info("KeyboardInterrupt")
+        eth_client.close_socket()
+        mgn_client.close_socket()
+        debug_client.close_socket()
+
+
+if __name__ == "__main__":
+    main()
