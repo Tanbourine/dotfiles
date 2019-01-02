@@ -14,8 +14,10 @@
 ~MSle0~/print
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1546452143,,"wq"
 :q
-|2,0,1546451841,,"q"
+|2,0,1546451946,,"q"
 :w
 |2,0,1546388481,,"w"
 :q!
@@ -26,8 +28,6 @@
 |2,0,1546285304,,"vsp tpx_client.py"
 :vsp tpx_server.py
 |2,0,1546285250,,"vsp tpx_server.py"
-:wq
-|2,0,1546285197,,"wq"
 :vsp telepathyx/tpx_server.py
 |2,0,1546279330,,"vsp telepathyx/tpx_server.py"
 :vsp tpx_client_log.txt
@@ -134,32 +134,32 @@
 	        logfile = "tpx_client_log.txt"
 |3,0,0,1,1,0,1546386096,"        logfile = \"tpx_client_log.txt\""
 ""1	LINE	0
-	d
-|3,1,1,1,1,0,1546388481,"d"
+	/vim/.vim/dirs/viminfo
+|3,1,1,1,1,0,1546452140,"/vim/.vim/dirs/viminfo"
 "2	LINE	0
-	        logfile = "tpx_client_log.txt"
-|3,0,2,1,1,0,1546285473,"        logfile = \"tpx_client_log.txt\""
+	d
+|3,0,2,1,1,0,1546388481,"d"
 "3	LINE	0
 	        logfile = "tpx_client_log.txt"
-|3,0,3,1,1,0,1546285461,"        logfile = \"tpx_client_log.txt\""
+|3,0,3,1,1,0,1546285473,"        logfile = \"tpx_client_log.txt\""
 "4	LINE	0
-	
-|3,0,4,1,1,0,1546285320,""
+	        logfile = "tpx_client_log.txt"
+|3,0,4,1,1,0,1546285461,"        logfile = \"tpx_client_log.txt\""
 "5	LINE	0
 	
-|3,0,5,1,1,0,1546281989,""
+|3,0,5,1,1,0,1546285320,""
 "6	LINE	0
-	    
-|3,0,6,1,1,0,1546281988,"    "
+	
+|3,0,6,1,1,0,1546281989,""
 "7	LINE	0
 	    
-|3,0,7,1,1,0,1546281962,"    "
+|3,0,7,1,1,0,1546281988,"    "
 "8	LINE	0
-	    save_logs = True
-|3,0,8,1,1,0,1546281937,"    save_logs = True"
+	    
+|3,0,8,1,1,0,1546281962,"    "
 "9	LINE	0
-	        logfile = "tpx_server_log.txt"
-|3,0,9,1,1,0,1546280838,"        logfile = \"tpx_server_log.txt\""
+	    save_logs = True
+|3,0,9,1,1,0,1546281937,"    save_logs = True"
 "a	LINE	0
 	        self.rlist = []
 |3,0,10,1,1,0,1546156332,"        self.rlist = []"
@@ -170,34 +170,78 @@
 # global variables:
 
 # File marks:
-'0  1  0  ~/dotfiles/git/.gitconfig
-|4,48,1,0,1546451841,"~/dotfiles/git/.gitconfig"
-'1  9  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
-|4,49,9,0,1546388532,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
-'2  18  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
-|4,50,18,0,1546388441,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
-'3  18  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
-|4,51,18,0,1546388441,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
-'4  93  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
-|4,52,93,0,1546386741,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
-'5  93  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
-|4,53,93,0,1546386741,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+'0  5  0  ~/dotfiles/.gitignore
+|4,48,5,0,1546452143,"~/dotfiles/.gitignore"
+'1  228  0  ~/dotfiles/i3/config
+|4,49,228,0,1546451946,"~/dotfiles/i3/config"
+'2  1  0  ~/dotfiles/git/.gitconfig
+|4,50,1,0,1546451841,"~/dotfiles/git/.gitconfig"
+'3  9  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,51,9,0,1546388532,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+'4  18  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,52,18,0,1546388441,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+'5  18  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,53,18,0,1546388441,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
 '6  93  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
 |4,54,93,0,1546386741,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
 '7  93  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
 |4,55,93,0,1546386741,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
-'8  1  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
-|4,56,1,0,1546386109,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
-'9  1  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
-|4,57,1,0,1546386109,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+'8  93  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,56,93,0,1546386741,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+'9  93  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,57,93,0,1546386741,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
 
 # Jumplist (newest first):
+-'  5  0  ~/dotfiles/.gitignore
+|4,39,5,0,1546452143,"~/dotfiles/.gitignore"
+-'  4  0  ~/dotfiles/.gitignore
+|4,39,4,0,1546452141,"~/dotfiles/.gitignore"
+-'  1  0  ~/dotfiles/.gitignore
+|4,39,1,0,1546452122,"~/dotfiles/.gitignore"
+-'  228  0  ~/dotfiles/i3/config
+|4,39,228,0,1546451946,"~/dotfiles/i3/config"
+-'  228  0  ~/dotfiles/i3/config
+|4,39,228,0,1546451946,"~/dotfiles/i3/config"
+-'  1  0  ~/dotfiles/i3/config
+|4,39,1,0,1546451940,"~/dotfiles/i3/config"
+-'  1  0  ~/dotfiles/i3/config
+|4,39,1,0,1546451940,"~/dotfiles/i3/config"
+-'  1  0  ~/dotfiles/git/.gitconfig
+|4,39,1,0,1546451841,"~/dotfiles/git/.gitconfig"
+-'  1  0  ~/dotfiles/git/.gitconfig
+|4,39,1,0,1546451841,"~/dotfiles/git/.gitconfig"
+-'  1  0  ~/dotfiles/git/.gitconfig
+|4,39,1,0,1546451841,"~/dotfiles/git/.gitconfig"
 -'  1  0  ~/dotfiles/git/.gitconfig
 |4,39,1,0,1546451841,"~/dotfiles/git/.gitconfig"
 -'  9  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
 |4,39,9,0,1546388532,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
 -'  9  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
 |4,39,9,0,1546388532,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  9  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,9,0,1546388532,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  9  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,9,0,1546388532,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  9  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,9,0,1546388532,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  9  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,9,0,1546388532,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  9  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,9,0,1546388532,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  9  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,9,0,1546388532,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  1  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,1,0,1546388467,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  1  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,1,0,1546388467,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  1  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,1,0,1546388467,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  1  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,1,0,1546388467,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  1  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,1,0,1546388467,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  1  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,1,0,1546388467,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
 -'  1  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
 |4,39,1,0,1546388467,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
 -'  1  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
@@ -210,6 +254,42 @@
 |4,39,18,0,1546388441,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
 -'  18  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
 |4,39,18,0,1546388441,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  18  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,18,0,1546388441,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  18  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,18,0,1546388441,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  18  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,18,0,1546388441,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  18  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,18,0,1546388441,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  18  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,18,0,1546388441,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  18  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,18,0,1546388441,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  18  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,18,0,1546388441,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  18  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,18,0,1546388441,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  18  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,18,0,1546388441,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  18  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,18,0,1546388441,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  18  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,18,0,1546388441,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  18  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,18,0,1546388441,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  1  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,1,0,1546388434,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  1  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,1,0,1546388434,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  1  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,1,0,1546388434,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  1  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,1,0,1546388434,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  1  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,1,0,1546388434,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  1  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,1,0,1546388434,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
 -'  1  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
 |4,39,1,0,1546388434,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
 -'  1  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
@@ -226,6 +306,78 @@
 |4,39,93,0,1546386741,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
 -'  93  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
 |4,39,93,0,1546386741,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  93  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,93,0,1546386741,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  93  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,93,0,1546386741,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  93  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,93,0,1546386741,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  93  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,93,0,1546386741,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  93  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,93,0,1546386741,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  93  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,93,0,1546386741,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  93  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,93,0,1546386741,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  93  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,93,0,1546386741,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  93  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,93,0,1546386741,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  93  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,93,0,1546386741,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  93  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,93,0,1546386741,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  93  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,93,0,1546386741,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  93  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,93,0,1546386741,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  93  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,93,0,1546386741,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  93  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,93,0,1546386741,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  93  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,93,0,1546386741,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  93  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,93,0,1546386741,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  93  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,93,0,1546386741,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  188  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,188,0,1546386601,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  188  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,188,0,1546386601,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  188  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,188,0,1546386601,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  188  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,188,0,1546386601,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  188  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,188,0,1546386601,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  188  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,188,0,1546386601,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  188  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,188,0,1546386601,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  188  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,188,0,1546386601,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  188  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,188,0,1546386601,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  188  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,188,0,1546386601,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  188  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,188,0,1546386601,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  188  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,188,0,1546386601,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  188  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,188,0,1546386601,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  188  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,188,0,1546386601,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  188  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,188,0,1546386601,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  188  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,188,0,1546386601,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  188  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,188,0,1546386601,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
+-'  188  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
+|4,39,188,0,1546386601,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
 -'  188  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
 |4,39,188,0,1546386601,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
 -'  188  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
@@ -240,160 +392,20 @@
 |4,39,188,0,1546386601,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
 -'  1  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
 |4,39,1,0,1546386167,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
--'  1  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
-|4,39,1,0,1546386167,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
--'  1  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
-|4,39,1,0,1546386109,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
--'  1  0  ~/gitRepos/tpx-source/telepathyx/tpx_frame.py
-|4,39,1,0,1546386109,"~/gitRepos/tpx-source/telepathyx/tpx_frame.py"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  38  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,38,0,1546292646,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/dotfiles/vim/.vim/vimrc/plugins.vim
-|4,39,1,0,1546292590,"~/dotfiles/vim/.vim/vimrc/plugins.vim"
--'  1  0  ~/gitRepos/tpx-source/.git/HEAD
-|4,39,1,0,1546289459,"~/gitRepos/tpx-source/.git/HEAD"
--'  1  0  ~/gitRepos/tpx-source/.git/HEAD
-|4,39,1,0,1546289459,"~/gitRepos/tpx-source/.git/HEAD"
--'  1  0  ~/gitRepos/tpx-source/.git/HEAD
-|4,39,1,0,1546289459,"~/gitRepos/tpx-source/.git/HEAD"
--'  1  0  ~/gitRepos/tpx-source/.git/HEAD
-|4,39,1,0,1546289459,"~/gitRepos/tpx-source/.git/HEAD"
--'  1  0  ~/gitRepos/tpx-source/.git/HEAD
-|4,39,1,0,1546289459,"~/gitRepos/tpx-source/.git/HEAD"
--'  1  0  ~/gitRepos/tpx-source/.git/HEAD
-|4,39,1,0,1546289459,"~/gitRepos/tpx-source/.git/HEAD"
--'  1  0  ~/gitRepos/tpx-source/.git/HEAD
-|4,39,1,0,1546289459,"~/gitRepos/tpx-source/.git/HEAD"
--'  1  0  ~/gitRepos/tpx-source/.git/HEAD
-|4,39,1,0,1546289459,"~/gitRepos/tpx-source/.git/HEAD"
--'  1  0  ~/gitRepos/tpx-source/.git/HEAD
-|4,39,1,0,1546289459,"~/gitRepos/tpx-source/.git/HEAD"
 
 # History of marks within files (newest to oldest):
+
+> ~/dotfiles/.gitignore
+	*	1546452142	0
+	"	5	0
+	.	5	0
+	+	7	0
+	+	4	0
+	+	5	0
+
+> ~/dotfiles/i3/config
+	*	1546451945	0
+	"	228	0
 
 > ~/dotfiles/git/.gitconfig
 	*	1546451831	0
