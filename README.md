@@ -8,6 +8,49 @@ see [this link](http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-man
 
 ## Installation Instructions
 
+### For Linux:
+
+- Install basic tools
+```
+sudo apt-get install vim
+sudo apt-get install git
+sudo apt-get install stow
+sudo apt-get install curl
+```
+
+- Install a better terminal emulator
+```
+sudo apt-get install terminator
+```
+
+- Install zsh [Wiki](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
+```
+sudo apt-get install zsh
+```
+
+- Install oh-my-zsh [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+- Clone dotfiles and symlink it
+```
+git clone https://github.com/Tanbourine/dotfiles.git ~/
+cd ~/ rm .zshrc
+cd dotfiles && stow vim && stow zsh && stow git
+```
+
+
+- Install fonts for better viewing pleasure [powerline fonts](https://github.com/powerline/fonts)
+```
+sudo apt-get install fonts-powerline
+```
+
+
+- Open vim and run **:PlugInstall**  to initialize plugins
+
+
+
 ### For MacOS:
 
 - Install [homebrew](https://brew.sh/)

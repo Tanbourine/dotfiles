@@ -1,6 +1,7 @@
 [user]
 	name = Darren Tan
     email = darren.tan@spacex.com
+    # email = dyztan@gmail.com
 
 [credential]
 	helper = cache --timeout=10000000
@@ -8,6 +9,10 @@
 [core]
     excludesfile = ~/.gitignore_global
     editor = "vim"
+
+[http]
+    # use this if behind HTTP proxy
+	sslVerify = false
 
 [alias]
     st = status
