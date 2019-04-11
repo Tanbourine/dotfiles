@@ -49,6 +49,12 @@ sudo apt-get install fonts-powerline
 
 - Open vim and run **:PlugInstall**  to initialize plugins
 
+#### i3 gaps setup
+Install i3-gaps from [here](https://github.com/pasiegel/i3-gaps-install-ubuntu)
+```
+cd ~/dotfiles
+stow i3 -t ~/.config/i3
+```
 
 
 ### For MacOS:
