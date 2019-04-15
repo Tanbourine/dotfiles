@@ -16,7 +16,7 @@ see [this link](http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-man
 sudo apt-get install vim git stow curl ranger terminator zsh
 
 # programming
-sudo apt-get install python-dev python3-dev llvm
+sudo apt-get install python-dev python3-dev build-essential cmake llvm
 
 # visual
 sudo apt-get install feh compton fonts-powerline
@@ -27,29 +27,33 @@ sudo apt-get install feh compton fonts-powerline
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-- Clone dotfiles and symlink it
+#### Clone dotfiles and symlink it
 ```
+# clone dotfiles repo
 git clone https://github.com/Tanbourine/dotfiles.git ~/
-cd ~/ rm .zshrc
-cd dotfiles && stow vim && stow zsh && stow git
 
-# i3 and ranger files are stored in ~/.config
+# remove pre-populated files
+rm ~/.zshrc
 rm -r ~/.config/ranger
 rm -r ~/.config/i3
 
 mkdir ~/.config/ranger
 mkdir ~/.config/i3
 
+# symbolically link files stored in ~/
+cd dotfiles && stow vim && stow zsh && stow git
+
+# i3 and ranger files are stored in ~/.config
 stow ranger -t ~/.config/ranger
 stow i3 -t ~/.config/i3
 ```
 
+#### Vim Setup
 - Open vim and run **:PlugInstall**  to initialize plugins
 
 
-#### YouCompleteMe
+- YouCompleteMe
 ```
-sudo apt install build-essential cmake python3-dev
 cd ~/.vim/plugged/youcompleteme
 ./install.py --clang-completer
 ```
