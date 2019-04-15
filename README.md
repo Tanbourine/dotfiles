@@ -12,20 +12,14 @@ see [this link](http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-man
 
 - Install basic tools
 ```
-sudo apt-get install vim
-sudo apt-get install git
-sudo apt-get install stow
-sudo apt-get install curl
-```
+# utilities
+sudo apt-get install vim git stow curl ranger terminator zsh
 
-- Install a better terminal emulator
-```
-sudo apt-get install terminator
-```
+# programming
+sudo apt-get install python-dev python3-dev llvm
 
-- Install zsh [Wiki](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
-```
-sudo apt-get install zsh
+# visual
+sudo apt-get install feh compton fonts-powerline
 ```
 
 - Install oh-my-zsh [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
@@ -38,29 +32,30 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 git clone https://github.com/Tanbourine/dotfiles.git ~/
 cd ~/ rm .zshrc
 cd dotfiles && stow vim && stow zsh && stow git
-```
 
+# i3 and ranger files are stored in ~/.config
+rm -r ~/.config/ranger
+rm -r ~/.config/i3
 
-- Install fonts for better viewing pleasure [powerline fonts](https://github.com/powerline/fonts)
-```
-sudo apt-get install fonts-powerline
-```
+mkdir ~/.config/ranger
+mkdir ~/.config/i3
 
+stow ranger -t ~/.config/ranger
+stow i3 -t ~/.config/i3
+```
 
 - Open vim and run **:PlugInstall**  to initialize plugins
 
-#### Other utilities to install
+
+#### YouCompleteMe
 ```
-sudo apt-get install feh
-sudo apt-get install compton
+sudo apt install build-essential cmake python3-dev
+cd ~/.vim/plugged/youcompleteme
+./install.py --clang-completer
 ```
 
 #### i3 gaps setup
 Install i3-gaps from [here](https://github.com/pasiegel/i3-gaps-install-ubuntu)
-```
-cd ~/dotfiles
-stow i3 -t ~/.config/i3
-```
 
 
 ### For MacOS:
