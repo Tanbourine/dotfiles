@@ -49,6 +49,12 @@ sudo apt-get install fonts-powerline
 
 - Open vim and run **:PlugInstall**  to initialize plugins
 
+#### Other utilities to install
+```
+sudo apt-get install feh
+sudo apt-get install compton
+```
+
 #### i3 gaps setup
 Install i3-gaps from [here](https://github.com/pasiegel/i3-gaps-install-ubuntu)
 ```

@@ -21,6 +21,9 @@ for_window [class="^.*"] border pixel 1
 # is used in the bar {} block below.
 font pango:monospace 8
 
+# scale for vm size of 1920x1200
+exec xrandr --output Virtual3 --off --output Virtual2 --off --output Virtual1 --primary --mode 1920x1200 --pos 0x0 --rotate normal --output Virtual7 --off --output Virtual6 --off --output Virtual5 --off --output Virtual4 --off --output Virtual8 --off
+
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
@@ -178,12 +181,14 @@ mode "resize" {
         bindsym Escape mode "default"
 }
 
+
 # bindsym $mod+r mode "resize"
 # exec --no-startup-id feh --bg-scale ~/.config/i3/wallpapers/bw-arch-asia.jpg
 # exec --no-startup-id feh --bg-scale ~/.config/i3/wallpapers/shuttle_eclipse.jpg
 exec --no-startup-id feh --bg-scale ~/.config/i3/wallpapers/bfr_around_moon.jpg
 # exec --no-startup-id feh --bg-scale ~/.config/i3/wallpapers/mountain_space.png
 exec --no-startup-id compton
+
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {

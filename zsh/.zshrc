@@ -31,8 +31,6 @@ brew
 osx
 extract
 z
-zsh-syntax-highlighting
-zsh-autosuggestions
 common-aliases
 jsontools
 last-working-dir
