@@ -13,26 +13,51 @@ see [this link](http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-man
 #### Install basic tools
 ```
 # utilities
-sudo apt-get install vim git stow curl ranger terminator zsh
+sudo apt-get -y install vim git stow curl ranger terminator zsh
 
-# programming
-sudo apt-get install python-dev python3-dev build-essential cmake llvm
+# programming-y 
+sudo apt-get -y install python-dev python3-dev build-essential cmake llvm
 
 # visual
-sudo apt-get install feh compton fonts-powerline
+sudo apt-get -y install feh compton 
+
+# fonts
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts
+./install.sh
+cd ..
+rm -rf fonts
 ```
+
+#### SSH for Git
+1. `ssh-keygen`
+2. Enter a password for your ssh key
+3. Copy and paste `cat ~/.shh/id_rsa.pub` to your git authentication
+4. `eval 'ssh-agent'`
+5. `ssh-add ~/.ssh/id_rsa`
 
 #### Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 ```
+# Automatic method
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# You can do it manually too!
+1. `git clone git@github.com:robbyrussell/oh-my-zsh.git ~/.oh-my-zsh`
+2. `cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+3. `chsh -s /bin/zsh`
+
+# Reboot your terminal and zsh will be loaded!
 ```
 
 #### Clone dotfiles and symlink it
 ```
-# clone dotfiles repo
-git clone https://github.com/Tanbourine/dotfiles.git ~/
+# clone dotfiles repo via HTTP 
+git clone https://github.com/Tanbourine/dotfiles.git ~/dotfiles
 
-# remove pre-populated files
+# OR clone dotfiles repo via SSH
+git clone git@github.com:Tanbourine/dotfiles.git
+
+# Remove pre-populated files, if any
 rm ~/.zshrc
 rm -r ~/.config/ranger
 rm -r ~/.config/i3
@@ -41,9 +66,10 @@ mkdir ~/.config/ranger
 mkdir ~/.config/i3
 
 # symbolically link files stored in ~/
-cd dotfiles && stow vim && stow zsh && stow git
+cd ~/dotfiles && stow vim && stow zsh && stow git
 
 # i3 and ranger files are stored in ~/.config
+cd ~/dotfiles
 stow ranger -t ~/.config/ranger
 stow i3 -t ~/.config/i3
 ```
@@ -53,13 +79,17 @@ stow i3 -t ~/.config/i3
     - If you have git authentication errors, make sure sslVerify is false in ~/.gitconfig
 
 ##### YouCompleteMe
+[YouCompleteMe](https://github.com/Valloric/YouCompleteMe) is a handy completion engine that
+requires a little extra work to install
 ```
 cd ~/.vim/plugged/youcompleteme
 ./install.py --clang-completer
 ```
 
-#### i3 gaps setup
-Install i3-gaps from [here](https://github.com/pasiegel/i3-gaps-install-ubuntu)
+#### i3 gaps setup [instructions](https://github.com/pasiegel/i3-gaps-install-ubuntu)
+```
+
+```
 
 
 ### For MacOS:
