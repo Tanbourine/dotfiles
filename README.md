@@ -15,7 +15,7 @@ see [this link](http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-man
 # utilities
 sudo apt-get -y install vim git stow curl ranger terminator zsh
 
-# programming-y 
+# programming 
 sudo apt-get -y install python-dev python3-dev build-essential cmake llvm
 
 # visual
@@ -88,6 +88,38 @@ cd ~/.vim/plugged/youcompleteme
 
 #### i3 gaps setup [instructions](https://github.com/pasiegel/i3-gaps-install-ubuntu)
 ```
+# installing dependencies
+sudo apt install libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev autoconf xutils-dev libtool
+
+# run this if you have issues with libxcb-xrm-dev
+mkdir tmp
+cd /tmp
+git clone https://github.com/Airblader/xcb-util-xrm
+cd xcb-util-xrm
+git submodule update --init
+./autogen.sh --prefix=/usr
+make
+sudo make install
+
+
+# install gaps here
+cd /tmp
+git clone https://www.github.com/Airblader/i3 i3-gaps
+cd i3-gaps
+git checkout gaps && git pull
+autoreconf --force --install
+rm -rf build
+mkdir build
+cd build
+../configure --prefix=/usr --sysconfdir=/etc
+make
+sudo make install
+
+
+# install status bar and application launcher
+sudo apt-get install i3status dmenu
+
+#reboot your computer and select i3 from the login screen
 
 ```
 
