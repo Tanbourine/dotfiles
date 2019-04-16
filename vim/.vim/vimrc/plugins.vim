@@ -36,8 +36,8 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'ctrlpvim/ctrlp.vim'
 
 "fuzzy file finder
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim'
+" Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+" Plug 'junegunn/fzf.vim'
 
 " align everything!
 Plug 'godlygeek/tabular'
@@ -73,7 +73,7 @@ Plug 'ntpeters/vim-better-whitespace'
 Plug 'kshenoy/vim-signature'
 
 " access virtualenvs
-Plug 'plytophogy/vim-virtualenv'
+" Plug 'plytophogy/vim-virtualenv'
 
 " ============ Git ============
 
