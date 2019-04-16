@@ -13,22 +13,23 @@ ZSH_THEME="agnoster"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 plugins=(
+brew
+common-aliases
+extract
 git
 git-extras
 history
-brew
-osx
-extract
-z
-common-aliases
 jsontools
 last-working-dir
+osx
 pip
 python
+ssh-agent
 sublime
 vi-mode
-web-search
 wd
+web-search
+z
 )
 
 
