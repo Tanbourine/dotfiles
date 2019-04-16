@@ -4,17 +4,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
 
-# added by Anaconda2 4.3.1 installer
-# export PATH=~/anaconda/bin:$PATH
-
-# added by Anaconda3 5.1.0 installer
-# for linux
-# export PATH="/home/dtan/anaconda3/bin:$PATH"
-
-# added by Anaconda3 5.1.0 installer
-# for macOS 
-export PATH=~/anaconda3/bin:$PATH
-
 # set theme
 ZSH_THEME="agnoster"
 
@@ -70,7 +59,7 @@ source $ZSH/oh-my-zsh.sh
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
-# export SSH_KEY_PATH="~/.ssh/rsa_id"
+export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
