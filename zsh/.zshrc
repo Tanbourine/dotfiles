@@ -21,7 +21,6 @@ git-extras
 history
 jsontools
 last-working-dir
-osx
 pip
 python
 ssh-agent
