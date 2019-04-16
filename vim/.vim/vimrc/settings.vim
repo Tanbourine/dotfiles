@@ -108,6 +108,20 @@ noremap <F5> <Esc>:w<CR>:!clear;python %<CR>
 noremap <F7> <Esc>:!clear;subl %<CR><CR>
 nnoremap <silent> <F8> :TlistToggle<CR>
 
+
+" ============== Template Files ===================
+" run a template when creating a new python file
+" https://www.thegeekstuff.com/2008/12/vi-and-vim-autocommand-3-steps-to-add-custom-header-to-your-file/
+autocmd bufnewfile *.py so ~/dotfiles/vim/.vim/templates/python_template.txt
+autocmd bufnewfile *.py exe "1," . 15 . "g/File Name :.*/s//File Name : " .expand("%")
+autocmd bufnewfile *.py exe "1," . 15 . "g/Creation Date :.*/s//Creation Date : " .strftime("%m-%d-%Y")
+autocmd bufnewfile *.py execute "normal kk"
+autocmd Bufwritepre,filewritepre *.py execute "normal mq"
+autocmd Bufwritepre,filewritepre *.py exe "1," . 15 . "g/Last Modified :.*/s/Last Modified :.*/Last Modified : " .strftime("%m-%d-%Y::%H:%M:%S %Z")
+autocmd bufwritepost,filewritepost *.py execute "normal `qdmq"
+
+
+
 " ============== Syntax Specific ===================
 au! BufRead,BufNewFile *.md set filetype=mkd	" set .md files as markdown
 

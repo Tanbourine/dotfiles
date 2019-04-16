@@ -1,0 +1,34 @@
+:insert
+#!/usr/bin/env python
+# encoding: utf-8
+"""
+********************************************
+* File Name :
+
+* Purpose :
+
+* Creation Date :
+
+* Last Modified :
+
+* Created By :
+*******************************************
+"""
+
+# built-in modules
+
+
+# downloaded modules
+
+
+# custom modules
+
+
+def main():
+    pass
+
+
+
+if __name__ == '__main__':
+    main()
+.
