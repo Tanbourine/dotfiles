@@ -70,6 +70,9 @@ map <C-m> :NERDTreeToggle<CR>
 " prevent NERDTree from resizing window
 autocmd VimEnter * set winfixwidth
 
+" ============= ALE Options ============
+let g:airline#extensions#ale#enabled = 1
+let g:ale_completion_enabled = 1
 " ========== Syntastic Options ==========
 
 set statusline+=%#warningmsg#
@@ -80,6 +83,7 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_auto_jump = 1
+let g:syntastic_python_checkers = ['pylint']
 " let g:syntastic_quiet_message = { "type": "style" }
 
 
@@ -92,7 +96,8 @@ autocmd FileType html, css EmmetInstall
 " let g:airline#extensions#tabline#left_set = ' '
 " let g:airline#extensions#tabline#left_alt_sep = '|'
 
-let g:airline_theme='tomorrow'
+" let g:airline_theme='tomorrow'
+let g:airline_theme='dark_minimal'
 let g:airline#extensions#tabline#formatter = 'default'
 
 
@@ -102,10 +107,7 @@ let g:airline#extensions#tabline#formatter = 'default'
 " au BufWrite * :Autoformat
 noremap <F3> :Autoformat<CR>:w<CR>
 
-" ========== NERD Commenter =============
-let g:NERDCompactSexyComs = 1       " use compact syntax for prettified multi-line comments
-let g:NERDTrimTrailingWhitespace = 1    " enable trimming of trailing whitespace when uncommenting
 
-
-" ========== Vim Wiki ===================
-let g:vimwiki_list = [{'path': '~/dotfiles/vim/vimwiki/', 'syntax': 'markdown', 'ext':'.md'}]
+" ==========vim-commentary ===========
+map gc <Plug>Commentary
+nmap gcc <Plug>CommentaryLine

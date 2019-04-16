@@ -6,7 +6,7 @@
 
 " Auto-install vim-plug to new systems
 if empty(glob('~/.vim/autoload/plug.vim'))
-	silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+	silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs --insecure
 				\ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 	autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
@@ -35,6 +35,10 @@ Plug 'terryma/vim-multiple-cursors'
 " fuzzy file finder
 Plug 'ctrlpvim/ctrlp.vim'
 
+"fuzzy file finder
+" Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+" Plug 'junegunn/fzf.vim'
+
 " align everything!
 Plug 'godlygeek/tabular'
 
@@ -43,18 +47,33 @@ Plug 'plasticboy/vim-markdown'
 
 " autocomplete everything!
 Plug 'valloric/youcompleteme'
- 
+"
+" gcc to comment
+Plug 'tpope/vim-commentary'
+
+" Python mode!
+" Plug 'python-mode/python-mode', { 'branch': 'develop' }
+
 " comment everything!
-Plug 'scrooloose/nerdcommenter'
+"Plug 'scrooloose/nerdcommenter'
 
 " personal wiki
-Plug 'vimwiki/vimwiki'
+" Plug 'vimwiki/vimwiki'
 
 " indent guides
 Plug 'yggdroot/indentline'
 
+" show whitespace
+Plug 'ntpeters/vim-better-whitespace'
+
 " browse source code tags
 "Plug 'vim-scripts/taglist.vim'
+
+" add marks for navigation
+Plug 'kshenoy/vim-signature'
+
+" access virtualenvs
+" Plug 'plytophogy/vim-virtualenv'
 
 " ============ Git ============
 
@@ -71,7 +90,8 @@ Plug 'airblade/vim-gitgutter'
 " =========== Syntax ===========
 
 " syntax checker
-Plug 'scrooloose/syntastic'
+"Plug 'scrooloose/syntastic'
+Plug 'w0rp/ale'
 
 
 " Autoformating
@@ -96,6 +116,9 @@ Plug 'nanotech/jellybeans.vim'
 
 " Happy Hacking coloscheme
 Plug 'YorickPeterse/happy_hacking.vim'
+
+" Huge colorscheme pack
+Plug 'flazz/vim-colorschemes'
 
 "airline status line
 Plug 'bling/vim-airline'
