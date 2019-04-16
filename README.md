@@ -10,7 +10,7 @@ see [this link](http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-man
 
 ### For Linux:
 
-- Install basic tools
+#### Install basic tools
 ```
 # utilities
 sudo apt-get install vim git stow curl ranger terminator zsh
@@ -22,7 +22,7 @@ sudo apt-get install python-dev python3-dev build-essential cmake llvm
 sudo apt-get install feh compton fonts-powerline
 ```
 
-- Install oh-my-zsh [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+#### Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
@@ -49,10 +49,10 @@ stow i3 -t ~/.config/i3
 ```
 
 #### Vim Setup
-- Open vim and run **:PlugInstall**  to initialize plugins
+- Open vim and run `**:PlugInstall**`  to initialize plugins
+    - If you have git authentication errors, make sure sslVerify is false in ~/.gitconfig
 
-
-- YouCompleteMe
+##### YouCompleteMe
 ```
 cd ~/.vim/plugged/youcompleteme
 ./install.py --clang-completer
