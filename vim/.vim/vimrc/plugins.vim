@@ -106,6 +106,12 @@ Plug 'Chiel92/vim-autoformat'
 " i3 syntax highlighting
 Plug 'PotatoesMaster/i3-vim-syntax'
 
+" snippets engine!
+Plug 'SirVer/ultisnips'
+
+" snippets repo
+Plug 'honza/vim-snippets'
+
 " ========== Visuals ===========
 
 " Minimalist colorscheme

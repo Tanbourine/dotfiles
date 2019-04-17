@@ -16,7 +16,7 @@ see [this link](http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-man
 sudo apt-get -y install vim git stow curl ranger terminator zsh
 
 # programming 
-sudo apt-get -y install python-dev python3-dev build-essential cmake llvm
+sudo apt-get -y install python-dev python3-dev python-pip python3-pip build-essential cmake llvm
 
 # visual
 sudo apt-get -y install feh compton 
@@ -120,6 +120,60 @@ sudo make install
 sudo apt-get install i3status dmenu
 
 #reboot your computer and select i3 from the login screen
+
+```
+
+
+#### Python setup
+```
+# upgrade pip
+python -m pip install --user --upgrade pip
+python3 -m pip install --user --upgrade pip
+
+# install virtualenv
+python -m pip install --user virtualenv
+python3 -m pip install --user virtualenv
+
+```
+
+##### Creating and working with a virtualenv
+You always want to work inside a virtual environment to keep track of your dependencies.
+(Why?)[https://realpython.com/python-virtual-environments-a-primer/] 
+(More Documentation)[https://packaging.python.org/guides/installing-using-pip-and-virtualenv/]
+
+```
+# create virtualenv in the working directory
+python -m virtualenv venv
+# OR 
+python3 -m virtualenv venv
+```
+
+##### Activate virtualenv
+```
+source env/bin/activate
+```
+
+##### Deactivate virtualenv
+```
+deactivate
+```
+
+##### Common commands (inside a virtualenv)
+```
+# check which packages you have installed
+pip list 
+
+# install new packages
+pip install <package_name>
+
+# uninstall packages
+pip uninstall <package_name>
+
+# freezing dependencies (create requirements file)
+pip freeze > requirements.txt
+
+# using requirements files
+pip install -r requirements.txt
 
 ```
 

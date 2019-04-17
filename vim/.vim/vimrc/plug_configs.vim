@@ -4,8 +4,6 @@
 
 " https://github.com/Tanbourine/dotfiles
 
-" ======= YouCompleteMe Options =======
-let g:ycm_python_binary_path='python'
 
 " ========= NERDTree Options ==========
 
@@ -73,19 +71,6 @@ autocmd VimEnter * set winfixwidth
 " ============= ALE Options ============
 let g:airline#extensions#ale#enabled = 1
 let g:ale_completion_enabled = 1
-" ========== Syntastic Options ==========
-
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_auto_jump = 1
-let g:syntastic_python_checkers = ['pylint']
-" let g:syntastic_quiet_message = { "type": "style" }
-
 
 " ========== emmet-vim Options ==========
 let g:user_emmet_install_global=0
@@ -111,3 +96,16 @@ noremap <F3> :Autoformat<CR>:w<CR>
 " ==========vim-commentary ===========
 map gc <Plug>Commentary
 nmap gcc <Plug>CommentaryLine
+
+" ======= YouCompleteMe Options =======
+let g:ycm_python_binary_path='python'
+
+" ========= UltiSnips ============
+let g:UltiSnipsExpandTrigger="<c-j>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
+
+
