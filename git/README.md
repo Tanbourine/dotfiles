@@ -42,7 +42,17 @@ git commit -m "your message here!"
 git ci "your message here!"
 ```
 
+## Useful Commands
+```
+# see all the differences between your working copy and the repo
+git diff
 
+# see differences for a specific file
+git diff <file1>
+
+# view the commit tree
+git log --graph
+```
 
 ## SSH for Git
 In order to push to certain secure repositories, you'll need to set up your SSH key with the repo to
