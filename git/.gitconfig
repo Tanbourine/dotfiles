@@ -19,6 +19,7 @@
     co = checkout
     ci = commit -m
     br = branch
+    cl = clone
 
 [push]
 	default = simple
