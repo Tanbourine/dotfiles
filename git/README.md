@@ -40,6 +40,7 @@ git commit -m "your message here!"
 
 # or if you use my aliases
 git ci "your message here!"
+```
 
 
 
