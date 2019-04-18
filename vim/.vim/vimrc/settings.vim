@@ -58,6 +58,9 @@ inoremap jj <ESC>
 inoremap kk <ESC>
 inoremap jk <ESC>
 
+" Detect Control Code
+au BufReadPost,BufNewFile *.control set nospell filetype=control
+
 " ============== Python Settings ===================
 " tabs to spaces
 set tabstop=4
