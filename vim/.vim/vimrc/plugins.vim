@@ -67,7 +67,7 @@ Plug 'yggdroot/indentline'
 Plug 'ntpeters/vim-better-whitespace'
 
 " browse source code tags
-"Plug 'vim-scripts/taglist.vim'
+Plug 'vim-scripts/taglist.vim'
 
 " add marks for navigation
 Plug 'kshenoy/vim-signature'
@@ -111,6 +111,12 @@ Plug 'SirVer/ultisnips'
 
 " snippets repo
 Plug 'honza/vim-snippets'
+
+" ctags to jump to function defs
+Plug 'universal-ctags/ctags'
+
+" Kivy syntax highlighting
+Plug 'farfanoide/vim-kivy'
 
 " ========== Visuals ===========
 

@@ -66,8 +66,9 @@ set expandtab
 
 " wrap long lines
 " set wrap
-" set textwidth=80
-set textwidth=100
+set textwidth=80
+set fo-=t       " disable auto text wrapping
+" set textwidth=100
 set colorcolumn=-2
 
 " code folding

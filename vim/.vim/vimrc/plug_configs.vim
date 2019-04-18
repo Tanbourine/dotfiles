@@ -108,4 +108,15 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
 
+"""""""""""""""""""""""""
+"  ctags configuration  "
+"""""""""""""""""""""""""
+" <C+\> open the def in a new tab
+map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
+
+" <Alt+]> open the def in a vertical split
+map <A-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
+
+" look in current directory for tags then work up tree torwards root until one is found
+set tags=./tags;/
 

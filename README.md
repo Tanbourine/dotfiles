@@ -16,7 +16,7 @@ see [this link](http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-man
 sudo apt-get -y install vim git stow curl ranger terminator zsh
 
 # programming 
-sudo apt-get -y install python-dev python3-dev python-pip python3-pip build-essential cmake llvm
+sudo apt-get -y install python-dev python3-dev python-pip python3-pip build-essential cmake llvm ctags
 
 # visual
 sudo apt-get -y install feh compton 
