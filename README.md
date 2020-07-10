@@ -16,7 +16,7 @@ see [this link](http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-man
 sudo apt-get -y install vim git stow curl ranger terminator zsh
 
 # programming 
-sudo apt-get -y install python-dev python3-dev python-pip python3-pip build-essential cmake llvm
+sudo apt-get -y install python3 python3-pip build-essential cmake llvm
 
 # visual
 sudo apt-get -y install feh compton 
@@ -32,7 +32,7 @@ rm -rf fonts
 #### SSH for Git
 1. `ssh-keygen`
 2. Enter a password for your ssh key
-3. Copy and paste `cat ~/.shh/id_rsa.pub` to your git authentication
+3. Copy and paste `cat ~/.ssh/id_rsa.pub` to your git authentication
 4. `eval 'ssh-agent'`
 5. `ssh-add ~/.ssh/id_rsa`
 
